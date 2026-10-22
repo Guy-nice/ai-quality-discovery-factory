@@ -40,7 +40,9 @@ All claims use one label: `FACT`, `EVIDENCE`, `HYPOTHESIS`, `ASSUMPTION`, `UNKNO
 
 ## Working rules
 
-- Each working session adds a session log and one commit.
+- Each iteration (prompt -> result) adds one line to the [iteration log](docs/99-sessions/iteration-log.md), then one commit and push.
+- Each working session adds a session log.
+- All text uses ASD-STE100 (Simplified Technical English): short sentences, simple words, one idea per sentence.
 - Source references use `[SRC-xxx]` IDs from the [evidence and access inventory](docs/01-discovery/evidence-access-inventory.md).
 - No invented organizational facts. Missing information is recorded as `UNKNOWN`.
 - No sensitive customer or incident data in this repository until the data-handling rule (U-04) is confirmed.
