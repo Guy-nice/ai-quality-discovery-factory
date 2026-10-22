@@ -181,3 +181,20 @@ Short version: [iteration-log.md](iteration-log.md).
 
 **Files:** findings-round-4, problem-statement-v4, gate-4-readiness-v0, r3-r14 doc, r11 doc, data/aggregates r3/r11/r14, scripts/db r3/r11, git_history.sqlite.gz, session-06, agent-reports round 4; updates to register, plan, gates, decisions, questionnaire, READMEs. **Commit:** see iteration-log row 11.
 - Shared Claude Doc updated (rev 17): pilot valid +34%, VC-to-VC sync hotspot, PH-1 narrowed, PH-2 weakened, G4 "Not passed" with blockers. A checklist item in the doc was changed by a reader (rev 12); left as is.
+
+---
+
+## Iteration 12 - 2026-10-22
+
+**Prompt (verbatim):**
+> Reagrding you question you approve to find the answer from data. I want us to coninue on with focues on the last year 2026 (or more and I want you as expert to choose) with adding AI more and more. and this is a lot of data to much.
+
+**Result:**
+- Choices: window 2025-01..2026-10 (D-021); validation from data, human only for PH-2 and PH-5 (D-022); success criteria adopted (D-023); 1-page brief as entry point (D-024).
+- R15 (team AI share vs valid CFB): rho 0.13-0.37, DiD CIs include 1. No clear link. Low (no workload data; Atlassian timeouts).
+- R16 (1,663 PRs, 590 AI): AI PR share 0-5% (2025) -> 25/41/46% (2026 Q1-Q3); in hotspots 0 -> 51%. AI PRs 3.7x larger, more reviews per PR, not more per line, test touch 63% vs 40%, follow-up CFB-fix RR 0.67 (0.47-0.95). Open risk: review depth vs size in hotspots (D-025).
+- R17 (refutation): PH-1 survives (ordering ~23%); PH-4 survives (no perf/chaos workflow; E2E 7/30 pass); P-05 survives; PH-3 minor; PH-2 weak; PH-5 not testable. Blind rater 17/20 (85%).
+- Correction: concurrency tests exist in EM (19 files) and AFM (4); name-based count withdrawn.
+- G4 PASSED (interim, data-based). Next: P5 solution options.
+
+**Files:** docs/00-brief.md, r15/r16/r17 docs + csv + scripts, DB (team_quarter, team_r15, prs, pr_commits, rca_class R17), corrections in findings-round-4, gate-4-readiness, problem-statement-v4; decisions, gates, register, plan, README, session-07, agent-reports round 5. **Commit:** see iteration-log row 12.

@@ -75,3 +75,16 @@ The evidence is close to ready for solution design, but 3 blocking items remain:
 2. **Production rollout dates** for AFM, Voltron, State Streams EKS, TFS, 26.1 (U-23). They are needed to confirm or reject PH-2. Ask in the SME questionnaire. Blocking for PH-2 only.
 3. **Sponsor approval** of the success criteria S1-S7 and of the quality definition. Blocking.
 4. Non-blocking: Sonar / CI access (U-20), the Orchestration II re-homing check (U-24), and a re-run of Atlassian steps that timed out.
+
+## Update v1 - 2026-10-22 (iteration 12)
+
+**Gate 4: PASSED (interim, data-based)** for PH-1, PH-4, P-05 and the test gap. Lead delegated validation to data (D-022).
+
+| Blocker (v0) | Resolution |
+|---|---|
+| SME validation | Replaced by data refutation R17 + blind second rater (85% agreement). PH-1, PH-4, P-05 survive. |
+| Production migration dates | Still missing. Only PH-2 depends on them; PH-2 is excluded from solution scope. |
+| Sponsor approval of S1-S7 | Set by research under D-005 (D-023). Lead may change. |
+
+Corrections: concurrency tests exist in EM and AFM (content search); in-flow ordering share about 23% (S2 target stays < 15%).
+New evidence for PH-4: no perf or chaos workflow in pilot repos; ephemeral E2E passed 7 of last 30 runs; integration tests 22 of 30.

@@ -75,3 +75,8 @@ Data: 7,866 commits (monolith 4,375), 184,464 file changes, 493 authors, 24 mont
 | PH-4 Production conditions not reproducible | Not tested further | Medium | - |
 | PH-5 Customers detect first | Not tested further | Medium | - |
 | P-05 Knowledge concentration | Supported (two-sided) | Medium | New (F15) |
+
+## Correction 2026-10-22 (iteration 12, R17)
+
+- **CORRECTION:** "4 of 1,349 concurrency-named test files" counted file **names** only. A content search finds more: EM state-manager has 4 "out of order" + 15 "concurrent" test files; AFM has 4 "concurrent". The claim "almost no concurrency tests" is too strong. The correct claim: concurrency tests exist in EM and AFM, but they did not stop the in-flow ordering escapes (about 23% after re-read).
+- **CORRECTION:** PH-1 race share re-read blind: 22 of 28 "race" RCAs show race / ordering, 6 show load only. In-flow ordering share is about 23% (was 29%), still about 2x other VPs.

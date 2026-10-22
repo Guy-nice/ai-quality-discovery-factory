@@ -1,0 +1,8 @@
+id,hypothesis,strongest_counter_evidence,verdict,confidence,human_required
+PH-1,"State races, no concurrency tests","Race class mixes load: 6/28 load-only, 22/28 race/ordering signal; EM state-manager has 4 'out of order' + 15 'concurrent' test files; AFM 4 'concurrent' test files","Survives, narrowed",Medium,"No - SME useful to size test gap"
+PH-2,"Parallel migrations drive growth","No production dates found (Atlassian timeouts; 0 Jira epics 'AFM rollout'); direct cause ~4%",Weakened,Low,"Yes - production dates only from people"
+PH-3,"Library/runtime swaps, no parity tests","Mixed after commit-size control; 4/20 blind sample are .NET/JSON/MessagePack swaps","Survives (minor cause)",Low-Medium,No
+PH-4,"Prod conditions not reproducible","No perf/chaos workflow in pilot repos; ephemeral E2E 7/30 success; integration tests 22/30 success (3,380 runs)",Survives,Medium,No
+PH-5,"Customers detect first","Untestable from RCA text (template boilerplate); CFB = customer case by definition; 1 RCA states 54 min reactive gap","Not testable",Low,"Yes - needs incident/alert data"
+P-05,"Knowledge concentration","InterVCComm owners active (last commit 2026-10) but bus factor 2; agent-capacity owner left (38-50%, last 2026-03-23)",Survives,Medium,No
+R5b,"Classification reliability","Blind 2nd rater 17/20 escape cause (85%), 17/20 regression; same model family",Acceptable,Medium,"Yes - independent rater"
