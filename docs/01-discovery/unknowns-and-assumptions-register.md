@@ -30,7 +30,7 @@
 | U-21 | TFS access for VC monolith source (hotspots, churn) | DevOps / Orchestration Core GL | TFS | Access request | Gate 4 - Yes | Open |
 | U-22 | Human SME validation of PH-1..PH-5 and of 20 RCA classifications | Orchestration Core architects / QA lead | Interviews | R12 | Gate 4 - Yes | Open |
 
-Closed 2026-10-22: **U-13** (imports ENG, CGY - F6). **U-17** (AI label = AI fix; attribution via cf_15229 - F7).
+Closed 2026-10-22: **U-21** (monolith is in GitHub `inContact/inContact`, history from 2021; TFS not needed). **U-13** (imports ENG, CGY - F6). **U-17** (AI label = AI fix; attribution via cf_15229 - F7).
 
 Status updates 2026-10-22: U-01, U-02 (scope part), U-05, U-06 handled by interim decisions D-005, D-006. They stay open for sponsor confirmation.
 

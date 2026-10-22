@@ -68,3 +68,9 @@ Tag precision: 80% for the sub-flow, 93% for in-flow vs out-of-flow. 42% of pilo
 ## F12 - Classification reliability (partial R5b)
 
 Second rating of 33 RCAs: escape cause 79% agreement, regression 88%, prevention 97%, other columns 100%. **Limit:** both raters are Claude, so they are not independent. A human SME must still rate about 20 RCAs.
+
+## Correction 2026-10-22 (iteration 9)
+
+- **CORRECTION:** The VC monolith **is in GitHub**: repo `inContact/inContact` (branch DEVELOP, VCSvc under `Code/C#/Services/VCSvc`). It was migrated from TFS. Sources: Confluence 4231594095 (KT Session: "GitHub Monolith code clone"), VCSvc pages 3893887461 / 3894051323 (snapshots from `inContact/docs/...`).
+- **EVIDENCE (High):** Read access is confirmed. VCSvc commit history starts 2021-01 (17-89 commits per month), so TFS is **not** needed. U-21 is closed.
+- R9 statement "VC monolith not in GitHub" is wrong. Monolith hotspots (R3) are unblocked.

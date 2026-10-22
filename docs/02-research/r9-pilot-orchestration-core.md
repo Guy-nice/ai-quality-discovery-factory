@@ -150,3 +150,5 @@ AI-assisted code: 0 of 108 RCAs name AI as a cause. 39 W_last pilot CFBs carry A
 5. **Xray at Story level:** test links on pilot Stories (the Epic-level link rate is 2%).
 6. **Invalid triage cost:** 42% invalid. Measure the time spent on invalid CFBs per team.
 7. **Baseline metrics for G4:** in-flow CFB per month, P1/P2 share, incidents per CFB, stuck-contact CFB count, race-class escape share.
+
+> **Correction 2026-10-22:** The VC monolith is in GitHub (`inContact/inContact`, migrated from TFS, history from 2021). Statements above that it is "not in GitHub" are wrong. See [findings-round-3 correction](findings-round-3.md#correction-2026-10-22-iteration-9).

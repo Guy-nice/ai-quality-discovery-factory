@@ -133,3 +133,28 @@ Files written:
 - `data/aggregates/r9-pilot-subflow.csv`, `-team.csv`, `-escape-profile.csv`, `-escape-x-introduced.csv`, `-confluence-pages.csv`, `-git-repos.csv` (also imported as `agg_r9_*`)
 - `docs/02-research/r9-pilot-orchestration-core.md`
 - `data/db/quality.sqlite` (updated); local only: `data/db/raw_local.sqlite`, `data/raw/r9/*`
+
+---
+
+## R12a - SME candidates (iteration 9)
+
+I found 16 candidates. The top 8 are ranked below, and 3 are recommended. No job titles were confirmed except Kevin Pyles: the other roles are guesses from Git and Confluence activity, and the ADR architect fields say "TBD".
+
+| # | Name | Role (guess) | Area | Why | Evidence |
+|---|---|---|---|---|---|
+| 1 | Kevin Pyles | Lead QA Architect (title confirmed) | Orchestration Core QA, E2E, Go/No-Go | Named QA lead for the domain | CX 4213801473; acd-playwright-e2e 281 commits |
+| 2 | Karthick Chandrasekaran | Tech lead / architect | AFM, contact-retry, agent-capacity, match-distributor | Top reviewer in 3 routing repos; covers the most services | PR reviews 37/33/43; commits 61/49/34/27 |
+| 3 | Kacie Mayberry | Tech lead | VCSvc monolith + State Streams | Top human reviewer of VCSvc PRs; also works on State Streams | 99 VCSvc reviews; state-streams commits |
+| 4 | Dez Grant | Senior engineer | VCSvc .NET modernization | Wrote the multi-TFM strategy page, which is direct evidence for PH-3 | IN 3696164975; 27 VCSvc commits |
+| 5 | Anshul Agarwal | Observability focal point | VCSvc resilience, EOR gaps | Directly relevant to PH-4 and PH-5 | CX 3893887461, 3894051323, 3893887439 |
+| 6 | Puneet Kumar | Architect | EM-TFS boundary, SLOs | Wrote the EM integration and SLO standard pages (PH-1, PH-2) | IN 4041444339, 4112547862 |
+| 7 | Nichole Proestakis | QA automation lead | Routing integration and E2E tests | Top committer in both test repos (PH-1, PH-4) | 142 + 684 commits |
+| 8 | Guy Law | Test-gap focal point | AFM tests | Wrote the Findmatch test-gap analysis | IN 4072866234 |
+
+Other candidates (ranks 9-14): Jayakesavan Muthazhagan, Jesse Blanton, Shuchivrat Mayenkar (State Streams, PH-2), Derick Walburger, Rogerio Valenca da Cruz, Austin Wernli. Sponsor contacts, not SMEs: Namitha Nayak (VP) and Steve Gordon (program manager).
+
+**Recommended 3:** Monolith / VC: Kacie Mayberry (backup for PH-3: Dez Grant). Services / EM / AFM: Karthick Chandrasekaran (backup for the EM boundary: Puneet Kumar). QA lead: Kevin Pyles.
+
+**Gaps:** Jira assignee and reviewer data for the top 30 pilot CFBs was not pulled, because every Atlassian call after the first one timed out. Architecture and RACI searches in Confluence also timed out, so no named architects were found. Active status is assumed for people seen only in Confluence. Out of scope: the VCSvc Git history starts in 2021-01, so TFS is not needed for R3.
+
+**Files written (not committed):** `scripts/db/r12_stakeholders.py`, `data/aggregates/r12-stakeholders.csv`, `quality.sqlite` tables `stakeholders` and `agg_r12_stakeholders` (16 rows each).

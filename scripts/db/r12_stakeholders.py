@@ -1,0 +1,37 @@
+"""R12a: pilot stakeholder candidates (internal names only, no emails). Evidence pulled 2026-10-22."""
+import csv, os, sqlite3
+
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+COLS = ["name", "role_guess", "team", "area", "evidence_source", "evidence_ref", "evidence_count", "rank", "active"]
+ROWS = [
+    ("Kevin Pyles", "Lead QA Architect (named)", "Orchestration Core", "QA, E2E, release Go/No-Go", "Confluence; Git", "CX 4213801473 (Go/No-Go 26.4 'Lead QA Architect'); acd-playwright-e2e 281 commits", 2, 1, "yes (assumed)"),
+    ("Karthick Chandrasekaran", "Tech lead / architect candidate", "Routing services", "AFM, contact-retry, agent-capacity, match-distributor", "Git", "PR reviews AFM 37, contact-retry 33, agent-capacity 43; commits AFM 61, contact-retry 49, agent-capacity 34, match-distributor 27", 8, 2, "yes"),
+    ("Kacie Mayberry", "Tech lead candidate (VC monolith + State Streams)", "VC / State Streams", "VCSvc, state-streams", "Git", "inContact VCSvc PR reviews 99 (top human); state-streams-common commits 4", 2, 3, "yes"),
+    ("Dez Grant", "Senior engineer (VCSvc .NET modernization)", "VC", "VCSvc providers, multi-TFM (PH-3)", "Confluence; Git", "IN 3696164975 (VCSvc Multi-TFM Strategy, author); VCSvc commits 27", 2, 4, "yes"),
+    ("Anshul Agarwal", "Engineer / observability focal (VCSvc)", "ACD readiness", "VCSvc resilience, EOR gaps (PH-4, PH-5)", "Confluence", "CX 3893887461, 3894051323, 3893887439 (author)", 3, 5, "yes (assumed)"),
+    ("Puneet Kumar", "Architect candidate (Media Services / TFS-EM)", "Media Services", "EM boundary, TFS, SLO (PH-1, PH-2)", "Confluence", "IN 4041444339 (TFS<->EM, author); IN 4112547862 (SLI/SLO standard, author)", 2, 6, "yes (assumed)"),
+    ("Nichole Proestakis", "QA automation lead candidate", "Routing QA", "routing integration tests, ACD E2E (PH-1, PH-4)", "Git", "routing-ng-integration-tests 142 commits (top); acd-playwright-e2e 684 commits (top)", 2, 7, "yes"),
+    ("Guy Law", "QA / test gap focal", "Findmatch", "AFM test gaps (PH-1, PH-4)", "Confluence", "IN 4072866234 (Findmatch Testing Gap Analysis, author)", 1, 8, "yes (assumed)"),
+    ("Jayakesavan Muthazhagan", "Senior engineer", "Routing services", "AFM, contact-retry", "Git", "commits AFM 83 (top), contact-retry 50 (top); reviews contact-retry 14", 3, 9, "yes"),
+    ("Jesse Blanton", "Senior engineer", "VC", "VCSvc", "Git", "VCSvc commits 39 (top)", 1, 10, "yes"),
+    ("Shuchivrat Mayenkar", "Architect candidate (State Streams)", "State Streams", "KDA->EKS migration (PH-2)", "Confluence", "IN 3631251647 (author)", 1, 11, "yes (assumed)"),
+    ("Derick Walburger", "Reviewer / tech lead candidate", "State Streams", "state-streams-common", "Git", "PR reviews 23 (top)", 1, 12, "yes"),
+    ("Rogerio Valenca da Cruz", "Reviewer", "Routing services", "AFM, contact-retry", "Git", "PR reviews AFM 23, contact-retry 26", 2, 13, "yes"),
+    ("Austin Wernli", "Engineer (ADR author)", "Orchestration / Omnichannel", "VC ADR 014 (contact rehydration)", "Confluence", "IN 4181164199 (author; architect roles TBD)", 1, 14, "yes (assumed)"),
+    ("Namitha Nayak", "VP (sponsor contact, not SME)", "Orchestration Core", "domain owner", "Confluence", "CX 4213801473 ('VP')", 1, 90, "yes (assumed)"),
+    ("Steve Gordon", "Program Manager (not SME)", "Orchestration Core", "release program", "Confluence", "CX 4213801473 ('Program Manager')", 1, 91, "yes (assumed)"),
+]
+
+def main():
+    out = os.path.join(ROOT, "data", "aggregates", "r12-stakeholders.csv")
+    with open(out, "w", newline="") as f:
+        w = csv.writer(f); w.writerow(COLS); w.writerows(ROWS)
+    db = sqlite3.connect(os.path.join(ROOT, "data", "db", "quality.sqlite"), timeout=60)
+    db.execute("DROP TABLE IF EXISTS stakeholders")
+    db.execute("CREATE TABLE stakeholders (name TEXT, role_guess TEXT, team TEXT, area TEXT, evidence_source TEXT, evidence_ref TEXT, evidence_count INTEGER, rank INTEGER, active TEXT)")
+    db.executemany("INSERT INTO stakeholders VALUES (?,?,?,?,?,?,?,?,?)", ROWS)
+    db.commit()
+    print(f"stakeholders: {len(ROWS)} rows -> {out}")
+
+if __name__ == "__main__":
+    main()

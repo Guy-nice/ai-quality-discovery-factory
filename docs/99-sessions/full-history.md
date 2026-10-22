@@ -133,3 +133,17 @@ Short version: [iteration-log.md](iteration-log.md).
 - Question to lead: prepare SME list + questionnaire now?
 
 **Files:** iteration-log, full-history. **Commit:** see iteration-log row 8.
+
+---
+
+## Iteration 9 - 2026-10-22
+
+**Prompt (verbatim):**
+> regarding the TFS guid me what do you need, link if you can? Not sure I know. Regarding teh 2-3 Orchestration Core architects or QA leads you can find this as well in confluance and jira signed leads and relevant pocal points too.
+
+**Result:**
+- TFS: Confluence search found the monolith was migrated to GitHub: `inContact/inContact` (DEVELOP), VCSvc at `Code/C#/Services/VCSvc`. Sources: Confluence 4231594095 (KT Session), VCSvc pages 3893887461 / 3894051323. Read access verified; VCSvc history from 2021-01. TFS not needed (D-017). R9 "not in GitHub" corrected. U-21 closed.
+- SMEs (R12a fork): 16 candidates from Go/No-Go page, Confluence authorship, Git PR reviews and commits. Recommended: Kacie Mayberry (VC monolith), Karthick Chandrasekaran (routing services), Kevin Pyles (QA lead, named). Backups: Dez Grant, Puneet Kumar, Nichole Proestakis (D-018, proposed). Roles mostly guessed; Jira assignee data not pulled (timeouts).
+- SME validation questionnaire v0: Part A 5 hypotheses + 5 questions; Part B 20 blind RCAs (stratified, seed 20261022).
+
+**Files:** stakeholder-map.md, sme-validation-questionnaire.md, r12-stakeholders.csv, scripts/db/r12_stakeholders.py, DB (stakeholders, git_repos fix), corrections in findings-round-3 and r9 doc, register, inventory, gates, decisions, plan. **Commit:** see iteration-log row 9.

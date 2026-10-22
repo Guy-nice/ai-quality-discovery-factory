@@ -11,4 +11,4 @@ inContact,orch-entity-orchestration,2026-10-20,Go,read,13,EM orchestration
 inContact,orch-entity-state-streams-common,2026-10-20,Java,read,26,state streams common
 inContact,routing-ng-integration-tests,2026-10-22,Java,read,312,integration tests
 inContact,acd-playwright-e2e,2026-10-22,TypeScript,read,1294,E2E tests
-(TFS - not GitHub),"VC monolith (VCSvc, ScriptHelper, WebScripting, stored procedures)",,"C#/.NET, T-SQL",not found in GitHub,,legacy monolith; RCAs cite TFS changesets
+inContact,inContact,2026-10-22,C#,read,,"VC monolith (VCSvc under Code/C#/Services/VCSvc); migrated from TFS; history from 2021"

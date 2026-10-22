@@ -9,10 +9,10 @@ Do not advance without recording gate status here. Solution design starts only a
 | Gate | Name | Status | Blocking items | Last review |
 |---|---|---|---|---|
 | G0 | Charter Alignment | PASSED (interim) | Scope set by research (D-005, D-006). Sponsor (U-02) and data rule (U-04) still open, interim rule D-004 applies. | 2026-10-22 |
-| G1 | Evidence Access | PARTIAL | Jira, Confluence, Git (`inContact`) confirmed. TFS (monolith), Sonar, CI/CD, incidents open (U-09, U-21). | 2026-10-22 |
+| G1 | Evidence Access | PARTIAL | Jira, Confluence, Git (`inContact`, incl. monolith) confirmed. Sonar, CI/CD, incidents open (U-09). | 2026-10-22 |
 | G2 | Problem Definition | PASSED (interim) | Problem statement v3. Not blocking: U-14, human rater, U-15. | 2026-10-22 |
 | G3 | Risk and Scope Selection | PASSED (interim) | Pilot D-010. R3 hotspots (Git) still needed for the deep dive. | 2026-10-22 |
-| G4 | Solution Readiness | OPEN | R3 hotspots, PH-1..PH-5 validation with SMEs, baseline metrics, constraints, success criteria, TFS access (U-21) | 2026-10-22 |
+| G4 | Solution Readiness | OPEN | R3 hotspots, PH-1..PH-5 validation with SMEs (questionnaire ready), baseline metrics, constraints, success criteria | 2026-10-22 |
 
 ## Gate criteria
 
