@@ -229,3 +229,4 @@ Short version: [iteration-log.md](iteration-log.md).
 - Shared doc updated with wave 1 table.
 
 **Files:** docs/04-solutions/* (wave-1-plan, so1, so2, so3a, so4-so5, measurement-plan, drafts/), data/aggregates so1/so3a/so45, scripts/db so1/so3a/so45/metrics, DB tables; decisions, brief, README, DB README, session-09. **Commit:** see iteration-log row 14.
+- Shared doc updated (rev 29): "Wave 1: order chosen from data" table under Solution options (no logins).
