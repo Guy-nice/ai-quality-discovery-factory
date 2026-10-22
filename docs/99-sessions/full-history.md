@@ -230,3 +230,17 @@ Short version: [iteration-log.md](iteration-log.md).
 
 **Files:** docs/04-solutions/* (wave-1-plan, so1, so2, so3a, so4-so5, measurement-plan, drafts/), data/aggregates so1/so3a/so45, scripts/db so1/so3a/so45/metrics, DB tables; decisions, brief, README, DB README, session-09. **Commit:** see iteration-log row 14.
 - Shared doc updated (rev 29): "Wave 1: order chosen from data" table under Solution options (no logins).
+
+---
+
+## Iteration 15 - 2026-10-22
+
+**Prompt (verbatim):**
+> No you are not openning pr or cahnges. I want you to make till now a sommery. and over all data that puuled and analyze - quality have been goes down what need to done and improve. what and which gate need to add and what I have not meantion that need to be done for govrancy and quality improvements checking all needed to imrpve and the end goal not have bug in production (of cours as minimum that can be)
+
+**Result:**
+- D-029: no PRs or changes in company systems. Saved to memory.
+- `docs/05-summary/summary-and-recommendations.md`: (1) decline evidence; (2) 7 ranked causes, AI not per-change cause; (3) gates G1 Design, G2 PR, G3 Build, G4 Test health, G5 Pre-release, G6 Deploy, G7 Escape - all blocking, mapped to causes and today's state; RIA agents and mutation deferred; (4) not-asked gaps: governance owner/sponsor, quality data (invalid 51%, caused-by 2.7%), traceability, detection/SLOs, migration register, AI governance, knowledge risk, secrets in work items, data platform; (5) end goal: rare escapes, caught before customers, no repeats, with targets.
+- Shared doc (rev 30): new "Summary and recommendations" section after status.
+
+**Files:** summary-and-recommendations.md, README, brief, decision-log, iteration-log, full-history, session-10. **Commit:** see iteration-log row 15.

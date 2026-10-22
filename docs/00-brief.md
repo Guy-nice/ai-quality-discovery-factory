@@ -1,6 +1,6 @@
 # Brief - AI Quality Discovery (1 page)
 
-**As of:** 2026-10-22 | **Window:** 2025-01 to 2026-10 (2025 = baseline before AI; 2026 = AI ramp) | **Detail:** [README](../README.md)
+**Full summary:** [summary-and-recommendations](05-summary/summary-and-recommendations.md) | **As of:** 2026-10-22 | **Window:** 2025-01 to 2026-10 (2025 = baseline before AI; 2026 = AI ramp) | **Detail:** [README](../README.md)
 
 ## Answer
 
