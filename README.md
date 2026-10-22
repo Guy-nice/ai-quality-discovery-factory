@@ -19,11 +19,11 @@ Solution design starts only after Gate 4 passes. See [research gates](docs/03-de
 
 | Item | Value |
 |---|---|
-| Phase | Ready for solution options (P5) |
+| Phase | Solution options v0 (P5) - [options](docs/04-solutions/solution-options-v0.md) |
 | Gates | G0 PASSED (i), G1 PARTIAL, G2 PASSED (i), G3 PASSED (i), G4 PASSED (interim, data-based) |
 | Problem statement | [v4](docs/00-charter/problem-statement-v4.md) |
 | Latest findings | [Round 1](docs/02-research/findings-round-1.md), [Round 2](docs/02-research/findings-round-2.md), [Round 3](docs/02-research/findings-round-3.md), [Round 4](docs/02-research/findings-round-4.md) |
-| Last session | [Session 07 - 2026-10-22](docs/99-sessions/2026-10-22-session-07.md) |
+| Last session | [Session 08 - 2026-10-22](docs/99-sessions/2026-10-22-session-08.md) |
 | History | [Iteration log](docs/99-sessions/iteration-log.md), [Full history](docs/99-sessions/full-history.md) |
 | Pilot | Orchestration Core - contact routing and lifecycle flow (D-010, D-016) |
 | Database | [data/db](data/db/README.md) - `quality.sqlite` |
@@ -37,6 +37,7 @@ Solution design starts only after Gate 4 passes. See [research gates](docs/03-de
 | `docs/01-discovery/` | Stakeholder questions, discovery map, evidence and access inventory, unknowns and assumptions register |
 | `docs/02-research/` | Research plan (versioned), per-source analysis plan |
 | `docs/03-decisions/` | Dated decision log, research gate status |
+| `docs/04-solutions/` | Solution options (after Gate 4) |
 | `docs/99-sessions/` | One log per working session: inputs, outputs, decisions, open items |
 | `data/aggregates/` | Aggregated counts and label-only classifications, with exact JQL and method per dataset |
 | `scripts/analysis/` | Scratch analysis scripts used to make the aggregates |

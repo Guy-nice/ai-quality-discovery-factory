@@ -116,3 +116,4 @@ Pilot is selected from R2 / R3 data, not in advance.
 | R16 | Done: AI PRs not riskier (RR 0.67), larger, less review per line | [R16](r16-ai-prs.md) |
 | R17 | Done: PH-1, PH-4, P-05 survive; PH-2 weak; PH-5 not testable | [R17](r17-refutation.md) |
 | P5 | **Next:** solution options for PH-1, PH-4, P-05, test gap, AI review depth | - |
+| P5 | Done v0: [solution options](../04-solutions/solution-options-v0.md) (D-026); next: choose, staff, start pilot rollout | - |

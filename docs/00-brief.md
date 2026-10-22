@@ -40,4 +40,4 @@
 
 ## Gate status
 
-G0-G3 passed (interim). **G4 passed (interim, data-based)** for PH-1, PH-4, P-05 and the test gap. PH-2 and PH-5 are excluded until a human gives the missing data. Next step: solution options (P5) for the confirmed causes.
+G0-G3 passed (interim). **G4 passed (interim, data-based)** for PH-1, PH-4, P-05 and the test gap. PH-2 and PH-5 are excluded until a human gives the missing data. Solution options v0: [docs/04-solutions](04-solutions/solution-options-v0.md). Order: E2E trust, ownership, stuck-contact monitor, hotspot PR rules; then escape-to-test and order-tolerant state design.

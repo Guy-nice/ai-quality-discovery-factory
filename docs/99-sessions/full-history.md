@@ -198,3 +198,17 @@ Short version: [iteration-log.md](iteration-log.md).
 - G4 PASSED (interim, data-based). Next: P5 solution options.
 
 **Files:** docs/00-brief.md, r15/r16/r17 docs + csv + scripts, DB (team_quarter, team_r15, prs, pr_commits, rca_class R17), corrections in findings-round-4, gate-4-readiness, problem-statement-v4; decisions, gates, register, plan, README, session-07, agent-reports round 5. **Commit:** see iteration-log row 12.
+
+---
+
+## Iteration 13 - 2026-10-22
+
+**Prompt (verbatim):**
+> Yes please and update the Ui page https://claude.ai/artifact/QDD8cDsvj7t1NzPsZgdLdf?sk=WmPCNOEye-jG-cSkbWWnIg#b634839c-1f30.mk0abjdngxb.3256
+
+**Result:**
+- `docs/04-solutions/solution-options-v0.md`: SO-1 state races (order-tolerant design + ordering tests + stuck-contact monitor), SO-2 escape-to-test + contract tests, SO-3 E2E trust (>= 95%) then fault/load stage, SO-4 CODEOWNERS >= 3, SO-5 path-based hotspot PR rules for all PRs (not AI-only), SO-6 few blocking checks + retire unused fields. WIP DoD page mapped: harness + chaos yes; RIA agents, mutation testing later. Rollout order and invalidation conditions.
+- Shared doc (rev 28): "Solution options (proposed)" section after pilot section; next-steps checklist and lead paragraph updated. One edit narrowed to keep an open comment anchor.
+- D-026 (proposed).
+
+**Files:** solution-options-v0.md, 00-brief, README, decision-log, research-plan, iteration-log, full-history, session-08. **Commit:** see iteration-log row 13.
