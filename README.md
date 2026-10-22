@@ -35,6 +35,9 @@ Solution design starts only after Gate 4 passes. See [research gates](docs/03-de
 | `docs/03-decisions/` | Dated decision log, research gate status |
 | `docs/99-sessions/` | One log per working session: inputs, outputs, decisions, open items |
 | `data/aggregates/` | Aggregated counts and label-only classifications, with exact JQL and method per dataset |
+| `scripts/analysis/` | Scratch analysis scripts used to make the aggregates |
+| `docs/99-sessions/agent-reports/` | Verbatim reports of research agents |
+| `docs/99-sessions/replies/` | Verbatim long replies |
 
 ## Evidence classification
 
@@ -48,3 +51,4 @@ All claims use one label: `FACT`, `EVIDENCE`, `HYPOTHESIS`, `ASSUMPTION`, `UNKNO
 - Source references use `[SRC-xxx]` IDs from the [evidence and access inventory](docs/01-discovery/evidence-access-inventory.md).
 - No invented organizational facts. Missing information is recorded as `UNKNOWN`.
 - No sensitive customer or incident data in this repository until the data-handling rule (U-04) is confirmed.
+- Not stored by design: raw Jira dumps (D-004), security finding details (D-013).

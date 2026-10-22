@@ -86,3 +86,18 @@ Short version: [iteration-log.md](iteration-log.md).
 - Security: plain-text credentials in one Jira issue, reported to lead, not stored in repo.
 
 **Files:** full-history.md, initiative-brief-original.md, problem-statement-v2.md, findings-round-2.md, session-03, data/aggregates r1b/r2b/r6/r7; updates to register, plan, gates, decisions, README. **Commit:** see iteration-log row 5.
+
+---
+
+## Iteration 6 - 2026-10-22
+
+**Prompt (verbatim):**
+> All data, analysis, conclustions that you collect, create and made - have you uploaded to the repository as well?
+
+**Result:**
+- Audit of repo vs work done. Gaps found: agent reports not verbatim; analysis scripts in /tmp only; iteration-1 reply only summarized.
+- Fixed: `docs/99-sessions/agent-reports/` (round 1: R1, R2, R5; round 2: R1b, R2b, R6, R7, verbatim, 1 secret redacted). `docs/99-sessions/replies/iteration-01-reply.md` (verbatim). `scripts/analysis/` (r1b, r5-rca, r6, r7 + README).
+- Not in repo by design: raw Jira JSON dumps (may hold customer text, D-004); secret details (D-013); personal memory files (outside project). Lost: R2b tally scripts (deleted by fork); R1/R2 used JQL counts only (JQL in data READMEs).
+- Raw /tmp scratch data deleted.
+
+**Files:** agent-reports/*, replies/iteration-01-reply.md, scripts/analysis/*, iteration-log, full-history, README. **Commit:** see iteration-log row 6.
