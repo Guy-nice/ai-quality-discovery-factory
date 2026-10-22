@@ -1,0 +1,201 @@
+section,key,metric,value
+pass_rate,routing-ng-integration-tests/Integration Tests with BU Profiles,runs,1000
+pass_rate,routing-ng-integration-tests/Integration Tests with BU Profiles,pass_pct,31.5
+pass_rate,routing-ng-integration-tests/Integration Tests with BU Profiles,cancelled,38
+pass_rate,acd-playwright-e2e/Run test suites,runs,733
+pass_rate,acd-playwright-e2e/Run test suites,pass_pct,78.6
+pass_rate,acd-playwright-e2e/Run test suites,cancelled,13
+pass_rate,routing-ng-advanced-findmatch/test,runs,506
+pass_rate,routing-ng-advanced-findmatch/test,pass_pct,90.3
+pass_rate,routing-ng-advanced-findmatch/test,cancelled,0
+pass_rate,routing-ng-contact-retry/test,runs,244
+pass_rate,routing-ng-contact-retry/test,pass_pct,93.8
+pass_rate,routing-ng-contact-retry/test,cancelled,2
+pass_rate,routing-ng-agent-capacity-service/test,runs,106
+pass_rate,routing-ng-agent-capacity-service/test,pass_pct,89.6
+pass_rate,routing-ng-agent-capacity-service/test,cancelled,0
+pass_rate,routing-ng-integration-tests/VFM-AFM Automated Test Pipeline,runs,85
+pass_rate,routing-ng-integration-tests/VFM-AFM Automated Test Pipeline,pass_pct,1.2
+pass_rate,routing-ng-integration-tests/VFM-AFM Automated Test Pipeline,cancelled,4
+pass_rate,acd-playwright-e2e/E2E cluster run,runs,59
+pass_rate,acd-playwright-e2e/E2E cluster run,pass_pct,69.0
+pass_rate,acd-playwright-e2e/E2E cluster run,cancelled,1
+pass_rate,acd-playwright-e2e/Run EM suite,runs,48
+pass_rate,acd-playwright-e2e/Run EM suite,pass_pct,29.2
+pass_rate,acd-playwright-e2e/Run EM suite,cancelled,0
+pass_rate,routing-ng-integration-tests/Unit Tests,runs,41
+pass_rate,routing-ng-integration-tests/Unit Tests,pass_pct,100.0
+pass_rate,routing-ng-integration-tests/Unit Tests,cancelled,0
+pass_rate,acd-playwright-e2e/Run DE suite,runs,9
+pass_rate,acd-playwright-e2e/Run DE suite,pass_pct,44.4
+pass_rate,acd-playwright-e2e/Run DE suite,cancelled,0
+pass_rate,acd-playwright-e2e/UIQ end-to-end,runs,5
+pass_rate,acd-playwright-e2e/UIQ end-to-end,pass_pct,60.0
+pass_rate,acd-playwright-e2e/UIQ end-to-end,cancelled,0
+pass_rate,acd-playwright-e2e/E2E lab suites,runs,1
+pass_rate,acd-playwright-e2e/E2E lab suites,pass_pct,
+pass_rate,acd-playwright-e2e/E2E lab suites,cancelled,1
+weekly_pass,Run test suites|2026-42,pass_pct,58.6
+weekly_pass,Run test suites|2026-41,pass_pct,69.1
+weekly_pass,Run test suites|2026-40,pass_pct,77.0
+weekly_pass,Run test suites|2026-39,pass_pct,100.0
+weekly_pass,Run test suites|2026-38,pass_pct,100.0
+weekly_pass,Run test suites|2026-37,pass_pct,100.0
+weekly_pass,Run test suites|2026-36,pass_pct,100.0
+weekly_pass,Run test suites|2026-35,pass_pct,95.7
+weekly_pass,E2E cluster run|2026-42,pass_pct,100.0
+weekly_pass,E2E cluster run|2026-40,pass_pct,100.0
+weekly_pass,E2E cluster run|2026-39,pass_pct,73.3
+weekly_pass,E2E cluster run|2026-38,pass_pct,85.7
+weekly_pass,E2E cluster run|2026-34,pass_pct,40.9
+weekly_pass,VFM-AFM Automated Test Pipeline|2026-42,pass_pct,0.0
+weekly_pass,VFM-AFM Automated Test Pipeline|2026-41,pass_pct,0.0
+weekly_pass,VFM-AFM Automated Test Pipeline|2026-40,pass_pct,0.0
+weekly_pass,VFM-AFM Automated Test Pipeline|2026-39,pass_pct,0.0
+weekly_pass,VFM-AFM Automated Test Pipeline|2026-38,pass_pct,0.0
+weekly_pass,VFM-AFM Automated Test Pipeline|2026-37,pass_pct,0.0
+weekly_pass,VFM-AFM Automated Test Pipeline|2026-36,pass_pct,0.0
+weekly_pass,VFM-AFM Automated Test Pipeline|2026-35,pass_pct,0.0
+weekly_pass,VFM-AFM Automated Test Pipeline|2026-34,pass_pct,0.0
+weekly_pass,VFM-AFM Automated Test Pipeline|2026-33,pass_pct,0.0
+weekly_pass,VFM-AFM Automated Test Pipeline|2026-32,pass_pct,0.0
+weekly_pass,VFM-AFM Automated Test Pipeline|2026-31,pass_pct,0.0
+weekly_pass,Integration Tests with BU Profiles|2026-42,pass_pct,70.0
+weekly_pass,Integration Tests with BU Profiles|2026-41,pass_pct,87.5
+weekly_pass,Integration Tests with BU Profiles|2026-40,pass_pct,100.0
+weekly_pass,Integration Tests with BU Profiles|2026-39,pass_pct,22.0
+weekly_pass,Integration Tests with BU Profiles|2026-38,pass_pct,60.5
+weekly_pass,Integration Tests with BU Profiles|2026-37,pass_pct,23.5
+weekly_pass,Integration Tests with BU Profiles|2026-36,pass_pct,100.0
+weekly_pass,Integration Tests with BU Profiles|2026-35,pass_pct,29.7
+weekly_pass,Integration Tests with BU Profiles|2026-34,pass_pct,17.8
+weekly_pass,Integration Tests with BU Profiles|2026-33,pass_pct,40.4
+weekly_pass,Integration Tests with BU Profiles|2026-32,pass_pct,60.0
+weekly_pass,Integration Tests with BU Profiles|2026-31,pass_pct,86.7
+flaky_sha,E2E cluster run,multi_run_shas,13
+flaky_sha,E2E cluster run,fail_and_pass_same_sha,10
+flaky_sha,Integration Tests with BU Profiles,multi_run_shas,29
+flaky_sha,Integration Tests with BU Profiles,fail_and_pass_same_sha,16
+flaky_sha,Run EM suite,multi_run_shas,9
+flaky_sha,Run EM suite,fail_and_pass_same_sha,4
+flaky_sha,Run test suites,multi_run_shas,66
+flaky_sha,Run test suites,fail_and_pass_same_sha,50
+flaky_sha,UIQ end-to-end,multi_run_shas,1
+flaky_sha,UIQ end-to-end,fail_and_pass_same_sha,1
+flaky_sha,VFM-AFM Automated Test Pipeline,multi_run_shas,15
+flaky_sha,VFM-AFM Automated Test Pipeline,fail_and_pass_same_sha,0
+flaky_sha,test,multi_run_shas,350
+flaky_sha,test,fail_and_pass_same_sha,12
+reattempt,E2E cluster run,runs_with_attempt_gt1,2
+reattempt,E2E lab suites,runs_with_attempt_gt1,0
+reattempt,Integration Tests with BU Profiles,runs_with_attempt_gt1,3
+reattempt,Run DE suite,runs_with_attempt_gt1,0
+reattempt,Run EM suite,runs_with_attempt_gt1,0
+reattempt,Run test suites,runs_with_attempt_gt1,0
+reattempt,UIQ end-to-end,runs_with_attempt_gt1,1
+reattempt,Unit Tests,runs_with_attempt_gt1,0
+reattempt,VFM-AFM Automated Test Pipeline,runs_with_attempt_gt1,0
+reattempt,test,runs_with_attempt_gt1,22
+failure_class,E2E cluster run|setup/credentials,share_pct,38.9
+failure_class,E2E cluster run|other,share_pct,11.1
+failure_class,E2E cluster run|assertion,share_pct,22.2
+failure_class,E2E cluster run|test data/fixture,share_pct,27.8
+failure_class,Run test suites|setup/credentials,share_pct,6.7
+failure_class,Run test suites|other,share_pct,16.7
+failure_class,Run test suites|timeout,share_pct,23.3
+failure_class,Run test suites|assertion,share_pct,13.3
+failure_class,Run test suites|test data/fixture,share_pct,20.0
+failure_class,Run test suites|env/infra,share_pct,20.0
+failure_class,VFM-AFM Automated Test Pipeline|assertion,share_pct,50.0
+failure_class,VFM-AFM Automated Test Pipeline|async state wait,share_pct,23.3
+failure_class,VFM-AFM Automated Test Pipeline|other,share_pct,13.3
+failure_class,VFM-AFM Automated Test Pipeline|no log available,share_pct,10.0
+failure_class,VFM-AFM Automated Test Pipeline|timeout,share_pct,3.3
+failure_class,Integration Tests with BU Profiles|env/infra,share_pct,6.7
+failure_class,Integration Tests with BU Profiles|no log available,share_pct,83.3
+failure_class,Integration Tests with BU Profiles|timeout,share_pct,3.3
+failure_class,Integration Tests with BU Profiles|assertion,share_pct,6.7
+top_test,VFM-AFM Automated Test Pipeline|SmokeSuite > FindMatch Basic Specification > Agent targeted contacts should be delivered even if the agent is not assigned to the skill for a channel the agent is routable on - Bug 959,failed_runs,21
+top_test,VFM-AFM Automated Test Pipeline|SmokeSuite > FindMatch Basic Specification > Agent targeted contacts should be delivered even if the agent is not assigned to the skill for a channel the agent is routable on - Bug 959,class,"async state wait,other"
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > Proficiency Routing > Proficiency update matches only agents within new proficiency range,failed_runs,19
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > Proficiency Routing > Proficiency update matches only agents within new proficiency range,class,"assertion,env/infra,setup/credentials"
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > Proficiency Routing > Validate contact routes after updating agent's proficiency,failed_runs,15
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > Proficiency Routing > Validate contact routes after updating agent's proficiency,class,assertion
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > Proficiency Routing > Removing routing rule override reverts to original contact proficiency,failed_runs,14
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > Proficiency Routing > Removing routing rule override reverts to original contact proficiency,class,"assertion,async state wait,env/infra"
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > ContactRetry > Contact Retry Doesnt happen after not routable event is sent,failed_runs,11
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > ContactRetry > Contact Retry Doesnt happen after not routable event is sent,class,async state wait
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > ContactRetry > Sending a contact routable and giving one agent 3 times for 3 intervals,failed_runs,9
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > ContactRetry > Sending a contact routable and giving one agent 3 times for 3 intervals,class,timeout
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > OutOFOrder Routing > Remove and update multiple skills sent out of order,failed_runs,9
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > OutOFOrder Routing > Remove and update multiple skills sent out of order,class,async state wait
+top_test,VFM-AFM Automated Test Pipeline|SmokeSuite > Digital Routing > AOR-3829/3910/3909/3908 - Verify matches publishes to Digital Stream when cluster id is set as DFO,failed_runs,8
+top_test,VFM-AFM Automated Test Pipeline|SmokeSuite > Digital Routing > AOR-3829/3910/3909/3908 - Verify matches publishes to Digital Stream when cluster id is set as DFO,class,assertion
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > ContactRetry > Contact retry happens within 15 sec interval for chat,failed_runs,7
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > ContactRetry > Contact retry happens within 15 sec interval for chat,class,timeout
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > Digital Routing > AOR-3829/3910/3909/3908 - Verify matches publishes to Digital Stream when cluster id is set as DFO,failed_runs,7
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > Digital Routing > AOR-3829/3910/3909/3908 - Verify matches publishes to Digital Stream when cluster id is set as DFO,class,assertion
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > FindMatch Basic Specification > An agent targeted contact that becomes non-targeted with a lower priority should produce a non-targeted match - Bug961,failed_runs,7
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > FindMatch Basic Specification > An agent targeted contact that becomes non-targeted with a lower priority should produce a non-targeted match - Bug961,class,"env/infra,async state wait"
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > Proficiency Routing > Contact is routed after agent's proficiency is updated,failed_runs,7
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > Proficiency Routing > Contact is routed after agent's proficiency is updated,class,"async state wait,setup/credentials"
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > Routing Attributes > Afm should handle agents with more than 500 attributes,failed_runs,7
+top_test,VFM-AFM Automated Test Pipeline|TestSuite > Routing Attributes > Afm should handle agents with more than 500 attributes,class,async state wait
+top_test,E2E cluster run|e2e/suite-smoke/api-calling-list-upload.spec.ts > API - Calling List Upload and Process Status › CallingList_UploadAndVerifyProcessStatus_V10_Success: upload calling list and verify job completes,failed_runs,6
+top_test,E2E cluster run|e2e/suite-smoke/api-calling-list-upload.spec.ts > API - Calling List Upload and Process Status › CallingList_UploadAndVerifyProcessStatus_V10_Success: upload calling list and verify job completes,class,"assertion,setup/credentials"
+top_test,E2E cluster run|e2e/suite-smoke/api-get-skill-cpa-management.spec.ts > API - GET Skill CPA Management v16 › GetSkillCpaManagement_V16_Success: GET /skills/{skillId}/parameters/cpa-management returns 200,failed_runs,6
+top_test,E2E cluster run|e2e/suite-smoke/api-get-skill-cpa-management.spec.ts > API - GET Skill CPA Management v16 › GetSkillCpaManagement_V16_Success: GET /skills/{skillId}/parameters/cpa-management returns 200,class,"assertion,setup/credentials"
+top_test,"E2E cluster run|e2e/suite-smoke/sch-basic-chat.spec.ts > SCH - Basic Chat › SCHBasicChat: chat contact routes to available agent, is accepted, and ends",failed_runs,6
+top_test,"E2E cluster run|e2e/suite-smoke/sch-basic-chat.spec.ts > SCH - Basic Chat › SCHBasicChat: chat contact routes to available agent, is accepted, and ends",class,"assertion,setup/credentials"
+top_test,"E2E cluster run|e2e/suite-smoke/sch-basic-work-item.spec.ts > SCH - Basic Work Item › SCHBasicWorkItem: work item routes to available agent, is accepted, and ends",failed_runs,6
+top_test,"E2E cluster run|e2e/suite-smoke/sch-basic-work-item.spec.ts > SCH - Basic Work Item › SCHBasicWorkItem: work item routes to available agent, is accepted, and ends",class,"assertion,setup/credentials"
+top_test,E2E cluster run|e2e/suite-smoke/sch-inbound-email.spec.ts > SCH - Inbound Email › SCHInboundEmail: inbound email routes to available agent and agent replies,failed_runs,6
+top_test,E2E cluster run|e2e/suite-smoke/sch-inbound-email.spec.ts > SCH - Inbound Email › SCHInboundEmail: inbound email routes to available agent and agent replies,class,"assertion,setup/credentials"
+top_test,E2E cluster run|e2e/suite-smoke/sch-inbound-phone.spec.ts > SCH - Inbound Phone › SCHInboundPhone: inbound phone call routes to available agent and ends,failed_runs,6
+top_test,E2E cluster run|e2e/suite-smoke/sch-inbound-phone.spec.ts > SCH - Inbound Phone › SCHInboundPhone: inbound phone call routes to available agent and ends,class,"assertion,setup/credentials"
+top_test,"E2E cluster run|e2e/suite-smoke/sch-outbound-email-acw.spec.ts > SCH - Outbound Email ACW › SCHOutboundEmailACW: agent creates outbound email, sends it, and ACW completes",failed_runs,6
+top_test,"E2E cluster run|e2e/suite-smoke/sch-outbound-email-acw.spec.ts > SCH - Outbound Email ACW › SCHOutboundEmailACW: agent creates outbound email, sends it, and ACW completes",class,"assertion,setup/credentials"
+flaky_tests,Run test suites,flaky_occurrences,13
+flaky_tests,Run test suites,distinct_flaky_tests,13
+failed_tests,E2E cluster run,runs_with_named_failures,7
+failed_tests,E2E cluster run,distinct_failed_tests,187
+failed_tests,E2E cluster run,max_runs_per_test,6
+failed_tests,Integration Tests with BU Profiles,runs_with_named_failures,3
+failed_tests,Integration Tests with BU Profiles,distinct_failed_tests,38
+failed_tests,Integration Tests with BU Profiles,max_runs_per_test,9
+failed_tests,Run test suites,runs_with_named_failures,29
+failed_tests,Run test suites,distinct_failed_tests,465
+failed_tests,Run test suites,max_runs_per_test,4
+failed_tests,VFM-AFM Automated Test Pipeline,runs_with_named_failures,26
+failed_tests,VFM-AFM Automated Test Pipeline,distinct_failed_tests,64
+failed_tests,VFM-AFM Automated Test Pipeline,max_runs_per_test,21
+quarantine,Run test suites,pass_pct_now,78.6
+quarantine,Run test suites,failed_runs_fixed_by_top10_quarantine_pct,0.0
+quarantine,Run test suites,pass_pct_after_top10_quarantine,78.6
+quarantine,E2E cluster run,pass_pct_now,69.0
+quarantine,E2E cluster run,failed_runs_fixed_by_top10_quarantine_pct,0.0
+quarantine,E2E cluster run,pass_pct_after_top10_quarantine,69.0
+quarantine,VFM-AFM Automated Test Pipeline,pass_pct_now,1.2
+quarantine,VFM-AFM Automated Test Pipeline,failed_runs_fixed_by_top10_quarantine_pct,16.7
+quarantine,VFM-AFM Automated Test Pipeline,pass_pct_after_top10_quarantine,17.7
+quarantine,Integration Tests with BU Profiles,pass_pct_now,31.5
+quarantine,Integration Tests with BU Profiles,failed_runs_fixed_by_top10_quarantine_pct,0.0
+quarantine,Integration Tests with BU Profiles,pass_pct_after_top10_quarantine,31.5
+owner,VFM-AFM Automated Test Pipeline|SmokeSuite > FindMatch Basic Specification > Agent targeted contacts should be delivered even if the agent is not assigned to the skill for a channel the agent is routable on - Bug 959,active_authors_6m,"jatin-patil-incontact (66), Nichole Proestakis (41)"
+owner,VFM-AFM Automated Test Pipeline|TestSuite > Proficiency Routing > Proficiency update matches only agents within new proficiency range,active_authors_6m,"jatin-patil-incontact (66), Nichole Proestakis (41)"
+owner,VFM-AFM Automated Test Pipeline|TestSuite > Proficiency Routing > Validate contact routes after updating agent's proficiency,active_authors_6m,"jatin-patil-incontact (66), Nichole Proestakis (41)"
+owner,VFM-AFM Automated Test Pipeline|TestSuite > Proficiency Routing > Removing routing rule override reverts to original contact proficiency,active_authors_6m,"jatin-patil-incontact (66), Nichole Proestakis (41)"
+owner,VFM-AFM Automated Test Pipeline|TestSuite > ContactRetry > Contact Retry Doesnt happen after not routable event is sent,active_authors_6m,"jatin-patil-incontact (66), Nichole Proestakis (41)"
+owner,VFM-AFM Automated Test Pipeline|TestSuite > ContactRetry > Sending a contact routable and giving one agent 3 times for 3 intervals,active_authors_6m,"jatin-patil-incontact (66), Nichole Proestakis (41)"
+owner,VFM-AFM Automated Test Pipeline|TestSuite > OutOFOrder Routing > Remove and update multiple skills sent out of order,active_authors_6m,"jatin-patil-incontact (66), Nichole Proestakis (41)"
+owner,VFM-AFM Automated Test Pipeline|SmokeSuite > Digital Routing > AOR-3829/3910/3909/3908 - Verify matches publishes to Digital Stream when cluster id is set as DFO,active_authors_6m,"jatin-patil-incontact (66), Nichole Proestakis (41)"
+owner,VFM-AFM Automated Test Pipeline|TestSuite > ContactRetry > Contact retry happens within 15 sec interval for chat,active_authors_6m,"jatin-patil-incontact (66), Nichole Proestakis (41)"
+owner,VFM-AFM Automated Test Pipeline|TestSuite > Digital Routing > AOR-3829/3910/3909/3908 - Verify matches publishes to Digital Stream when cluster id is set as DFO,active_authors_6m,"jatin-patil-incontact (66), Nichole Proestakis (41)"
+expected_pass,Run test suites|env_fixed,pass_pct,88.6
+expected_pass,Run test suites|env_and_timeout_fixed,pass_pct,93.6
+expected_pass,E2E cluster run|env_fixed,pass_pct,89.7
+expected_pass,E2E cluster run|env_and_timeout_fixed,pass_pct,89.7
+expected_pass,VFM-AFM Automated Test Pipeline|env_fixed,pass_pct,11.1
+expected_pass,VFM-AFM Automated Test Pipeline|env_and_timeout_fixed,pass_pct,14.4
+expected_pass,Integration Tests with BU Profiles|env_fixed,pass_pct,93.1
+expected_pass,Integration Tests with BU Profiles|env_and_timeout_fixed,pass_pct,95.4

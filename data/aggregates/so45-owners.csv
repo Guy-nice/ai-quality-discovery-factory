@@ -1,0 +1,32 @@
+repo,path,role,login,name,commits_12m,last_commit,reviews_6m,basis,owners_found
+inContact,Code/C#/Services/VCSvc/Providers/ACD,owner,NiceLuc,Luc Hardbarger,4,2026-06-14,13,reviews,4
+inContact,Code/C#/Services/VCSvc/Providers/ACD,owner,dezgrant,Dez Grant,7,2026-08-14,6,commits,4
+inContact,Code/C#/Services/VCSvc/Providers/ACD,owner,JessePreveyNiceInContact,Jesse Prevey,6,2026-08-07,2,commits,4
+inContact,Code/C#/Services/VCSvc/Providers/ACD,owner,jmichaelcharles15,Michael Charles Joseph,6,2026-06-16,0,commits,4
+inContact,Code/C#/Library/AgentHelper,owner,hpganesh1,Ganesh Hegde,5,2026-07-07,4,commits,4
+inContact,Code/C#/Library/AgentHelper,owner,jesse-blanton,Jesse Blanton,6,2026-09-08,3,commits,4
+inContact,Code/C#/Library/AgentHelper,owner,dezgrant,Dez Grant,6,2026-07-07,2,commits,4
+inContact,Code/C#/Library/AgentHelper,owner,onkargadekar,Onkar Gadekar,8,2026-08-25,1,commits; verify active (Confluence deactivated),4
+routing-ng-advanced-findmatch,src/main/java/com/nice/routing/afm/service,owner,karthickNiC,Karthick Chandradekaran,17,2026-10-14,11,commits+reviews,3
+routing-ng-advanced-findmatch,src/main/java/com/nice/routing/afm/service,owner,jkmuthazhagan,Jayakesavan Muthazhagan,27,2026-06-13,0,commits,3
+routing-ng-advanced-findmatch,src/main/java/com/nice/routing/afm/service,owner,anuja-mehendre-incontact,Anuja Mehendre,11,2026-10-05,0,commits,3
+inContact,Code/C#/Library/inContact.InterVCCommWrapper/SynchronizerMessages,owner,jmichaelcharles15,Michael Charles Joseph,7,2026-09-15,4,commits,1
+inContact,Code/C#/Library/inContact.InterVCCommWrapper/SynchronizerMessages,to_grow,selvarajv3,selvarajv3,3,2026-10-20,5,nearest active,1
+inContact,Code/C#/Services/VCSvc/Providers/Data,owner,NiceLuc,Luc Hardbarger,7,2026-10-07,36,commits+reviews,4
+inContact,Code/C#/Services/VCSvc/Providers/Data,owner,sambhajigayake,Sambhaji Gayake,2,2026-05-11,37,reviews,4
+inContact,Code/C#/Services/VCSvc/Providers/Data,owner,JigyasaDewani,Jigyasa Dewani,14,2026-10-13,24,commits+reviews,4
+inContact,Code/C#/Services/VCSvc/Providers/Data,owner,SiddharthGhogareNice,Siddharth Ghogare,13,2026-10-05,23,commits+reviews,4
+inContact,Database/InDB_DACPAC/inCode/dbo/StoredProcedures,owner,gchindheincontact,gchindheincontact,0,,64,reviews,4
+inContact,Database/InDB_DACPAC/inCode/dbo/StoredProcedures,owner,HemantYadavIncontact,HemantYadavIncontact,0,,60,reviews,4
+inContact,Database/InDB_DACPAC/inCode/dbo/StoredProcedures,owner,JigyasaDewani,Jigyasa Dewani,13,2026-10-13,19,commits+reviews,4
+inContact,Database/InDB_DACPAC/inCode/dbo/StoredProcedures,owner,SiddharthGhogareNice,Siddharth Ghogare,14,2026-09-07,18,commits+reviews,4
+inContact,Code/C#/Library/AgentHelper/MCH,to_grow,derek-hirst,Derek Hirst,4,2026-05-12,1,nearest active,0
+inContact,Code/C#/Library/AgentHelper/MCH,to_grow,BlueShark801,Brendan Johnston,3,2026-09-21,1,nearest active,0
+inContact,Code/C#/Library/AgentHelper/MCH,to_grow,ajbobo-nice,A.J. Bobo,2,2026-08-03,0,nearest active,0
+inContact,Code/C#/Library/inContact.InterVCCommWrapper/Messages,owner,jmichaelcharles15,Michael Charles Joseph,6,2026-09-15,2,commits,1
+inContact,Code/C#/Library/inContact.InterVCCommWrapper/Messages,to_grow,selvarajv3,selvarajv3,2,2026-10-09,3,nearest active,1
+inContact,Code/C#/Services/VCSvc/Providers/Agent,owner,dezgrant,Dez Grant,5,2026-07-07,4,commits,4
+inContact,Code/C#/Services/VCSvc/Providers/Agent,owner,jmichaelcharles15,Michael Charles Joseph,5,2026-06-16,2,commits,4
+inContact,Code/C#/Services/VCSvc/Providers/Agent,owner,rsenthilkumar-nice,Senthilkumar R,5,2026-04-24,2,commits,4
+inContact,Code/C#/Services/VCSvc/Providers/Agent,owner,ajbobo-nice,A.J. Bobo,5,2026-09-02,0,commits,4
+routing-ng-agent-capacity-service,src/main/java/com/nice/routing/agentcapacityservice/client,owner,ajbobo-nice,A.J. Bobo,12,2026-09-11,1,commits,1

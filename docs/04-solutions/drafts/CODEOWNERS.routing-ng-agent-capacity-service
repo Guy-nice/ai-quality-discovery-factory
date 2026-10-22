@@ -1,0 +1,6 @@
+# DRAFT (research, 2026-10-22) - not applied. Target: inContact/routing-ng-agent-capacity-service, CODEOWNERS
+# Existing: "* @inContact/routing-ng-admins". GAP: only 1 qualified owner for the client hotspot (ajbobo-nice).
+# The former main author (38-56% of commits) has no commits after 2026-04 (R14). Team lead must name 2 more owners.
+
+*                                                                 @inContact/routing-ng-admins
+/src/main/java/com/nice/routing/agentcapacityservice/client/      @ajbobo-nice @inContact/routing-ng-admins

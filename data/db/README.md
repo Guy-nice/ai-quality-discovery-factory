@@ -32,6 +32,11 @@ All data pulled for this research is stored here (user order, iteration 7).
 | `git_commits` | repo, sha | 7,866 commits, 24 months; Jira keys from message only (R3) |
 | `r3_*`, `r14_ownership` | - | Hotspots, flags, ownership (R3, R14) |
 | `migration_events`, `migration_mentions`, `migration_causal` | - | R11 |
+| `prs`, `pr_commits`, `team_quarter`, `team_r15` | - | R15, R16 |
+| `failure_modes` | key | SO-1 state failure modes |
+| `ci_runs`, `ci_jobs`, `test_failures` | - | SO-3A CI data (test names only) |
+| `so45_owners`, `so45_size_risk` | - | SO-4/5 |
+| `metrics_monthly` | month | S1-S7 (`scripts/db/metrics.py`) |
 
 Residual risk: Jira labels are stored as-is; a few labels may hold customer names. The repo is private.
 

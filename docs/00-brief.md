@@ -40,4 +40,4 @@
 
 ## Gate status
 
-G0-G3 passed (interim). **G4 passed (interim, data-based)** for PH-1, PH-4, P-05 and the test gap. PH-2 and PH-5 are excluded until a human gives the missing data. Solution options v0: [docs/04-solutions](04-solutions/solution-options-v0.md). Order: E2E trust, ownership, stuck-contact monitor, hotspot PR rules; then escape-to-test and order-tolerant state design.
+G0-G3 passed (interim). **G4 passed (interim, data-based)** for PH-1, PH-4, P-05 and the test gap. PH-2 and PH-5 are excluded until a human gives the missing data. Solution options v0: [docs/04-solutions](04-solutions/solution-options-v0.md). **Wave 1 chosen from data:** [wave-1-plan](04-solutions/wave-1-plan.md). Key new fact: the routing E2E pipeline passed 1.2% of runs and fails the same out-of-order scenarios, so the race signal exists but is ignored. Order: E2E trust, ownership, stuck-contact monitor, hotspot PR rules; then escape-to-test and order-tolerant state design.

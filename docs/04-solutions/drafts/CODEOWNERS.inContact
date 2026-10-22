@@ -1,0 +1,11 @@
+# DRAFT (research, 2026-10-22) - not applied. Target: inContact/inContact, branch DEVELOP, file .github/CODEOWNERS
+# Source: so45_owners (commits >= 5 in 12 mo + active in 6 mo, or >= 10 human reviews in 6 mo). Last matching rule wins.
+# '#' in paths is escaped as '\#'. Verify each login has write access before use.
+
+/Code/C\#/Services/VCSvc/Providers/ACD/          @NiceLuc @dezgrant @JessePreveyNiceInContact @jmichaelcharles15
+/Code/C\#/Services/VCSvc/Providers/Data/         @NiceLuc @JigyasaDewani @SiddharthGhogareNice @sambhajigayake
+/Code/C\#/Services/VCSvc/Providers/Agent/        @dezgrant @jmichaelcharles15 @rsenthilkumar-nice @ajbobo-nice
+/Code/C\#/Library/AgentHelper/                   @hpganesh1 @jesse-blanton @dezgrant
+/Code/C\#/Library/AgentHelper/MCH/               @NiceLuc @hpganesh1 @chris-thomsen
+/Code/C\#/Library/inContact.InterVCCommWrapper/  @jmichaelcharles15 @NiceLuc @selvarajv3
+/Database/InDB_DACPAC/inCode/dbo/StoredProcedures/ @JigyasaDewani @SiddharthGhogareNice @gchindheincontact @HemantYadavIncontact

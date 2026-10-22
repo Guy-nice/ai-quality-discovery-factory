@@ -212,3 +212,20 @@ Short version: [iteration-log.md](iteration-log.md).
 - D-026 (proposed).
 
 **Files:** solution-options-v0.md, 00-brief, README, decision-log, research-plan, iteration-log, full-history, session-08. **Commit:** see iteration-log row 13.
+
+---
+
+## Iteration 14 - 2026-10-22
+
+**Prompt (verbatim):**
+> choose from data and continue with the order you proposed. update all in github and the web page to share
+
+**Result:**
+- D-027 wave 1 order from data; D-028 specs only (company repos / CI / Jira / prod need approval).
+- SO-3A (fork): 2,837 CI runs, 13 workflows. Routing VFM-AFM pipeline pass 1.2%, same 13 out-of-order / retry scenarios fail (hidden PH-1 signal). E2E suites 69-79%, 70% env/setup/fixture. Quarantine useless (465 distinct failing tests). Plan: triage 13 scenarios, pre-test credential/fixture check, isolated data, SLO >= 95% / flaky <= 2%.
+- SO-4/5 (fork): owners for 6/10 hotspots; gaps InterVCComm (1), AgentHelper/MCH (0), agent-capacity client (1). Monolith no CODEOWNERS. Size risk in hotspots 21% -> 54%; outside flat. Rules H1-H7: 400-line block, 1000 hard stop, 2 approvals incl. owner, test change, Jira key. Drafts in docs/04-solutions/drafts/.
+- SO-1 (fork): failure modes M1-M7 over 51 CFBs; M1-M4 = 23/107 valid (21%), 92 incidents. Proto 80 RPCs, no version/sequence. Monitor 5 invariants (shadow 30 days). Design: shared lib with per-contact version, idempotent apply, stale reject, outbox. Test matrix M1-M4.
+- Own: SO-2 escape-to-test spec; measurement plan + scripts/db/metrics.py (metrics_monthly; S5 baseline 1).
+- Shared doc updated with wave 1 table.
+
+**Files:** docs/04-solutions/* (wave-1-plan, so1, so2, so3a, so4-so5, measurement-plan, drafts/), data/aggregates so1/so3a/so45, scripts/db so1/so3a/so45/metrics, DB tables; decisions, brief, README, DB README, session-09. **Commit:** see iteration-log row 14.

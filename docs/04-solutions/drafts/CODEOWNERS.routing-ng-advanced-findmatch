@@ -1,0 +1,6 @@
+# DRAFT (research, 2026-10-22) - not applied. Target: inContact/routing-ng-advanced-findmatch, CODEOWNERS
+# Existing: "* @jpenman51 @karthickNiC @hdumaniya". Keep the default line; add a hotspot rule (last match wins).
+# hdumaniya: 1 review, 0 commits in 12 mo in the hotspot -> not an owner for the hotspot.
+
+*                                              @jpenman51 @karthickNiC @hdumaniya
+/src/main/java/com/nice/routing/afm/service/   @karthickNiC @jkmuthazhagan @anuja-mehendre-incontact

@@ -1,0 +1,52 @@
+key,mode,mode_name,component,detected_by,sub_flow,priority,incidents
+VOL-8004,M1,Out-of-order or stale event overwrites newer state,Contact Retry Service (VC IVR + COR),customer case,stuck/lost contact,P2,1
+EM-146033,M1,Out-of-order or stale event overwrites newer state,State Streams mixed-dfo-contact,customer case,stuck/lost contact,P2,1
+EM-148596,M1,Out-of-order or stale event overwrites newer state,State Streams DFO (out-of-order check regression),customer case,ACD/contact state,P2,5
+AOR-9450,M1,Out-of-order or stale event overwrites newer state,Routing requeue vs contact end,customer case,stuck/lost contact,P2,5
+AOR-13256,M1,Out-of-order or stale event overwrites newer state,AFM skill events (subsequence check),customer case,routing/skill/queue,P2,21
+AOR-15089,M1,Out-of-order or stale event overwrites newer state,OBMS SkillRoutable ON/OFF,customer case,dialer/outbound,P2,6
+EM-137706,M1,Out-of-order or stale event overwrites newer state,VC ContactStateChange vs gRPC response,customer case,digital routing,P2,1
+VOL-8376,M2,"Concurrent update of in-memory state in VC (double delivery, stale object, unsafe shared data)",VC queue info cache + FindMatch,customer case,stuck/lost contact,P4,2
+ORC-52711,M2,"Concurrent update of in-memory state in VC (double delivery, stale object, unsafe shared data)",VC agent session delivery flag,customer case,routing/skill/queue,P2,1
+AOR-10487,M2,"Concurrent update of in-memory state in VC (double delivery, stale object, unsafe shared data)",Contact Retry in-memory contact (stale skill),customer case,transfer/conference,P2,2
+ORC-53647,M2,"Concurrent update of in-memory state in VC (double delivery, stale object, unsafe shared data)",VC MasterVariables shared dictionary,major incident,routing/skill/queue,P4,17
+ORC-53838,M2,"Concurrent update of in-memory state in VC (double delivery, stale object, unsafe shared data)",VC PrepareForInbound trigger order,customer case,routing/skill/queue,P2,4
+ORC-52396,M2,"Concurrent update of in-memory state in VC (double delivery, stale object, unsafe shared data)",VC agent global variable reset,customer case,routing/skill/queue,P2,1
+VOL-9036,M2,"Concurrent update of in-memory state in VC (double delivery, stale object, unsafe shared data)",VC in-memory queue vs FindMatch (repeated ReqAgent),major incident,stuck/lost contact,P2,1
+ORC-47645,M3,Event lost or not published / consumer stopped,VC ContactRoutable not published to FindMatch,customer case,routing/skill/queue,P2,3
+AOR-13364,M3,Event lost or not published / consumer stopped,VC -> Kinesis event drop (AgentSession),customer case,routing/skill/queue,P2,2
+EM-158368,M3,Event lost or not published / consumer stopped,State Streams Kinesis consumer (dependency upgrade),customer case,stuck/lost contact,P2,0
+EM-158691,M3,Event lost or not published / consumer stopped,State Streams KDA restart loop,customer case,stuck/lost contact,P1,8
+AOR-9567,M3,Event lost or not published / consumer stopped,Contact Retry cluster list (events skipped),customer case,stuck/lost contact,P2,2
+ORC-55399,M3,Event lost or not published / consumer stopped,VC contact end reason not sent on logout,customer case,ACD/contact state,P2,1
+ORC-51076,M4,Match or delivery state not cleared after reject / timeout,VC wakeup queue / Sleeping state,customer case,stuck/lost contact,P2,1
+AOR-15178,M4,Match or delivery state not cleared after reject / timeout,VC lastMatched not cleared after reject,customer case,stuck/lost contact,P2,1
+VOL-8236,M4,Match or delivery state not cleared after reject / timeout,Agent script SUBMITDATA with missing script,customer case,stuck/lost contact,P2,6
+ORC-52995,M5,"Capacity or throughput saturation (threads, rate limits, blocking calls)",VC blocking thread limit,major incident,routing/skill/queue,P2,1
+ORC-54317,M5,"Capacity or throughput saturation (threads, rate limits, blocking calls)",VC REST max execution threads,major incident,IVR/Studio script,P2,1
+AOR-10768,M5,"Capacity or throughput saturation (threads, rate limits, blocking calls)",Resolver Kinesis read limit,customer case,routing/skill/queue,P1,94
+AOR-15057,M5,"Capacity or throughput saturation (threads, rate limits, blocking calls)",Agent Capacity blocking REST call in stream,customer case,digital routing,P2,2
+ORC-47954,M5,"Capacity or throughput saturation (threads, rate limits, blocking calls)",Customer snippet compute time (toggle),customer case,routing/skill/queue,P2,0
+AAD-47498,M5,"Capacity or throughput saturation (threads, rate limits, blocking calls)",Stored procedure cost (agent list API),major incident,ACD/contact state,P2,1
+AAD-38815,M6,Non-race logic or data bug in ACD state (out of SO-1 scope),Agent list division filter,customer case,ACD/contact state,P2,1
+EM-162801,M6,Non-race logic or data bug in ACD state (out of SO-1 scope),Malformed interaction ID validation,customer case,ACD/contact state,P2,1
+AAD-47814,M6,Non-race logic or data bug in ACD state (out of SO-1 scope),User sync job setting change,customer case,ACD/contact state,P1,1
+AAD-49931,M6,Non-race logic or data bug in ACD state (out of SO-1 scope),User sync stored procedure default,customer case,ACD/contact state,P2,2
+AAD-50039,M6,Non-race logic or data bug in ACD state (out of SO-1 scope),Agents API input validation,customer case,ACD/contact state,P2,1
+EM-172483,M6,Non-race logic or data bug in ACD state (out of SO-1 scope),MCH state change time not refreshed,customer case,ACD/contact state,P2,1
+ORC-52345,M6,Non-race logic or data bug in ACD state (out of SO-1 scope),VCSvc build dependency (Extensions 9.0.9),customer case,ACD/contact state,P2,2
+EM-172332,M6,Non-race logic or data bug in ACD state (out of SO-1 scope),Feature toggle default,customer case,stuck/lost contact,P2,1
+ORC-55190,M6,Non-race logic or data bug in ACD state (out of SO-1 scope),Login report client type,customer case,ACD/contact state,P3,1
+EM-161103,M7,Unknown: RCA not filled,unknown,customer case,stuck/lost contact,P2,1
+EM-161102,M7,Unknown: RCA not filled,unknown,customer case,stuck/lost contact,P2,2
+ORC-52982,M7,Unknown: RCA not filled,unknown,alert (xMatters),ACD/contact state,P1,3
+ORC-54265,M7,Unknown: RCA not filled,unknown,major incident,stuck/lost contact,P4,18
+ORC-54253,M7,Unknown: RCA not filled,unknown,major incident,stuck/lost contact,P2,3
+ORC-54264,M7,Unknown: RCA not filled,unknown,customer case,stuck/lost contact,P4,1
+ORC-54332,M7,Unknown: RCA not filled,unknown,major incident,ACD/contact state,P2,1
+AOR-16117,M7,Unknown: RCA not filled,unknown,customer case,stuck/lost contact,P2,1
+ORC-55108,M7,Unknown: RCA not filled,unknown,major incident,stuck/lost contact,P2,1
+VOL-11525,M7,Unknown: RCA not filled,unknown,major incident,stuck/lost contact,P2,11
+ORC-55466,M7,Unknown: RCA not filled,unknown,customer case,ACD/contact state,P1,1
+AOR-16923,M7,Unknown: RCA not filled,unknown,major incident,stuck/lost contact,P2,1
+ORC-55832,M7,Unknown: RCA not filled,unknown,major incident,ACD/contact state,P4,1
