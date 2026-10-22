@@ -1,0 +1,34 @@
+metric,segment,period,value,note
+label_AGENTIC_AI_CODE_issues,all types,all time,41056,exact count
+label_AGENTIC_AI_CODE_issues,created,<2025,587,retro labeling (e.g. 2017 epics)
+label_AGENTIC_AI_CODE_issues,created,2025,3739,exact
+label_AGENTIC_AI_CODE_issues,created,2026 to 10-22,36730,exact
+label_AGENTIC_AI_CODE_issues,Story,all time,17360,exact
+label_AGENTIC_AI_CODE_issues,Epic,all time,5757,exact
+label_AGENTIC_AI_CODE_issues,Bug,all time,2314,exact
+label_AGENTIC_AI_CODE_issues,Sub-task,all time,1829,exact
+label_AGENTIC_AI_CODE_issues,other types,all time,13796,derived (total minus listed)
+field_ImplementedByAIAgent_Yes,all types,all time,48044,cf[15229]=Yes exact
+cfb_with_AGENTIC_AI_CODE,CFB,all time,114,exact
+cfb_with_any_ai_label,CFB,all time,163,9 label variants exact
+stories_resolved_ai,Story,2025-Q1,43,AI indicator = label set OR cf[15229]=Yes
+stories_resolved_ai,Story,2025-Q2,58,
+stories_resolved_ai,Story,2025-Q3,92,
+stories_resolved_ai,Story,2025-Q4,454,
+stories_resolved_ai,Story,2026-Q1,2587,
+stories_resolved_ai,Story,2026-Q2,9900,
+stories_resolved_ai,Story,2026-Q3,9813,
+stories_resolved_total,Story,2025-Q1,19883,from cfb-quarterly.csv
+stories_resolved_total,Story,2025-Q2,22676,
+stories_resolved_total,Story,2025-Q3,23573,
+stories_resolved_total,Story,2025-Q4,22847,
+stories_resolved_total,Story,2026-Q1,25472,
+stories_resolved_total,Story,2026-Q2,31595,
+stories_resolved_total,Story,2026-Q3,42960,
+changelog_label_added_after_bug_created,CFB sample,2026,7 of 7,label + AI Model Used set during/after fix work
+changelog_label_added_after_resolution,CFB sample,2026,2 of 7,retro tagging
+cfb_with_causing_key_in_RCA,fixed CFB created 2026,2026,31 of 100,RCA "How was it introduced" names a Jira key
+cfb_with_defect_or_causedby_link,fixed CFB created 2026,2026,3 of 100,Jira links rarely used
+cfb_with_defect_or_causedby_link,CFB W_last,2025-10-22..2026-10-22,47 of 1760,2.7%
+causing_items_ai_indicator,causing items (all),any,11 of 40,27.5%
+causing_items_ai_indicator,causing items resolved 2026,2026,9 of 27,33% vs 22% AI share of 2026 resolved stories; n small

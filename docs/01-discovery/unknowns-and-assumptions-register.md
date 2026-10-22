@@ -24,6 +24,12 @@
 | U-16 | Project re-homing map (AW, DE to CXDV, CSA?) | Jira admin | Jira project history | R2b | Gate 3 - No | Open |
 | U-17 | Meaning of AI labels on bugs (AI caused vs AI fixed), who applies them | Eng. leadership / AI platform | Label owners, sample review | R7 | H-11 test - Yes | Open |
 
+| U-18 | Location of XCX Quality Process doc | QA leadership | Confluence | Ask / search | No | Open |
+| U-19 | Story size trend (AI work split into smaller stories?) | Research | Jira story points / cycle time | R10 | Gate 2 - No | Open |
+| U-20 | Is the CI Sonar quality gate blocking? | DevOps | CI config | Access request | Gate 4 - Yes | Open |
+
+Closed 2026-10-22: **U-13** (imports ENG, CGY - F6). **U-17** (AI label = AI fix; attribution via cf_15229 - F7).
+
 Status updates 2026-10-22: U-01, U-02 (scope part), U-05, U-06 handled by interim decisions D-005, D-006. They stay open for sponsor confirmation.
 
 ## 2. Assumptions
@@ -43,4 +49,8 @@ Status updates 2026-10-22: U-01, U-02 (scope part), U-05, U-06 handled by interi
 | C-01 | Absolute CFB and P1/P2 volume up (+51%, +72% H1 YoY) while CFB per resolved story down (-33% Q3 YoY). | SRC-001 | Open: depends on quality definition (U-05) |
 | C-02 | Project-level CFB shifts (AW, DE down; CXDV, CSA up) look like re-homing, not quality change. | SRC-001 | Open: U-16 |
 | C-03 | Jira EOR template: "Rollback not applicable for monolith". WIP DoD: "Deploy and rollback verified". | SRC-001, SRC-013 | Open |
-| C-04 | AI labels on 9% of CFBs vs 0 RCAs naming AI as cause. | SRC-001 | Open: U-17 |
+| C-04 | AI labels on 9% of CFBs vs 0 RCAs naming AI as cause. | SRC-001 | Resolved: labels mark AI fix, not cause (F7) |
+| C-05 | Go/No-Go template has 9 mandatory exit criteria; all 26.4 domain pages show "TBD". | SRC-002 | Open |
+| C-06 | Jira has ~15 quality fields; 9 are under 2% filled. | SRC-001 | Open: policy vs practice |
+
+C-01 update 2026-10-22: weaker after import correction (F6). Q2 per-story +38%, Q3 -15%.

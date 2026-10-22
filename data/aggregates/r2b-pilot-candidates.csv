@@ -1,0 +1,32 @@
+section,candidate,vp,metric,w_prev,w_last,change_pct,note
+team,Orchestration II,Orchestration Core,cfb,18,66,267,prev exact
+team,Orchestration,Orchestration Core,cfb,31,58,87,prev exact
+team,Advanced Omnichannel Routing,Orchestration Core,cfb,23,40,74,prev exact
+team,ACD Admin Pune+Bolivia,Orchestration Core,cfb,50,43,-14,prev exact; Pune 31 + Bolivia 12 in w_last (rename shift)
+team,Advanced Omnichannel Routing II,Orchestration Core,cfb,6,24,300,prev sample
+team,Hornet,Analytics and Data,cfb,85,74,-13,prev exact
+team,Data-Sandy,Analytics and Data,cfb,14,56,300,prev exact
+team,Dragonfly,Analytics and Data,cfb,3,39,1200,prev sample
+team,Agni,Analytics and Data,cfb,0,38,new,prev sample; new team name
+team,Reporting-CBBA+Pune,Analytics and Data,cfb,89,65,-27,prev exact
+team,Waves,Analytics and Data,cfb,2,32,1500,prev sample
+team,Titans,Analytics and Data,cfb,0,32,new,prev sample; new team name
+team,Better Calls Devs,WFM,cfb,22,71,223,prev exact
+team,Nexus,WFM,cfb,0,38,new,prev sample; new team name
+team,Bugcide Squad,WFM,cfb,24,28,17,prev exact
+team,Diamonds,WFM,cfb,1,19,1800,prev sample
+vp,Orchestration Core,Orchestration Core,p1p2,98,207,111,share w_prev 58% w_last 70%
+vp,Analytics and Data,Analytics and Data,p1p2,188,324,72,share w_prev 61% w_last 68%
+vp,WFM,WFM,p1p2,56,183,227,share w_prev 43% w_last 65%
+vp,Orchestration Core,Orchestration Core,incidents_sum_w_last,,1123,,avg 3.8; 57 CFBs with 5+ (19%)
+vp,Analytics and Data,Analytics and Data,incidents_sum_w_last,,1478,,avg 3.1; 79 CFBs with 5+ (17%)
+vp,WFM,WFM,incidents_sum_w_last,,568,,avg 2.0; 15 CFBs with 5+ (5%)
+theme,Stuck/lost contacts,multi,cfb,92,127,38,P1/P2 87 (69%) w_last; A&D 78 / Orch Core 39 / WFM 5 / other 5; inc avg 1.8
+theme,Stuck/lost contacts,multi,cfb_per_year,,,,<2024: 23; 2024: 3; 2025: 153; 2026 YTD: 66 (waves Aug-Sep 2025 and Dec 2025)
+theme,Routing,multi,cfb,40,106,165,P1/P2 66 (62%) w_last; Orch Core 58 / AHW 18 / A&D 9 / other 21
+theme,Reporting/data (summary keywords),multi,cfb,341,534,57,too broad for a bounded flow
+score,Orchestration Core,,total_of_50,,37,,density 4 crit 5 growth 4 boundary 1
+score,Analytics and Data,,total_of_50,,35,,density 5 crit 4 growth 3 boundary 1
+score,Routing flow,,total_of_50,,35,,density 2 crit 3 growth 5 boundary 5
+score,WFM,,total_of_50,,33,,density 4 crit 3 growth 5 boundary 1
+score,Stuck/lost contacts flow,,total_of_50,,29,,density 2 crit 3 growth 2 boundary 5

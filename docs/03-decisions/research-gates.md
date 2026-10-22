@@ -10,8 +10,8 @@ Do not advance without recording gate status here. Solution design starts only a
 |---|---|---|---|---|
 | G0 | Charter Alignment | PASSED (interim) | Scope set by research (D-005, D-006). Sponsor (U-02) and data rule (U-04) still open, interim rule D-004 applies. | 2026-10-22 |
 | G1 | Evidence Access | PARTIAL | Jira + Confluence confirmed. Git org, Sonar, CI/CD, incidents, AI telemetry open (U-09). | 2026-10-22 |
-| G2 | Problem Definition | PARTIAL | Trend + concentration + escape causes have evidence. Open: U-13, U-14, U-15, U-17, R5b. | 2026-10-22 |
-| G3 | Risk and Scope Selection | OPEN | Candidates in D-009. Needs R2b + R3. | 2026-10-22 |
+| G2 | Problem Definition | PARTIAL | Problem statement v2. Open: R8 (AI vs non-AI), U-14, R5b. | 2026-10-22 |
+| G3 | Risk and Scope Selection | PASSED (interim) | Pilot D-010. R3 hotspots (Git) still needed for the deep dive. | 2026-10-22 |
 | G4 | Solution Readiness | OPEN | See criteria | 2026-10-22 |
 
 ## Gate criteria
@@ -55,3 +55,5 @@ Do not advance without recording gate status here. Solution design starts only a
 | 2026-10-22 | G0 | PASSED (interim): lead delegated scope (D-005); scope and quality definition set (D-006) | Research |
 | 2026-10-22 | G1 | PARTIAL: Jira and Confluence read access confirmed | Research |
 | 2026-10-22 | G2 | PARTIAL: findings round 1 + problem statement v1 | Research |
+| 2026-10-22 | G2 | PARTIAL: findings round 2 + problem statement v2; U-13, U-17 closed | Research |
+| 2026-10-22 | G3 | PASSED (interim): pilot D-010 | Research |

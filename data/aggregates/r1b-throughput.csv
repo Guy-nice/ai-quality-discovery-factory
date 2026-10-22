@@ -1,0 +1,21 @@
+metric,quarter,raw,excluded_component,excluded_count,adjusted,note
+bugs_created,2023-Q4,4587,-,0,4587,baseline
+bugs_created,2024-Q1,10993,project ENG bulk load (4738 created 2024-01-01..07; 0 in 2023-Q4),5088,5905,ENG first bugs ever in 2024-Q1
+bugs_created,2024-Q2,6155,-,0,6155,
+bugs_created,2025-Q3,5866,-,0,5866,baseline
+bugs_created,2026-Q2,10095,project CGY,27,10068,
+bugs_created,2026-Q3,18014,project CGY (new; 0 bugs before 2026-Q2; 5441 labeled ado-bug = Azure DevOps import),6363,11651,
+bugs_created_ai_auto_ci_labels,2025-Q3,70,-,0,70,labels AGENTIC_AI_CODE* / AGENT_AI_CODE / AI-Assisted / mcp-auto-generated / Automation_Generated / CICD_FAIL_BUG / SprintFaliure
+bugs_created_ai_auto_ci_labels,2026-Q3,2367,project CGY excluded,-,2367,
+stories_resolved,2024-Q3,17949,-,0,17949,baseline
+stories_resolved,2025-Q3,23573,-,0,23573,CGY not present
+stories_resolved,2026-Q2,31595,project CGY,6,31589,
+stories_resolved,2026-Q3,42960,project CGY (import of done items),8967,33993,
+stories_resolved_ai_labels,2024-Q3,13,-,-,13,labels AGENTIC_AI_CODE / _100 / AGENT_AI_CODE / AI-Assisted / ai-metrics-updated
+stories_resolved_ai_labels,2026-Q3,5898,-,-,5898,
+stories_resolved_new_projects,2026-Q3,1386,CXCA+CXIFW (0 in 2024-Q3),-,1386,
+cfb_per_100_stories,2024-Q3,1.97,-,-,1.97,CFB 354
+cfb_per_100_stories,2025-Q2,1.22,-,-,1.22,CFB 276 / 22676
+cfb_per_100_stories,2025-Q3,1.62,-,-,1.62,CFB 383
+cfb_per_100_stories,2026-Q2,1.68,CGY,-,1.68,CFB 532 / 31589
+cfb_per_100_stories,2026-Q3,1.09,CGY,-,1.38,CFB 468 (CGY CFB = 0) / 33993

@@ -36,6 +36,20 @@
 | R6 | Controls inventory: for each check (RIA field, RCA field, EOR, Sonar, CI gates), record Suggested / Policy / Real control and fill rate | Controls map |
 | R7 | AI attribution: sample 50 AI-labeled CFBs, find who applies the labels and what they mean (U-17) | AI label semantics |
 
+### Status update 2026-10-22 (round 2)
+
+| ID | Status / next | Output |
+|---|---|---|
+| R1b | Done | [F6](findings-round-2.md) |
+| R2b | Done; pilot D-010 | [F9](findings-round-2.md) |
+| R6 | Done | [F8](findings-round-2.md) |
+| R7 | Done | [F7](findings-round-2.md) |
+| R8 | **Next.** Extract causing keys from RCA of all fixed CFBs 2025-2026; CFB rate AI vs non-AI stories, by quarter and team | Gate 2 |
+| R9 | **Next.** Pilot deep dive: all Orchestration Core CFB RCAs (W_last), escape-cause profile, routing flow components, incidents | Gate 4 input |
+| R5b | Second rater on 40 RCAs + 2026-H1 sample | Agreement rate |
+| R3 | Blocked: Git org access (pilot repos) | Hotspots |
+| R10 | Story size / cycle time trend (U-19) | Denominator quality |
+
 ## 3. Pilot selection criteria (Gate 3)
 
 Pilot area = one bounded business flow or domain. Score candidates on:
