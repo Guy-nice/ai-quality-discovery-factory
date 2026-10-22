@@ -17,13 +17,14 @@ Solution design starts only after Gate 4 passes. See [research gates](docs/03-de
 
 | Item | Value |
 |---|---|
-| Phase | Discovery - Problem definition |
-| Gates | G0 PASSED (i), G1 PARTIAL, G2 PARTIAL, G3 PASSED (i), G4 OPEN |
-| Problem statement | [v2](docs/00-charter/problem-statement-v2.md) |
-| Latest findings | [Round 1](docs/02-research/findings-round-1.md), [Round 2](docs/02-research/findings-round-2.md) |
-| Last session | [Session 03 - 2026-10-22](docs/99-sessions/2026-10-22-session-03.md) |
+| Phase | Discovery - Gate 4 preparation |
+| Gates | G0 PASSED (i), G1 PARTIAL, G2 PASSED (i), G3 PASSED (i), G4 OPEN |
+| Problem statement | [v3](docs/00-charter/problem-statement-v3.md) |
+| Latest findings | [Round 1](docs/02-research/findings-round-1.md), [Round 2](docs/02-research/findings-round-2.md), [Round 3](docs/02-research/findings-round-3.md) |
+| Last session | [Session 04 - 2026-10-22](docs/99-sessions/2026-10-22-session-04.md) |
 | History | [Iteration log](docs/99-sessions/iteration-log.md), [Full history](docs/99-sessions/full-history.md) |
-| Pilot | Orchestration Core - contact routing and lifecycle flow (D-010) |
+| Pilot | Orchestration Core - contact routing and lifecycle flow (D-010, D-016) |
+| Database | [data/db](data/db/README.md) - `quality.sqlite` |
 
 ## Repository structure
 
@@ -36,6 +37,8 @@ Solution design starts only after Gate 4 passes. See [research gates](docs/03-de
 | `docs/99-sessions/` | One log per working session: inputs, outputs, decisions, open items |
 | `data/aggregates/` | Aggregated counts and label-only classifications, with exact JQL and method per dataset |
 | `scripts/analysis/` | Scratch analysis scripts used to make the aggregates |
+| `scripts/db/` | DB schema, loader, R8 / R9 analysis scripts |
+| `data/db/` | Research database (see README) |
 | `docs/99-sessions/agent-reports/` | Verbatim reports of research agents |
 | `docs/99-sessions/replies/` | Verbatim long replies |
 

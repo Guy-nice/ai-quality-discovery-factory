@@ -50,6 +50,19 @@
 | R3 | Blocked: Git org access (pilot repos) | Hotspots |
 | R10 | Story size / cycle time trend (U-19) | Denominator quality |
 
+### Status update 2026-10-22 (round 3)
+
+| ID | Status / next | Output |
+|---|---|---|
+| R8 | Done: RR about 1.0 | [F10](findings-round-3.md), [R8](r8-ai-vs-non-ai.md) |
+| R9 | Done | [F11](findings-round-3.md), [R9](r9-pilot-orchestration-core.md) |
+| R5b | Partial (Claude vs Claude 79%); human rater open (U-22) | F12 |
+| R3 | **Next (unblocked for services).** Churn x CFB hotspots for AFM, VFM, contact-retry, agent-capacity; monolith needs TFS | Hotspot map |
+| R11 | **Next.** Test PH-2: CFB timeline vs migration dates (VFM->AFM, Voltron, State Streams, .NET) | Migration impact |
+| R12 | **Next (human).** SME validation of PH-1..PH-5 + 20 RCAs | Gate 4 |
+| R13 | **Next.** Gate 4 package: baseline metrics, constraints, success criteria draft | Gate 4 |
+| R14 | Knowledge concentration (P-05) from Git ownership in pilot repos | Bus factor |
+
 ## 3. Pilot selection criteria (Gate 3)
 
 Pilot area = one bounded business flow or domain. Score candidates on:

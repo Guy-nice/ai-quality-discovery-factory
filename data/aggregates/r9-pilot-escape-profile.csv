@@ -1,0 +1,13 @@
+escape_cause,pilot_n,pilot_pct,pilot_inflow_n,pilot_inflow_pct,other_vp_r5_n,other_vp_r5_pct
+missing test coverage,30,27.8,21,29.2,49,27.2
+scale/performance/concurrency/race,28,25.9,21,29.2,19,10.6
+deployment/release process,10,9.3,7,9.7,14,7.8
+environment/config/data difference,10,9.3,5,6.9,13,7.2
+requirements/spec gap,9,8.3,3,4.2,13,7.2
+regression from recent change (RIA miss),8,7.4,8,11.1,29,16.1
+legacy/unknown behavior,8,7.4,4,5.6,4,2.2
+unclear/not stated,3,2.8,1,1.4,17,9.4
+third-party/integration/dependency,1,0.9,1,1.4,11,6.1
+monitoring gap,1,0.9,1,1.4,4,2.2
+test existed but ineffective,0,0.0,0,0.0,7,3.9
+TOTAL,108,100,72,100,180,100

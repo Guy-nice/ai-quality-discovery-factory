@@ -1,0 +1,13 @@
+sub_flow,w_prev,w_last,change_pct,p1p2_pct_last,incidents_sum_last,incidents_avg_last,incidents_5plus_pct_last,median_days_to_fix_last,invalid_pct_last,open_last,rca_classified_last,top_escape_causes,legacy_pct_classified,regression_yes_pct_classified,fix_ria_filled_pct,ai_label_last
+ALL Orchestration Core,170,296,74,70,1123,3.8,19,9,42,32,108,missing test coverage 30; scale/performance/concurrency/race 28; environment/config/data difference 10,20,32,83,39
+ALL in-flow scope,123,218,77,71,817,3.7,17,12,44,26,72,missing test coverage 21; scale/performance/concurrency/race 21; regression from recent change (RIA miss) 8,17,36,80,22
+routing/skill/queue,39,58,49,67,411,7.1,26,28,47,9,18,scale/performance/concurrency/race 10; requirements/spec gap 2; regression from recent change (RIA miss) 2,22,22,68,4
+admin/config/API,36,39,8,59,81,2.1,18,5,28,2,25,missing test coverage 7; requirements/spec gap 5; scale/performance/concurrency/race 4,36,24,92,14
+stuck/lost contact,12,57,375,70,110,1.9,12,10.0,49,7,12,scale/performance/concurrency/race 6; environment/config/data difference 2; regression from recent change (RIA miss) 1,0,50,71,3
+ACD/contact state,22,40,82,68,134,3.4,18,5.0,58,5,8,missing test coverage 4; regression from recent change (RIA miss) 2; deployment/release process 1,0,38,88,6
+IVR/Studio script,16,27,69,74,44,1.6,7,9,30,2,15,missing test coverage 6; environment/config/data difference 2; legacy/unknown behavior 2,40,53,80,6
+digital routing,18,22,22,82,56,2.5,18,11,27,2,13,missing test coverage 6; scale/performance/concurrency/race 2; deployment/release process 2,15,31,100,2
+other,7,24,243,79,116,4.8,25,6.0,54,3,4,missing test coverage 1; environment/config/data difference 1; scale/performance/concurrency/race 1,0,25,100,2
+reporting/dashboard,4,15,275,67,109,7.3,40,5,27,1,7,scale/performance/concurrency/race 2; deployment/release process 2; environment/config/data difference 1,14,29,78,1
+dialer/outbound,8,9,12,67,56,6.2,33,22.5,44,1,2,missing test coverage 1; scale/performance/concurrency/race 1,0,0,50,0
+transfer/conference,8,5,-38,100,6,1.2,0,17.5,20,0,4,missing test coverage 1; scale/performance/concurrency/race 1; regression from recent change (RIA miss) 1,0,25,100,1

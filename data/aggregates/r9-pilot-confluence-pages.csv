@@ -1,0 +1,31 @@
+page_id,space,title,last_modified,topic,purpose,summary_1line,pulled_by
+4072866234,IN,Findmatch Testing Gap Analysis Summary (Unit / Integration / E2E),2026-08-27,test gaps,analysis,"35 gaps (3 critical): no real Kafka/DB integration test, no concurrency test for claim retry, ~half of Playwright E2E suite fixme/skip, no CI skip visibility, no coverage gate.",R9
+1903493964,IN,AFM - Advanced FindMatch,2026-09-14,architecture,design,AFM = new Kafka Streams + Aurora matching service; outbound-matching sibling added 2026-08.,R9
+4076208133,IN,VFM (app-findmatch): Current Data Flow,2026-08-27,architecture,design,"VFM = legacy Scala/Akka/Kinesis matching service, still live in parallel with AFM.",R9
+1903363038,IN,AFM - State Aggregator,2026-08-27,architecture,design,State Aggregator feeds AFM from shared topics; documents SKILL_ACTIVATE quirk and feedback loop.,R9
+1903853586,IN,AFM - Blender Service,2026-09-14,architecture,design,"Blender service page, rewritten and source-verified 2026-09-14.",R9
+1903820843,IN,AFM - Match Distributor,2026-09-14,architecture,design,Match Distributor service page.,R9
+4076339502,IN,Contact Retry: Event Processing & Retry-Loop Logic,2026-08-27,architecture,design,Contact Retry = standalone Kafka Streams + PostgreSQL + Kinesis service tapping shared input topic.,R9
+4072014111,IN,Advanced Findmatch (AFM): Generic Rollback Plan,2026-08-26,release,runbook,Rollback for ~20 regional AFM deployments; afmEnabled flag decides AFM vs VFM per BU.,R9
+232817176,CXONE,EOR: routing-ng-advanced-findmatch,2026-10-20,readiness,EOR,Evidence of Readiness page for AFM microservice.,R9
+4246340207,IN,AFM Alarm RunBook,2026-10-14,operations,runbook,First-pass triage of AFM production alerts (Kinesis iterator age and dependencies).,R9
+4221010179,IN,AFM Chaos scenarios,2026-10-08,resilience,test plan,"5 chaos scenarios, 14 tests for AFM.",R9
+4086694457,IN,AFM Services Chaos Testing Plan - PFOR Environment,2026-08-31,resilience,test plan,32 chaos tests in 6 phases; status NOT STARTED at last edit.,R9
+4231365389,IN,"2.4 Latency on AFM services, 10mins",2026-10-08,resilience,test result,"50 ms injected latency for 10 min: matches fell ~60%, backlog grew.",R9
+4185359041,IN,New Region/Cluster Setup - Omnichannel Routing (FindMatch),2026-09-29,operations,runbook,Routing-specific steps for new region / cluster bring-up.,R9
+4076470826,IN,RUNBOOK: VFM Load Test with Cortex XDR (perf),2026-08-27,performance,runbook,Load test on legacy VFM to measure security agent CPU cost.,R9
+4228809169,IN,Tenant Migration - Impact Assessment - Team Advanced Omnichannel Routing,2026-10-16,change,impact assessment,Impact of moving tenants between ACD clusters.,R9
+3873800676,CXONE,Stuck Contact/Agent,2026-10-21,stuck contacts,support response,Standard support response: scheduled stuck-contact cleanup per region.,R9
+4256301562,CXONE,Stuck Contact - Resolved Swarms,2026-10-21,stuck contacts,swarm log,"Auto-maintained CSV of resolved stuck-contact swarms; many root causes 'unknown', resolution = manual cleanup.",R9
+4256006416,CVWCX,Weekly RCA for Stuck contacts,2026-10-16,stuck contacts,RCA tracker,"Weekly RCA meeting tracker for stuck contacts (alarm gaps, TTL changes).",R9
+4252663877,IN,27.1 Stuck Contacts Cleanup Automation sync for old prod regions,2026-10-20,stuck contacts,deployment,"Cleanup automation deployed to data lake util namespace (symptom cleanup, not cause fix).",R9
+4258234458,IN,02919770 (P1) Possible stuck contacts and agent sessions,2026-10-16,incident,MI page,"P1 MI, NA1 C18, multiple BUs, stuck contacts and agent sessions.",R9
+4150689943,IN,Voltron PHASE 1 Cache Conversion,2026-10-21,change,runbook,Cluster cache conversion to new NCache ID and MessagePack serialization.,R9
+4232414340,CXONE,2026 Voltron Build Status Summary,2026-10-21,change,tracker,Per-cluster Voltron decoupling build schedule (ongoing in 2026-10).,R9
+4011033522,IN,Voltron Resilience Experiments Plan,2026-10-01,resilience,test plan,Voltron resilience experiments under Game Days program.,R9
+4213309445,IN,Voltron Customer-Centric SLIs and SLOs,2026-10-02,observability,SLO,Voltron uses ACD customer-journey SLIs from VCSvc.,R9
+3631251647,IN,Architecture for KDA to EKS Deployment of State Stream Transformers,2026-10-15,architecture,design,"State Streams = Flink pipeline transforming EM, VC and DFO events; migrating KDA to EKS.",R9
+4170678316,IN,State-Streams EKS - Keeping KDA and EKS Transformers in Sync,2026-09-22,change,process,EKS repos are one-way forks of KDA repos; un-ported change = silent divergence.,R9
+4256694278,IN,State-Streams EKS - Rollback Plan (EKS -> KDA),2026-10-16,release,runbook,Rollback plan; EKS rollback restarts a 92-day soak.,R9
+3795157075,CXONE,EOR: orch-entity-state-streams-unified-disposition,2026-09-21,architecture,EOR,Flink app merging EM (Kafka) and legacy VC (Kinesis) disposition events.,R9
+4041444339,IN,Telephony Feature Service (TFS) <-> Entity Management (EM) Integration,2026-09-22,architecture,design,New TFS service replacing VC telephony features; integration draft.,R9

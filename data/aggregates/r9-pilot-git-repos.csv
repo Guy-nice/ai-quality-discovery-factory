@@ -1,0 +1,14 @@
+org,repo,pushed_at,language,access,commits_12m,role
+inContact,routing-ng-advanced-findmatch,2026-10-22,Java,read,254,AFM matching (new)
+inContact,app-findmatch,2026-08-24,Scala,read,20,VFM matching (legacy)
+inContact,routing-ng-contact-retry,2026-10-13,Java,read,182,contact retry
+inContact,orchestration-resolver,2026-08-24,Java,read,36,resolver
+inContact,routing-ng-agent-capacity-service,2026-10-16,Java,read,222,agent capacity
+inContact,routing-ng-blender,2026-10-19,Java,read,97,blender
+inContact,routing-ng-match-distributor,2026-10-22,Java,read,90,match distributor
+inContact,orch-entity-agent,2026-10-16,Go,read,26,EM agent entity
+inContact,orch-entity-orchestration,2026-10-20,Go,read,13,EM orchestration
+inContact,orch-entity-state-streams-common,2026-10-20,Java,read,26,state streams common
+inContact,routing-ng-integration-tests,2026-10-22,Java,read,312,integration tests
+inContact,acd-playwright-e2e,2026-10-22,TypeScript,read,1294,E2E tests
+(TFS - not GitHub),"VC monolith (VCSvc, ScriptHelper, WebScripting, stored procedures)",,"C#/.NET, T-SQL",not found in GitHub,,legacy monolith; RCAs cite TFS changesets

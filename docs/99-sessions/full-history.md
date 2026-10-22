@@ -101,3 +101,20 @@ Short version: [iteration-log.md](iteration-log.md).
 - Raw /tmp scratch data deleted.
 
 **Files:** agent-reports/*, replies/iteration-01-reply.md, scripts/analysis/*, iteration-log, full-history, README. **Commit:** see iteration-log row 6.
+
+---
+
+## Iteration 7 - 2026-10-22
+
+**Prompt (verbatim):**
+> continue with next steps R8 and R9 all need documented and all data that pull saved as DB
+
+**Result:**
+- Conflict noted: raw text holds customer data. Solution (D-014): `quality.sqlite` structured, committed; `raw_local.sqlite` + `data/raw/` text, gitignored.
+- DB: schema + loader (`scripts/db/`). Tables: issues 3,292+, issue_links 3,229, causal_links 475, rca_class 321, flow_tags 466, jql_counts 50, query_log 52, confluence_pages 30, git_repos 13, agg_* 15.
+- R8: causing key from RCA text (26% of fixed CFBs, precision 95%). AI vs non-AI RR: crude 1.39 (0.75-2.59); reviewed-only 1.03 (0.57-1.86). P-04 not supported per change (Low-Medium). AI = volume driver (D-015).
+- R9: pilot 466 CFBs. Flow 123 -> 218 (+77%). Routing 7.1 incidents per CFB. Stuck/lost +375%. Race escapes 26% (pilot) vs 11%. Legacy named 20%. Hypotheses PH-1..PH-5. Findmatch gap analysis: no concurrency / real-Kafka tests. Git `inContact` read access; monolith in TFS.
+- Partial R5b: Claude vs Claude agreement 79% (escape cause). Human rater needed.
+- Problem statement v3; findings round 3; G2 PASSED (interim); D-014..D-016.
+
+**Files:** scripts/db/*, data/db/*, data/aggregates/r8-*, r9-*, docs/02-research/r8-*, r9-*, findings-round-3, problem-statement-v3, session-04, agent-reports round 3; updates to register, inventory, plan, gates, decisions, README. **Commit:** see iteration-log row 7.

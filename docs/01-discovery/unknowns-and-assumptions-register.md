@@ -27,6 +27,8 @@
 | U-18 | Location of XCX Quality Process doc | QA leadership | Confluence | Ask / search | No | Open |
 | U-19 | Story size trend (AI work split into smaller stories?) | Research | Jira story points / cycle time | R10 | Gate 2 - No | Open |
 | U-20 | Is the CI Sonar quality gate blocking? | DevOps | CI config | Access request | Gate 4 - Yes | Open |
+| U-21 | TFS access for VC monolith source (hotspots, churn) | DevOps / Orchestration Core GL | TFS | Access request | Gate 4 - Yes | Open |
+| U-22 | Human SME validation of PH-1..PH-5 and of 20 RCA classifications | Orchestration Core architects / QA lead | Interviews | R12 | Gate 4 - Yes | Open |
 
 Closed 2026-10-22: **U-13** (imports ENG, CGY - F6). **U-17** (AI label = AI fix; attribution via cf_15229 - F7).
 
@@ -52,5 +54,6 @@ Status updates 2026-10-22: U-01, U-02 (scope part), U-05, U-06 handled by interi
 | C-04 | AI labels on 9% of CFBs vs 0 RCAs naming AI as cause. | SRC-001 | Resolved: labels mark AI fix, not cause (F7) |
 | C-05 | Go/No-Go template has 9 mandatory exit criteria; all 26.4 domain pages show "TBD". | SRC-002 | Open |
 | C-06 | Jira has ~15 quality fields; 9 are under 2% filled. | SRC-001 | Open: policy vs practice |
+| C-07 | Adjusted CFB per story +38% (2026-Q2 YoY), but AI vs non-AI RR about 1.0 in each quarter. | F6, F10 | Open: mix shift or system-level effect (PH-2) |
 
 C-01 update 2026-10-22: weaker after import correction (F6). Q2 per-story +38%, Q3 -15%.

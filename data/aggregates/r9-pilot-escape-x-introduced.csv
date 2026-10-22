@@ -1,0 +1,21 @@
+escape_cause,introduced_by,n
+missing test coverage,long-standing/legacy code,14
+scale/performance/concurrency/race,long-standing/legacy code,13
+missing test coverage,specific recent change,12
+deployment/release process,specific recent change,10
+scale/performance/concurrency/race,specific recent change,9
+regression from recent change (RIA miss),specific recent change,8
+legacy/unknown behavior,long-standing/legacy code,7
+requirements/spec gap,long-standing/legacy code,5
+environment/config/data difference,long-standing/legacy code,5
+environment/config/data difference,specific recent change,5
+scale/performance/concurrency/race,unknown,5
+missing test coverage,unknown,3
+unclear/not stated,unknown,3
+requirements/spec gap,unknown,2
+requirements/spec gap,specific recent change,2
+legacy/unknown behavior,specific recent change,1
+third-party/integration/dependency,specific recent change,1
+monitoring gap,long-standing/legacy code,1
+scale/performance/concurrency/race,external change,1
+missing test coverage,external change,1

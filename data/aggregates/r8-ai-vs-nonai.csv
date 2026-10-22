@@ -1,0 +1,22 @@
+scope,types,quarters,source,ai_causing,ai_resolved,non_ai_causing,non_ai_resolved,ai_rate_per_1000,non_ai_rate_per_1000,rate_ratio,ci_low,ci_high
+quarter,Story+Bug,2025-Q1,all,0,43,10,24477,0.0,0.41,,,
+quarter,Story+Bug,2025-Q2,all,0,51,18,27673,0.0,0.65,,,
+quarter,Story+Bug,2025-Q3,all,0,71,10,28804,0.0,0.35,,,
+quarter,Story+Bug,2025-Q4,all,2,389,16,27444,5.14,0.58,8.82,2.03,38.22
+quarter,Story+Bug,2026-Q1,all,3,2819,26,28377,1.06,0.92,1.16,0.35,3.84
+quarter,Story+Bug,2026-Q2,all,10,10041,16,29325,1.0,0.55,1.83,0.83,4.02
+quarter,Story+Bug,2026-Q3,all,7,10012,14,36010,0.7,0.39,1.8,0.73,4.45
+pooled,Story+Bug,2026-Q1..2026-Q2,all,13,12860,42,57702,1.01,0.73,1.39,0.75,2.59
+pooled,Story+Bug,2026-Q1..2026-Q2,primary,13,12860,42,57702,1.01,0.73,1.39,0.75,2.59
+pooled,Story+Bug,2026-Q1..2026-Q3,all,20,22872,56,93712,0.87,0.6,1.46,0.88,2.44
+sens_b_stories_only,Story,2026-Q1..2026-Q2,all,9,11288,22,44397,0.8,0.5,1.61,0.74,3.49
+sens_b_bugs_only,Bug,2026-Q1..2026-Q2,all,4,1572,20,13305,2.54,1.5,1.69,0.58,4.95
+sens_a_reviewed_only(Yes vs No),Story+Bug,2026-Q1..2026-Q2,all,13,12860,18,16417,1.01,1.1,0.92,0.45,1.88
+sens_a_reviewed_only(Yes vs No),Story+Bug,2026-Q1..2026-Q3,all,20,22872,24,28139,0.87,0.85,1.03,0.57,1.86
+sens_c_vp:AHW,Story+Bug,2026-Q1..2026-Q3,all,2,3172,8,6363,0.63,1.26,0.5,0.11,2.36
+sens_c_vp:APQ,Story+Bug,2026-Q1..2026-Q3,all,6,6472,4,10547,0.93,0.38,2.44,0.69,8.66
+sens_c_vp:Analytics and Data,Story+Bug,2026-Q1..2026-Q3,all,3,2002,10,9100,1.5,1.1,1.36,0.38,4.95
+sens_c_vp:Orchestration Core,Story+Bug,2026-Q1..2026-Q3,all,4,2327,12,5939,1.72,2.02,0.85,0.27,2.64
+sens_c_vp:WFM,Story+Bug,2026-Q1..2026-Q3,all,5,5694,9,11114,0.88,0.81,1.08,0.36,3.23
+epic_all,Epic,2026-Q1..2026-Q3,all,9,6275,16,13477,1.43,1.19,1.21,0.53,2.73
+epic_reviewed(Yes vs No),Epic,2026-Q1..2026-Q3,all,9,6275,7,4980,1.43,1.41,1.02,0.38,2.74
