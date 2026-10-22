@@ -1,0 +1,214 @@
+issue_key,project,r_and_d_vp,priority,created_month,escape_cause,introduced_by,regression,legacy_mentioned,ai_mentioned,prevention_action_type
+AAD-37812,AAD,Orchestration Core,P2,2025-10,unclear/not stated,unknown,unknown,no,no,test added
+AAD-38750,AAD,Orchestration Core,P2,2025-11,deployment/release process,specific recent change,yes,no,no,process change
+AAD-38815,AAD,Orchestration Core,P2,2025-11,missing test coverage,specific recent change,unknown,no,no,test added
+AAD-49636,AAD,Orchestration Core,P2,2026-08,missing test coverage,long-standing/legacy code,no,no,no,code fix only
+AAD-49707,AAD,Orchestration Core,P2,2026-07,legacy/unknown behavior,long-standing/legacy code,no,yes,no,code fix only
+AAD-49931,AAD,Orchestration Core,P2,2026-08,missing test coverage,specific recent change,unknown,no,no,code fix only
+AAD-50039,AAD,Orchestration Core,P2,2026-08,missing test coverage,long-standing/legacy code,no,no,no,process change
+AAD-50268,AAD,Orchestration Core,P2,2026-08,missing test coverage,long-standing/legacy code,no,yes,no,code fix only
+AAD-50376,AAD,Orchestration Core,P2,2026-08,scale/performance/concurrency/race,specific recent change,yes,no,no,test added
+AAD-50475,AAD,Orchestration Core,P4,2026-09,environment/config/data difference,specific recent change,yes,no,no,process change
+AAD-51086,AAD,Orchestration Core,P3,2026-09,legacy/unknown behavior,long-standing/legacy code,no,yes,no,code fix only
+AAD-51150,AAD,Orchestration Core,P2,2026-09,missing test coverage,long-standing/legacy code,no,no,no,code fix only
+AAD-51375,AAD,Orchestration Core,P2,2026-09,legacy/unknown behavior,long-standing/legacy code,no,yes,no,code fix only
+AAD-51536,AAD,Orchestration Core,P2,2026-09,scale/performance/concurrency/race,specific recent change,unknown,no,no,process change
+AAD-51863,AAD,Orchestration Core,P2,2026-10,unclear/not stated,unknown,unknown,no,no,none stated
+AAD-52036,AAD,Orchestration Core,P4,2026-10,legacy/unknown behavior,long-standing/legacy code,no,yes,no,test added
+AAD-52910,AAD,Orchestration Core,P3,2026-10,environment/config/data difference,long-standing/legacy code,no,yes,no,process change
+AAI-49320,AAI,AHW,P2,2026-09,monitoring gap,unknown,no,no,no,process change
+AAI-49404,AAI,AHW,P2,2026-09,deployment/release process,external change,no,no,no,process change
+AN-171686,AN,Analytics and Data,P2,2026-09,scale/performance/concurrency/race,unknown,no,no,no,code fix only
+AN-84813,AN,Analytics and Data,P2,2025-11,monitoring gap,unknown,no,no,no,monitoring/alert
+AOR-15057,AOR,Orchestration Core,P2,2026-08,scale/performance/concurrency/race,long-standing/legacy code,no,no,no,code fix only
+AOR-15089,AOR,Orchestration Core,P2,2026-08,scale/performance/concurrency/race,long-standing/legacy code,no,no,no,code fix only
+AOR-15178,AOR,Orchestration Core,P2,2026-08,scale/performance/concurrency/race,unknown,unknown,no,no,test added
+API-19816,API,Orchestration Core,P2,2025-10,regression from recent change (RIA miss),specific recent change,yes,no,no,process change
+API-19929,API,Orchestration Core,P3,2025-11,regression from recent change (RIA miss),specific recent change,yes,yes,no,test added
+API-22976,API,Orchestration Core,P2,2026-10,regression from recent change (RIA miss),specific recent change,yes,yes,no,test added
+AW-48664,AW,AHW,P3,2025-10,missing test coverage,long-standing/legacy code,no,no,no,process change
+AW-49131,AW,AHW,P2,2025-11,requirements/spec gap,long-standing/legacy code,no,no,no,test added
+AW-49254,AW,AHW,P2,2025-11,environment/config/data difference,external change,no,no,no,none stated
+AW-49296,AW,AHW,P2,2025-11,scale/performance/concurrency/race,unknown,unknown,no,no,test added
+AW-49453,AW,AHW,P4,2025-11,regression from recent change (RIA miss),specific recent change,yes,no,no,process change
+AW-49610,AW,AHW,P3,2025-11,missing test coverage,long-standing/legacy code,no,no,no,test added
+AW-49702,AW,AHW,P2,2025-11,missing test coverage,long-standing/legacy code,no,no,no,test added
+AW-50020,AW,AHW,P3,2025-11,requirements/spec gap,long-standing/legacy code,no,no,no,test added
+AW-50046,AW,AHW,P4,2025-11,missing test coverage,specific recent change,no,no,no,test added
+AW-50821,AW,AHW,P3,2025-11,requirements/spec gap,long-standing/legacy code,no,no,no,process change
+AW-63211,AW,AHW,P3,2026-07,regression from recent change (RIA miss),specific recent change,yes,no,no,test added
+AW-63852,AW,AHW,P2,2026-08,environment/config/data difference,long-standing/legacy code,unknown,no,no,test added
+AW-64175,AW,AHW,P4,2026-08,missing test coverage,long-standing/legacy code,no,yes,no,test added
+AW-64248,AW,AHW,P3,2026-08,test existed but ineffective,specific recent change,yes,no,no,test added
+AW-64283,AW,AHW,P2,2026-08,regression from recent change (RIA miss),specific recent change,yes,no,no,process change
+AW-65199,AW,AHW,P3,2026-09,test existed but ineffective,long-standing/legacy code,no,no,no,test added
+AW-65443,AW,AHW,P3,2026-09,legacy/unknown behavior,long-standing/legacy code,no,no,no,code fix only
+AW-67168,AW,AHW,P2,2026-10,regression from recent change (RIA miss),specific recent change,yes,no,no,test added
+CRM-21530,CRM,AHW,P4,2025-11,missing test coverage,long-standing/legacy code,no,no,no,test added
+CRM-27528,CRM,AHW,P2,2026-10,regression from recent change (RIA miss),specific recent change,yes,no,no,test added
+CSA-100122,CSA,(empty),P2,2026-08,missing test coverage,specific recent change,no,no,no,none stated
+CSA-100715,CSA,(empty),P2,2026-09,regression from recent change (RIA miss),specific recent change,yes,no,no,process change
+CSA-43751,CSA,(empty),P2,2025-10,missing test coverage,long-standing/legacy code,no,yes,no,test added
+CSA-46368,CSA,(empty),P2,2025-11,scale/performance/concurrency/race,unknown,unknown,no,no,code fix only
+CSA-46383,CSA,(empty),P4,2025-11,missing test coverage,specific recent change,yes,no,no,test added
+CSA-47515,CSA,(empty),P2,2025-11,unclear/not stated,unknown,unknown,no,no,code fix only
+CSA-94130,CSA,(empty),P2,2026-07,regression from recent change (RIA miss),specific recent change,yes,no,no,test added
+CSA-94656,CSA,Analytics and Data,P2,2026-08,scale/performance/concurrency/race,specific recent change,unknown,no,no,test added
+CSA-98288,CSA,AHW,P2,2026-08,unclear/not stated,unknown,unknown,no,no,process change
+CSA-98558,CSA,(empty),P1,2026-08,unclear/not stated,unknown,unknown,no,no,code fix only
+CSA-99472,CSA,(empty),P2,2026-08,missing test coverage,specific recent change,no,no,no,process change
+CXAPP-34096,CXAPP,APQ,P2,2026-07,environment/config/data difference,specific recent change,yes,no,no,test added
+CXBI-7282,CXBI,Analytics and Data,P2,2025-10,third-party/integration/dependency,external change,no,no,no,none stated
+CXCO-19887,CXCO,WFM,P3,2026-09,unclear/not stated,unknown,unknown,no,no,none stated
+CXDSCVR-8062,CXDSCVR,APQ,P2,2026-09,missing test coverage,unknown,unknown,no,no,none stated
+CXDV-68245,CXDV,Analytics and Data,P2,2025-11,requirements/spec gap,long-standing/legacy code,no,yes,no,none stated
+CXDV-68451,CXDV,Analytics and Data,P3,2025-11,third-party/integration/dependency,external change,no,no,no,code fix only
+CXDV-68714,CXDV,Analytics and Data,P2,2025-11,missing test coverage,unknown,unknown,no,no,none stated
+CXDV-69049,CXDV,Analytics and Data,P3,2025-11,deployment/release process,long-standing/legacy code,no,no,no,process change
+CXDV-81523,CXDV,Analytics and Data,P2,2026-08,requirements/spec gap,unknown,no,no,no,none stated
+CXDV-81525,CXDV,Analytics and Data,P2,2026-08,third-party/integration/dependency,specific recent change,no,no,no,test added
+CXDV-81540,CXDV,Analytics and Data,P2,2026-08,missing test coverage,specific recent change,unknown,no,no,none stated
+CXDV-81579,CXDV,Analytics and Data,P2,2026-08,missing test coverage,long-standing/legacy code,no,no,no,test added
+CXDV-81593,CXDV,Analytics and Data,P3,2026-08,missing test coverage,long-standing/legacy code,no,no,no,test added
+CXDV-81608,CXDV,Analytics and Data,P4,2026-08,regression from recent change (RIA miss),specific recent change,yes,no,no,test added
+CXDV-81636,CXDV,Analytics and Data,P3,2026-08,missing test coverage,unknown,unknown,no,no,test added
+CXDV-82108,CXDV,Analytics and Data,P2,2026-08,scale/performance/concurrency/race,long-standing/legacy code,no,no,no,test added
+CXDV-82494,CXDV,Analytics and Data,P2,2026-08,missing test coverage,long-standing/legacy code,no,no,no,none stated
+CXDV-82563,CXDV,Analytics and Data,P2,2026-09,missing test coverage,specific recent change,no,no,no,process change
+CXDV-82619,CXDV,Analytics and Data,P2,2026-08,deployment/release process,specific recent change,yes,no,no,process change
+CXDV-82736,CXDV,Analytics and Data,P4,2026-09,scale/performance/concurrency/race,specific recent change,yes,no,no,test added
+CXDV-82977,CXDV,Analytics and Data,P2,2026-09,missing test coverage,unknown,no,no,no,test added
+CXDV-83188,CXDV,Analytics and Data,P2,2026-10,regression from recent change (RIA miss),specific recent change,yes,no,no,none stated
+CXDV-83189,CXDV,Analytics and Data,P4,2026-10,deployment/release process,specific recent change,yes,no,no,process change
+CXDV-83278,CXDV,Analytics and Data,P2,2026-10,missing test coverage,specific recent change,no,yes,no,test added
+CXDV-83383,CXDV,Analytics and Data,P4,2026-10,deployment/release process,specific recent change,yes,yes,no,process change
+CXDVI-14065,CXDVI,Analytics and Data,P2,2025-11,scale/performance/concurrency/race,unknown,no,no,no,monitoring/alert
+CXDVI-14893,CXDVI,Analytics and Data,P2,2025-11,deployment/release process,specific recent change,no,no,no,process change
+CXDVI-24017,CXDVI,Analytics and Data,P2,2026-10,regression from recent change (RIA miss),specific recent change,yes,no,no,test added
+CXIA-11946,CXIA,APQ,P2,2026-07,regression from recent change (RIA miss),specific recent change,yes,no,no,process change
+CXIA-12022,CXIA,APQ,P2,2026-08,regression from recent change (RIA miss),specific recent change,yes,no,no,test added
+CXIA-12026,CXIA,APQ,P2,2026-08,regression from recent change (RIA miss),specific recent change,yes,no,no,test added
+CXIA-12090,CXIA,APQ,P3,2026-08,environment/config/data difference,specific recent change,yes,no,no,code fix only
+CXIA-12226,CXIA,APQ,P2,2026-09,scale/performance/concurrency/race,long-standing/legacy code,no,no,no,test added
+CXIA-12311,CXIA,APQ,P3,2026-10,missing test coverage,specific recent change,no,no,no,process change
+CXIA-12391,CXIA,APQ,P2,2026-10,scale/performance/concurrency/race,external change,no,no,no,code fix only
+CXIA-8368,CXIA,APQ,P3,2025-11,missing test coverage,specific recent change,yes,no,no,none stated
+CXIA-8499,CXIA,APQ,P2,2025-11,missing test coverage,long-standing/legacy code,no,no,no,code fix only
+CXIA-8538,CXIA,APQ,P3,2025-12,environment/config/data difference,specific recent change,yes,no,no,test added
+CXQM-58953,CXQM,"VMS, Recording, QM & FM",P4,2026-08,test existed but ineffective,long-standing/legacy code,no,no,no,test added
+CXQM-61648,CXQM,"VMS, Recording, QM & FM",P2,2026-09,regression from recent change (RIA miss),specific recent change,yes,no,no,test added
+CXQM-61658,CXQM,"VMS, Recording, QM & FM",P2,2026-09,deployment/release process,external change,no,no,no,process change
+CXREC-107350,CXREC,"VMS, Recording, QM & FM",P2,2025-11,deployment/release process,specific recent change,yes,no,no,process change
+CXREC-107564,CXREC,"VMS, Recording, QM & FM",P4,2025-11,third-party/integration/dependency,external change,unknown,no,no,none stated
+CXREC-108073,CXREC,"VMS, Recording, QM & FM",P2,2025-11,requirements/spec gap,long-standing/legacy code,no,no,no,process change
+CXREC-145482,CXREC,"VMS, Recording, QM & FM",P3,2026-08,scale/performance/concurrency/race,long-standing/legacy code,no,no,no,process change
+CXREC-145753,CXREC,"VMS, Recording, QM & FM",P2,2026-08,missing test coverage,specific recent change,yes,no,no,monitoring/alert
+CXREC-145865,CXREC,"VMS, Recording, QM & FM",P3,2026-08,regression from recent change (RIA miss),specific recent change,yes,no,no,code fix only
+CXREC-145938,CXREC,"VMS, Recording, QM & FM",P3,2026-08,test existed but ineffective,long-standing/legacy code,no,no,no,none stated
+CXREC-146614,CXREC,"VMS, Recording, QM & FM",P3,2026-08,test existed but ineffective,specific recent change,yes,no,no,process change
+CXREC-147037,CXREC,"VMS, Recording, QM & FM",P2,2026-08,environment/config/data difference,long-standing/legacy code,no,no,no,code fix only
+CXREC-147748,CXREC,"VMS, Recording, QM & FM",P2,2026-08,regression from recent change (RIA miss),specific recent change,yes,no,no,test added
+CXREC-148930,CXREC,"VMS, Recording, QM & FM",P2,2026-08,deployment/release process,specific recent change,no,no,no,process change
+CXREC-152991,CXREC,"VMS, Recording, QM & FM",P2,2026-09,scale/performance/concurrency/race,long-standing/legacy code,no,no,no,code fix only
+CXREC-158769,CXREC,"VMS, Recording, QM & FM",P2,2026-10,deployment/release process,specific recent change,yes,no,no,test added
+CXSUP-124986,CXSUP,WFM,P3,2025-11,regression from recent change (RIA miss),specific recent change,yes,no,no,process change
+CXWFM-72139,CXWFM,WFM,P1,2025-10,regression from recent change (RIA miss),specific recent change,yes,no,no,test added
+CXWFM-72641,CXWFM,WFM,P3,2025-11,missing test coverage,long-standing/legacy code,no,no,no,process change
+CXWFM-91548,CXWFM,WFM,P3,2026-08,unclear/not stated,unknown,unknown,no,no,none stated
+CXWFM-91622,CXWFM,WFM,P3,2026-08,regression from recent change (RIA miss),specific recent change,yes,no,no,process change
+CXWFM-91704,CXWFM,WFM,P2,2026-08,third-party/integration/dependency,specific recent change,yes,no,no,none stated
+CXWFM-92117,CXWFM,WFM,P3,2026-08,missing test coverage,unknown,unknown,no,no,none stated
+CXWFM-94401,CXWFM,WFM,P3,2026-09,missing test coverage,long-standing/legacy code,no,yes,no,process change
+CXWFM-99460,CXWFM,WFM,P3,2026-10,missing test coverage,unknown,unknown,no,no,none stated
+CXWS-38830,CXWS,AHW,P3,2025-11,missing test coverage,unknown,unknown,no,no,test added
+CXWS-39413,CXWS,AHW,P2,2025-12,requirements/spec gap,long-standing/legacy code,no,no,no,test added
+CXWS-49292,CXWS,AHW,P2,2026-07,legacy/unknown behavior,long-standing/legacy code,no,yes,no,test added
+CXWS-49560,CXWS,AHW,P4,2026-08,missing test coverage,long-standing/legacy code,no,yes,no,test added
+CXWS-49786,CXWS,AHW,P2,2026-08,missing test coverage,long-standing/legacy code,no,yes,no,test added
+CXWS-50061,CXWS,AHW,P2,2026-08,missing test coverage,long-standing/legacy code,no,no,no,code fix only
+CXWS-50932,CXWS,AHW,P2,2026-09,test existed but ineffective,specific recent change,unknown,no,no,process change
+CXWS-51265,CXWS,AHW,P3,2026-09,scale/performance/concurrency/race,long-standing/legacy code,no,no,no,code fix only
+CXWS-51502,CXWS,AHW,P2,2026-09,regression from recent change (RIA miss),specific recent change,yes,no,no,process change
+CXWS-51816,CXWS,AHW,P2,2026-10,scale/performance/concurrency/race,specific recent change,unknown,no,no,test added
+DAT-30639,DAT,Analytics and Data,P2,2025-10,third-party/integration/dependency,external change,no,no,no,code fix only
+DAT-30648,DAT,Analytics and Data,P2,2025-10,third-party/integration/dependency,external change,no,no,no,code fix only
+DAT-30685,DAT,Analytics and Data,P2,2025-10,deployment/release process,specific recent change,yes,yes,no,process change
+DAT-30758,DAT,Analytics and Data,P3,2025-10,third-party/integration/dependency,external change,no,no,no,code fix only
+DAT-32261,DAT,Analytics and Data,P2,2025-11,third-party/integration/dependency,long-standing/legacy code,no,no,no,process change
+DAT-46530,DAT,Analytics and Data,P2,2026-08,environment/config/data difference,specific recent change,yes,no,no,none stated
+DE-146147,DE,LiveVox & Digital,P2,2025-10,missing test coverage,specific recent change,unknown,no,no,test added
+DE-146395,DE,LiveVox & Digital,P2,2025-10,missing test coverage,specific recent change,yes,no,no,process change
+DE-147126,DE,LiveVox & Digital,P3,2025-11,requirements/spec gap,long-standing/legacy code,no,no,no,test added
+DE-149093,DE,LiveVox & Digital,P3,2025-11,environment/config/data difference,specific recent change,yes,yes,no,none stated
+DE-175696,DE,LiveVox & Digital,P2,2026-08,regression from recent change (RIA miss),specific recent change,yes,no,no,test added
+DE-175890,DE,LiveVox & Digital,P2,2026-07,monitoring gap,long-standing/legacy code,no,no,no,monitoring/alert
+DE-175934,DE,LiveVox & Digital,P1,2026-08,third-party/integration/dependency,specific recent change,yes,no,no,test added
+DE-176972,DE,LiveVox & Digital,P2,2026-08,scale/performance/concurrency/race,long-standing/legacy code,no,yes,no,process change
+DE-178598,DE,LiveVox & Digital,P3,2026-09,missing test coverage,specific recent change,no,no,no,test added
+DE-178617,DE,LiveVox & Digital,P3,2026-09,missing test coverage,long-standing/legacy code,no,no,no,none stated
+DE-179992,DE,LiveVox & Digital,P2,2026-09,scale/performance/concurrency/race,long-standing/legacy code,no,yes,no,test added
+DE-180515,DE,LiveVox & Digital,P2,2026-09,monitoring gap,long-standing/legacy code,no,no,no,none stated
+DL-12220,DL,Analytics and Data,P3,2026-09,missing test coverage,long-standing/legacy code,no,no,no,test added
+EM-136404,EM,Orchestration Core,P2,2025-11,unclear/not stated,unknown,unknown,no,no,test added
+EM-137706,EM,Orchestration Core,P2,2025-11,scale/performance/concurrency/race,specific recent change,unknown,no,no,process change
+EM-167886,EM,Orchestration Core,P2,2026-08,missing test coverage,long-standing/legacy code,no,no,no,process change
+EM-172483,EM,Orchestration Core,P2,2026-08,missing test coverage,specific recent change,yes,no,no,test added
+FS-12099,FS,APQ,P2,2026-09,legacy/unknown behavior,long-standing/legacy code,no,yes,no,none stated
+IHF-4786,IHF,AHW,P3,2026-09,missing test coverage,long-standing/legacy code,no,no,no,test added
+INT-53814,INT,WFM,P2,2025-11,environment/config/data difference,long-standing/legacy code,no,no,no,test added
+MAX-17126,MAX,AHW,P3,2025-11,missing test coverage,specific recent change,unknown,no,no,test added
+MS-19291,MS,"VMS, Recording, QM & FM",P2,2025-10,legacy/unknown behavior,specific recent change,yes,no,no,test added
+MS-22643,MS,"VMS, Recording, QM & FM",P3,2026-09,scale/performance/concurrency/race,long-standing/legacy code,no,no,no,process change
+MS-22813,MS,"VMS, Recording, QM & FM",P3,2026-09,scale/performance/concurrency/race,long-standing/legacy code,no,no,no,test added
+OB-29435,OB,LiveVox & Digital,P2,2025-11,regression from recent change (RIA miss),specific recent change,yes,no,no,process change
+OB-29489,OB,LiveVox & Digital,P3,2025-11,missing test coverage,long-standing/legacy code,no,no,no,test added
+OB-41215,OB,LiveVox & Digital,P2,2026-08,missing test coverage,specific recent change,unknown,no,no,process change
+OB-47638,OB,LiveVox & Digital,P3,2026-09,environment/config/data difference,long-standing/legacy code,no,no,no,process change
+OB-47678,OB,LiveVox & Digital,P3,2026-09,scale/performance/concurrency/race,unknown,unknown,no,no,test added
+OB-51133,OB,LiveVox & Digital,P1,2026-10,missing test coverage,unknown,unknown,no,no,test added
+ORC-47645,ORC,Orchestration Core,P2,2025-10,scale/performance/concurrency/race,unknown,unknown,no,no,process change
+ORC-48227,ORC,Orchestration Core,P3,2025-11,missing test coverage,long-standing/legacy code,no,no,no,process change
+ORC-53838,ORC,Orchestration Core,P2,2026-07,scale/performance/concurrency/race,long-standing/legacy code,no,yes,no,test added
+ORC-54002,ORC,Orchestration Core,P2,2026-08,missing test coverage,unknown,unknown,no,no,test added
+ORC-54269,ORC,Orchestration Core,P2,2026-08,requirements/spec gap,long-standing/legacy code,no,no,no,test added
+PMN-32256,PMN,WFM,P2,2026-07,missing test coverage,long-standing/legacy code,no,no,no,none stated
+PMN-33918,PMN,WFM,P2,2026-08,regression from recent change (RIA miss),specific recent change,yes,no,no,process change
+PMSTND-1696,PMSTND,WFM,P2,2025-10,unclear/not stated,unknown,unknown,no,no,process change
+PMSTND-1703,PMSTND,WFM,P2,2025-10,unclear/not stated,unknown,unknown,no,no,test added
+PMSTND-1707,PMSTND,WFM,P2,2025-10,unclear/not stated,unknown,unknown,no,no,process change
+PMSTND-1722,PMSTND,WFM,P4,2025-10,unclear/not stated,unknown,unknown,no,no,test added
+PMSTND-1730,PMSTND,WFM,P3,2025-10,environment/config/data difference,unknown,unknown,no,no,process change
+PMSTND-1741,PMSTND,WFM,P2,2025-11,unclear/not stated,unknown,unknown,no,no,none stated
+PMSTND-1771,PMSTND,WFM,P2,2025-11,unclear/not stated,unknown,unknown,no,no,test added
+PMSTND-1775,PMSTND,WFM,P3,2025-11,unclear/not stated,unknown,unknown,no,no,test added
+PMSTND-1785,PMSTND,WFM,P4,2025-11,unclear/not stated,unknown,no,no,no,none stated
+PMSTND-2862,PMSTND,WFM,P2,2026-07,missing test coverage,long-standing/legacy code,no,no,no,code fix only
+PMSTND-2864,PMSTND,WFM,P2,2026-07,test existed but ineffective,unknown,unknown,yes,no,test added
+PMSTND-2876,PMSTND,WFM,P3,2026-08,requirements/spec gap,long-standing/legacy code,no,no,no,test added
+PMSTND-2901,PMSTND,WFM,P2,2026-08,third-party/integration/dependency,external change,no,no,no,code fix only
+PMSTND-2922,PMSTND,WFM,P2,2026-08,regression from recent change (RIA miss),specific recent change,yes,no,no,none stated
+PMSTND-2929,PMSTND,WFM,P2,2026-08,requirements/spec gap,long-standing/legacy code,no,no,no,process change
+PMSTND-2930,PMSTND,WFM,P2,2026-08,missing test coverage,unknown,unknown,no,no,test added
+PMSTND-2961,PMSTND,WFM,P2,2026-08,scale/performance/concurrency/race,unknown,no,no,no,code fix only
+PMSTND-2977,PMSTND,WFM,P2,2026-09,requirements/spec gap,long-standing/legacy code,no,no,no,process change
+PMSTND-2985,PMSTND,WFM,P4,2026-09,requirements/spec gap,long-standing/legacy code,no,no,no,test added
+PMSTND-2990,PMSTND,WFM,P2,2026-09,requirements/spec gap,long-standing/legacy code,no,no,no,process change
+PMSTND-2991,PMSTND,WFM,P3,2026-09,regression from recent change (RIA miss),specific recent change,yes,no,no,test added
+PSHM-24461,PSHM,AHW,P2,2025-11,regression from recent change (RIA miss),specific recent change,yes,no,no,test added
+PSHM-24544,PSHM,AHW,P1,2025-11,regression from recent change (RIA miss),specific recent change,yes,no,no,none stated
+PSHM-34415,PSHM,AHW,P2,2026-08,deployment/release process,external change,no,no,no,process change
+PSHM-36004,PSHM,AHW,P2,2026-09,missing test coverage,long-standing/legacy code,no,no,no,process change
+PVQM-30,PVQM,"VMS, Recording, QM & FM",P3,2026-09,missing test coverage,external change,no,no,no,test added
+RPT-56137,RPT,Analytics and Data,P2,2026-07,unclear/not stated,unknown,unknown,no,no,none stated
+RPT-56447,RPT,Analytics and Data,P2,2026-08,unclear/not stated,unknown,unknown,no,no,code fix only
+RPT-56589,RPT,Analytics and Data,P2,2026-08,unclear/not stated,unknown,unknown,no,no,code fix only
+RPT-56808,RPT,Analytics and Data,P2,2026-09,unclear/not stated,unknown,unknown,no,no,code fix only
+RPT-56861,RPT,Analytics and Data,P2,2026-09,missing test coverage,long-standing/legacy code,no,no,no,none stated
+RPT-57006,RPT,Analytics and Data,P3,2026-09,regression from recent change (RIA miss),specific recent change,yes,no,no,process change
+SC-92338,SC,APQ,P2,2026-08,deployment/release process,specific recent change,yes,no,no,process change
+SF-16632,SF,AHW,P2,2026-10,missing test coverage,long-standing/legacy code,no,no,no,test added
+STX-28416,STX,AHW,P2,2026-09,regression from recent change (RIA miss),specific recent change,yes,no,no,process change
+UH-65498,UH,APQ,P2,2025-11,deployment/release process,specific recent change,yes,no,no,process change
+UH-81870,UH,APQ,P3,2026-08,environment/config/data difference,specific recent change,yes,no,no,code fix only
+UH-82124,UH,APQ,P3,2026-08,environment/config/data difference,specific recent change,unknown,no,no,none stated
+VOL-8004,VOL,Orchestration Core,P2,2025-11,scale/performance/concurrency/race,specific recent change,yes,no,no,test added

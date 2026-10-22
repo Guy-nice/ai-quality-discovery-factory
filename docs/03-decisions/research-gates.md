@@ -8,10 +8,10 @@ Do not advance without recording gate status here. Solution design starts only a
 
 | Gate | Name | Status | Blocking items | Last review |
 |---|---|---|---|---|
-| G0 | Charter Alignment | OPEN | U-01, U-02, U-03, U-04 | 2026-10-22 |
-| G1 | Evidence Access | OPEN | U-06, U-09, A-05 | 2026-10-22 |
-| G2 | Problem Definition | OPEN | U-05, U-11, R1, R4 | 2026-10-22 |
-| G3 | Risk and Scope Selection | OPEN | R2, R3 | 2026-10-22 |
+| G0 | Charter Alignment | PASSED (interim) | Scope set by research (D-005, D-006). Sponsor (U-02) and data rule (U-04) still open, interim rule D-004 applies. | 2026-10-22 |
+| G1 | Evidence Access | PARTIAL | Jira + Confluence confirmed. Git org, Sonar, CI/CD, incidents, AI telemetry open (U-09). | 2026-10-22 |
+| G2 | Problem Definition | PARTIAL | Trend + concentration + escape causes have evidence. Open: U-13, U-14, U-15, U-17, R5b. | 2026-10-22 |
+| G3 | Risk and Scope Selection | OPEN | Candidates in D-009. Needs R2b + R3. | 2026-10-22 |
 | G4 | Solution Readiness | OPEN | See criteria | 2026-10-22 |
 
 ## Gate criteria
@@ -52,3 +52,6 @@ Do not advance without recording gate status here. Solution design starts only a
 | Date | Gate | Change | By |
 |---|---|---|---|
 | 2026-10-22 | All | Gates defined, all OPEN | Guy Guterman |
+| 2026-10-22 | G0 | PASSED (interim): lead delegated scope (D-005); scope and quality definition set (D-006) | Research |
+| 2026-10-22 | G1 | PARTIAL: Jira and Confluence read access confirmed | Research |
+| 2026-10-22 | G2 | PARTIAL: findings round 1 + problem statement v1 | Research |

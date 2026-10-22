@@ -8,8 +8,8 @@ Access status is from the research environment (Claude Code session). "Connector
 
 | SRC ID | Source | Evidence wanted | Access status | Permissions | Known limits | Next action |
 |---|---|---|---|---|---|---|
-| SRC-001 | Jira | Bugs, CFBs, MIs per month (24 mo), severity, component, found-in phase, reopen, links | Connector available (Atlassian MCP). Not tested. | UNKNOWN | Project keys UNKNOWN; field usage consistency UNKNOWN | Get keys (Q5), run read-only count query |
-| SRC-002 | Confluence | Architecture, ADRs, RCAs/postmortems, QA strategy, XCX process, runbooks | Connector available (Atlassian MCP). Not tested. | UNKNOWN | Space keys UNKNOWN; staleness UNKNOWN | Get keys (Q5), list RCA pages |
+| SRC-001 | Jira | Bugs, CFBs, MIs per month (24 mo), severity, component, found-in phase, reopen, links | **Available** (Atlassian MCP, read). Verified 2026-10-22. | Read across CXone projects | Component 88% empty, Bug Type 48% empty; text-search on custom fields times out; no regression field; useful fields: R&D VP (cf_14852), Team Name (cf_10098), Root Cause Analysis (cf_10117), Regression Impact Analysis (cf_12794), Number of Incidents (cf_10068), Impact Rank (cf_10081), EOR fields | In use |
+| SRC-002 | Confluence | Architecture, ADRs, RCAs/postmortems, QA strategy, XCX process, runbooks | **Available** (Atlassian MCP, read). Verified 2026-10-22 on CX space. | Read | Staleness UNKNOWN | List RCA / architecture pages for pilot |
 | SRC-003 | Xray | Test cases, executions, requirement coverage, manual vs automated | UNKNOWN (likely via Jira) | UNKNOWN | Xray API may need separate token | Confirm with Jira admin |
 | SRC-004 | Git (org repos) | Churn, hotspots, ownership, PR size, review, reverts | gh CLI works for personal account. Org repos UNKNOWN. | UNKNOWN | Monolith repo location UNKNOWN; history depth UNKNOWN | Get repo list (Q1) |
 | SRC-005 | Sonar | Coverage, complexity, duplication, reliability trends | No connector | UNKNOWN | Trend retention UNKNOWN | Ask DevOps for URL + read token |
@@ -20,6 +20,8 @@ Access status is from the research environment (Claude Code session). "Connector
 | SRC-010 | AI usage data | Tools, teams, adoption dates, telemetry | UNKNOWN | UNKNOWN | Attribution may be impossible from Git alone | Q7 |
 | SRC-011 | SME interviews | Hidden rules, dependencies, history | Requires scheduling | n/a | Subjective; needs cross-check | Q8 |
 | SRC-012 | QA Architect role page (Confluence) | Local process terms (CFB, MI, OLA, XCX, RIA/PIA) | Referenced in personal notes. Not re-read for this initiative. | Known to Guy | Role page, not process definition | Use for glossary only |
+| SRC-013 | WIP Quality Definition of Done (Confluence CX 4048715783) | Proposed gates, controls inventory | Read 2026-10-22 | Read | WIP, solution-stage | [Review](source-review-quality-dod-wip.md) |
+| SRC-014 | Salesforce-to-Jira connector | CFB definition basis (`salesforceAssociatedTypes`) | Indirect via Jira | - | Linking practice changes would distort trend | Confirm with Support Ops |
 
 ## 2. Data handling
 

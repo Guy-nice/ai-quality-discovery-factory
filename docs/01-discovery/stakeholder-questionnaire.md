@@ -33,4 +33,5 @@ Topics: quality definition sign-off, baseline period, confounders (reorgs, tool 
 
 | Date | Q | Answer | Source | Recorded in |
 |---|---|---|---|---|
-| - | - | No answers yet | - | - |
+| 2026-10-22 | Q1-Q5 | Not answered. Lead delegated scope to research and gave the CFB JQL plus WIP DoD page (SRC-013). | Lead | D-005, D-006 |
+| 2026-10-22 | Q5 | Partly answered by action: read access to Jira and Confluence confirmed. | Research | Evidence inventory |

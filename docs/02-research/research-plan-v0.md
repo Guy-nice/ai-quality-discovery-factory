@@ -22,6 +22,20 @@
 | R3 | Which code areas are hotspots? | Churn x complexity x defect-linked commits | SRC-004, SRC-005 | Hotspot list | Repo access |
 | R4 | Is decline a measurement artifact? | Check workflow, field, and severity rule changes over period | SRC-001, interviews | Confounder log | R1 |
 
+### Status 2026-10-22 and next items
+
+| ID | Status / next item | Output |
+|---|---|---|
+| R1 | Done (round 1) | [Findings F1](findings-round-1.md#f1---trend-has-quality-declined-r1) |
+| R1b | Explain throughput jumps (U-13): stories and bugs by project and creator for 2024-Q1, 2026-Q3 | Confounder log |
+| R2 | Done (round 1) | [Findings F2](findings-round-1.md#f2---concentration-where-is-the-risk-r2) |
+| R2b | Pilot short-list: CFB trend per team inside Orchestration Core and A&D; size of "stuck / lost contacts" theme across all years | Gate 3 input |
+| R3 | Blocked: needs Git org access (U-09) | Hotspot list |
+| R5 | Done (round 1, n=213) | [Findings F3](findings-round-1.md#f3---escape-causes-why-do-defects-reach-customers-r5) |
+| R5b | Second-rater check on 40 RCAs; fill the 2026-01 to 2026-06 sample gap | Agreement rate |
+| R6 | Controls inventory: for each check (RIA field, RCA field, EOR, Sonar, CI gates), record Suggested / Policy / Real control and fill rate | Controls map |
+| R7 | AI attribution: sample 50 AI-labeled CFBs, find who applies the labels and what they mean (U-17) | AI label semantics |
+
 ## 3. Pilot selection criteria (Gate 3)
 
 Pilot area = one bounded business flow or domain. Score candidates on:

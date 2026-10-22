@@ -1,0 +1,30 @@
+dimension,value,w_prev,w_last,change_pct,share_w_last_pct
+total,"ALL CFBs",1318,1760,33.5,100.0
+rd_vp,"Analytics and Data",306,473,54.6,26.9
+rd_vp,"Orchestration Core",170,296,74.1,16.8
+rd_vp,"WFM",129,281,117.8,16.0
+rd_vp,"AHW",251,250,-0.4,14.2
+rd_vp,"LiveVox & Digital",205,138,-32.7,7.8
+rd_vp,"APQ",106,120,13.2,6.8
+rd_vp,"VMS, Recording, QM & FM",47,99,110.6,5.6
+rd_vp,"(EMPTY)",93,101,8.6,5.7
+project,"CXDV",162,248,53.1,14.1
+project,"PMSTND",47,152,223.4,8.6
+project,"ORC",50,128,156.0,7.3
+project,"DE",181,110,-39.2,6.2
+project,"AW",179,102,-43.0,5.8
+project,"CSA",18,96,433.3,5.5
+project,"DAT",20,75,275.0,4.3
+project,"AOR",32,64,100.0,3.6
+project,"CXWFM",65,62,-4.6,3.5
+project,"CXIA",76,58,-23.7,3.3
+team,"Hornet",85,76,-10.6,4.3
+team,"Better Calls Devs",22,71,222.7,4.0
+team,"Orchestration II",18,68,277.8,3.9
+team,"IN-Agent Copilot",14,57,307.1,3.2
+team,"Data-Sandy",14,57,307.1,3.2
+label_group,"AI-code labels (11 variants)",1,159,15800.0,9.0
+field_empty,"Bug Type EMPTY",,845,,48.0
+field_empty,"Component EMPTY",,1546,,87.8
+field_empty,"Team Name EMPTY",,30,,1.7
+field_empty,"R&D VP EMPTY",93,101,8.6,5.7

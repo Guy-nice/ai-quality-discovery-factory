@@ -17,9 +17,11 @@ Solution design starts only after Gate 4 passes. See [research gates](docs/03-de
 
 | Item | Value |
 |---|---|
-| Phase | Discovery (Round 1) |
-| Current gate | Gate 0 - Charter Alignment: OPEN |
-| Last session | [Session 01 - 2026-10-22](docs/99-sessions/2026-10-22-session-01.md) |
+| Phase | Discovery - Problem definition |
+| Gates | G0 PASSED (interim), G1 PARTIAL, G2 PARTIAL, G3-G4 OPEN |
+| Problem statement | [v1](docs/00-charter/problem-statement-v1.md) |
+| Latest findings | [Round 1](docs/02-research/findings-round-1.md) |
+| Last session | [Session 02 - 2026-10-22](docs/99-sessions/2026-10-22-session-02.md) |
 
 ## Repository structure
 
@@ -30,6 +32,7 @@ Solution design starts only after Gate 4 passes. See [research gates](docs/03-de
 | `docs/02-research/` | Research plan (versioned), per-source analysis plan |
 | `docs/03-decisions/` | Dated decision log, research gate status |
 | `docs/99-sessions/` | One log per working session: inputs, outputs, decisions, open items |
+| `data/aggregates/` | Aggregated counts and label-only classifications, with exact JQL and method per dataset |
 
 ## Evidence classification
 
