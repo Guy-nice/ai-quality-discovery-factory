@@ -180,3 +180,4 @@ Short version: [iteration-log.md](iteration-log.md).
 - Questionnaire: Q3 production dates, new Q6 (2026-04 step), Q7 (InterVCCommWrapper risk).
 
 **Files:** findings-round-4, problem-statement-v4, gate-4-readiness-v0, r3-r14 doc, r11 doc, data/aggregates r3/r11/r14, scripts/db r3/r11, git_history.sqlite.gz, session-06, agent-reports round 4; updates to register, plan, gates, decisions, questionnaire, READMEs. **Commit:** see iteration-log row 11.
+- Shared Claude Doc updated (rev 17): pilot valid +34%, VC-to-VC sync hotspot, PH-1 narrowed, PH-2 weakened, G4 "Not passed" with blockers. A checklist item in the doc was changed by a reader (rev 12); left as is.
