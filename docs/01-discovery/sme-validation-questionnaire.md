@@ -22,9 +22,11 @@ For each hypothesis, answer: **Agree / Partly / Disagree / Do not know**, then g
 Questions:
 1. Which hypothesis, in your view, explains the **largest** share of CFBs in this flow? Why?
 2. Do concurrency, contract or parity tests exist for this flow that we did not find? Where (repo / pipeline / Xray)?
-3. Give the **dates** of the main 2026 migration steps (VFM -> AFM cutovers, Voltron, State Streams EKS, .NET upgrades, tenant moves).
+3. Give the **production rollout dates** (per cluster / BU where possible) of the main 2026 migration steps: VFM -> AFM cutovers, Voltron, State Streams KDA -> EKS, TFS call control, VCSvc .NET / multi-TFM, 26.1 release, tenant moves. Code-start dates from Git are known; production dates are not.
 4. Which code areas or services do you think are the most fragile? Who knows them best?
 5. Is there a cause we missed? Example: on-call load, team changes, site moves, release cadence.
+6. Pilot CFBs step up in **2026-04** (valid: about 8.6 -> 17 per month). What changed in that month? Were bugs moved to the new Orchestration II team?
+7. InterVCCommWrapper (VC-to-VC sync) has the highest defect density (43-55% of commits fix or cause a CFB) and 1-2 main authors. Is this a known risk? Who else can change it safely?
 
 ## Part B - Rate 20 RCAs (about 25 min, blind)
 

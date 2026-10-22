@@ -4,3 +4,4 @@ data/db/raw_local.sqlite
 *.sqlite-wal
 *.sqlite-shm
 __pycache__/
+data/db/git_history.sqlite

@@ -4,6 +4,7 @@ All data pulled for this research is stored here (user order, iteration 7).
 
 | File | Content | In Git |
 |---|---|---|
+| `git_history.sqlite.gz` | Git file changes (184k rows: repo, sha, path). Gunzip to `git_history.sqlite`; scripts ATTACH it as `gh` (D-019) | Yes (gzipped) |
 | `quality.sqlite` | Structured data: issues (keys, dates, VP, team, priority, AI flag, labels, RCA/RIA fill state), links, causal links, RCA classifications, JQL counts, query log, all aggregate tables (`agg_*`) | Yes |
 | `raw_local.sqlite` | Free text: summary, RCA, RIA per issue | **No** (gitignored, D-004: may hold customer data) |
 | `../raw/` | Raw MCP JSON dumps | **No** (gitignored) |
@@ -28,6 +29,9 @@ All data pulled for this research is stored here (user order, iteration 7).
 | `flow_tags` | key | Pilot sub-flow tag (R9, precision 80%) |
 | `confluence_pages` | page_id | One-line summaries (R9) |
 | `git_repos` | org, repo | Repo list + activity (R9) |
+| `git_commits` | repo, sha | 7,866 commits, 24 months; Jira keys from message only (R3) |
+| `r3_*`, `r14_ownership` | - | Hotspots, flags, ownership (R3, R14) |
+| `migration_events`, `migration_mentions`, `migration_causal` | - | R11 |
 
 Residual risk: Jira labels are stored as-is; a few labels may hold customer names. The repo is private.
 

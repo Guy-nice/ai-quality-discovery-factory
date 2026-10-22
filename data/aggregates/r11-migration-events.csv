@@ -1,0 +1,10 @@
+event_id,migration,step,date,date_type,scope,source_kind,source_ref,confidence
+E01,VFM->AFM,AFM repo created,2022-03-28,code_start,-,git,inContact/routing-ng-advanced-findmatch created_at,"High (code), Low (rollout)"
+E02,Voltron / cache,MessagePack serializer work starts in VCSvc,2026-01-15,code_start,-,git,inContact/inContact commits 'MessagePack' 2026-01..05 (14),Medium (code)
+E03,.NET upgrade,net10 / multi-TFM work starts in monolith,2026-03-15,code_start,-,git,inContact/inContact commits 'net10' 2026-03..10 (22),Medium (code)
+E04,TFS telephony,media-services-telephony-feature-service repo created,2026-04-08,code_start,-,git,inContact/media-services-telephony-feature-service created_at,High (code)
+E05,Voltron / cache,voltron-agent repo created,2026-04-28,code_start,-,git,inContact/voltron-agent created_at,High (code)
+E06,State Streams KDA->EKS,EKS transformer repos created,2026-05-06,code_start,-,git,"inContact/orch-entity-state-streams-eks, -multi-event-eks created_at",High (code)
+E07,State Streams KDA->EKS,Rollback plan EKS->KDA published,2026-10-16,doc,-,confluence,IN 4256694278 (last modified),Low (doc date only)
+E08,Voltron / cache,"Voltron build status tracker active, per-cluster schedule",2026-10-21,doc,per cluster,confluence,CXONE 4232414340 (last modified),Low (doc date only)
+E09,Tenant moves,Tenant migration impact assessment (AOR team),2026-10-16,doc,tenant,confluence,IN 4228809169 (last modified),Low (doc date only)

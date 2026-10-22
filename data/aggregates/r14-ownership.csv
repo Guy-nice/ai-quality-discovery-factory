@@ -1,0 +1,405 @@
+repo,path,score,commits_12m,authors_ge10pct,top_author,top_author_share_pct,bus_factor_50,departed_owner_gt30pct
+inContact,Database/InDB_DACPAC/inCode/dbo/StoredProcedures,1.0,339,0,Snehal Dhas,4.1,19,
+inContact,Code/C#/Services/VCSvc/Providers/Data,0.993,333,0,Siddharth Ghogare,3.9,21,
+inContact,Database/InDB_DACPAC/inCode/Scripts/Post-Deployment,0.983,221,0,Mahesh Radhakrishnan,6.3,25,
+inContact,Code/C#/Tools/IvrScriptUtil/IvrScriptUtil,0.968,161,0,Siddharth Ghogare,6.2,16,
+inContact,Code/WebDevelopment/inContact/inContactWebApp/Manage,0.965,134,0,Mukesh Chaudhary,5.2,13,
+inContact,Code/C#/Library/inContact.DataRepositories.API,0.956,159,0,Jigyasa Dewani,4.4,16,
+inContact,Code/C#/Interfaces/inContact.DSL/DataModels,0.949,149,0,Siddharth Ghogare,6.0,17,
+inContact,Database/InDB_DACPAC/inCode,0.944,154,0,Siddharth Ghogare,3.9,18,
+inContact,Code/C#/Services/VCSvc/Providers/ACD,0.939,84,0,Dez Grant,8.3,9,
+inContact,Code/WebDevelopment/API/Endpoints/Api,0.934,157,0,Shivani Khundhawala,4.5,15,
+inContact,Code/WebDevelopment/API/Test/APIBusinessLogicUnitTests,0.929,151,0,Siddharth Ghogare,8.6,13,
+inContact,Code/C#/Library/AgentHelper,0.927,65,1,Onkar Gadekar,10.8,10,
+routing-ng-advanced-findmatch,src/main/java/com/nice/routing/afm/service,0.927,75,4,Karthick Chandrasekaran,20.0,3,
+inContact,Code/C#/Services/VCSvc/Providers/Agent,0.925,101,0,Onkar Gadekar,6.9,13,
+inContact,Database/InDW_DACPAC/DWCode/dbo/StoredProcedures,0.924,69,3,Sebastian Barrios,15.9,5,
+inContact,Code/C#/Services/VCSvc/VCSvc,0.908,132,1,Dez Grant,14.4,11,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderACD.Test,0.902,47,1,Jesse Prevey,12.8,9,
+routing-ng-advanced-findmatch,src/test/java/com/nice/routing/afm/service,0.885,56,3,Karthick Chandrasekaran,26.8,3,
+inContact,Code/C#/Library/ScriptValidation,0.885,97,0,Onkar Gadekar,7.2,11,
+inContact,Code/C#/Library/ScriptHelper/ScriptHelperTest,0.881,42,1,Prashant Jadhav,16.7,6,
+inContact,Code/WebDevelopment/inContact/inContactWebApp/AppCode,0.859,45,1,Pablo Daza,11.1,9,
+inContact,Code/C#/Library/AgentHelper.Tests.Unit/AgentHelper.Tests.Unit,0.856,40,1,Jesse Blanton,12.5,8,
+inContact,Code/C#/Library/Localization,0.855,58,0,Luis Montano,8.6,8,
+inContact,Code/C#/Library/ScriptHelper/Models,0.853,39,3,Prashant Jadhav,17.9,4,
+inContact,Database/InDB_DACPAC/inData/dbo/Tables,0.852,50,2,Kennedy Janakiraman,10.0,9,
+inContact,Code/C#/Library/inContact.DataRepositiories/VC,0.843,51,2,Justin.Williams,17.6,6,
+inContact,Code/C#/Library/AgentHelper/MCH,0.842,35,1,Derek Hirst,11.4,10,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderEventMessaging,0.834,44,2,A.J. Bobo,22.7,4,
+routing-ng-agent-capacity-service,(root),0.834,65,3,Sonal Patel,23.1,3,
+inContact,Code/WebDevelopment/inContact/inContactWebApp,0.825,40,2,Onkar Gadekar,17.5,5,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderAutoOutbound,0.82,52,3,Blaine Callahan,13.5,5,
+routing-ng-agent-capacity-service,src/main/java/com/nice/routing/agentcapacityservice/service,0.816,42,3,A.J. Bobo,35.7,2,
+inContact,Code/C#/Services/VCSvc/Providers/EventPub,0.807,35,2,Dez Grant,28.6,4,
+routing-ng-agent-capacity-service,src/test/java/com/nice/routing/agentcapacityservice/service,0.805,42,3,A.J. Bobo,33.3,2,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderEntityStateManagement,0.792,35,2,Dez Grant,17.1,6,
+inContact,Code/C#/Library/incontactDAL/inContactDAL,0.79,28,4,Luis Montano,14.3,4,
+routing-ng-agent-capacity-service,src/main/java/com/nice/routing/agentcapacityservice,0.783,34,3,Giribabu Vislawath,41.2,2,Giribabu Vislawath (38%)
+inContact,Code/C#/Library/ScriptHelper/Scripts,0.767,25,0,FKajal,8.0,7,
+inContact,Code/C#/Library/Common/Settings,0.763,39,1,Michael Charles Joseph,10.3,9,
+inContact,Code/C#/Services/VCSvc,0.761,52,2,Jesse Blanton,53.8,1,
+routing-ng-agent-capacity-service,src/main/java/com/nice/routing/agentcapacityservice/client,0.757,25,2,A.J. Bobo,48.0,2,Giribabu Vislawath (48%)
+inContact,Code/WebDevelopment/inControl.NET/inControl.NET,0.757,29,3,Onkar Gadekar,24.1,3,
+inContact,Code/C#/Clients/inControl.NET,0.741,26,3,Onkar Gadekar,26.9,3,
+inContact,Code/C#/Services/VCSvc/Providers/EMail,0.736,30,3,Dez Grant,23.3,3,
+inContact,Code/C#/Services/VCSvc/VCSvcWIXSetup/Components,0.736,30,4,Prashant Jadhav,16.7,4,
+acd-playwright-e2e,e2e/suite-mch,0.728,139,2,nproestakis,61.2,1,
+inContact,Code/C#/Library/APISchemas/V34,0.724,35,1,Snehal Dhas,14.3,7,
+routing-ng-integration-tests,src/test/resources,0.718,121,3,Nichole Proestakis,35.5,2,
+inContact,Code/C#/Library/EventHubProducerLibrary,0.716,26,2,Dez Grant,23.1,3,
+inContact,Code/C#/Interfaces/inContact.DSL/QueryCriteria,0.713,22,3,Justin.Williams,13.6,5,
+routing-ng-agent-capacity-service,src/test/java/com/nice/routing/agentcapacityservice/client,0.713,22,2,Giribabu Vislawath,50.0,1,Giribabu Vislawath (50%)
+inContact,Code/C#/Services/CoOpSvc,0.712,33,2,Dez Grant,15.2,5,
+routing-ng-advanced-findmatch,src/main/resources,0.7,28,5,Karthick Chandrasekaran,21.4,4,
+inContact,Code/C#/Library/BulkProcessor,0.696,18,4,Luis Montano,27.8,3,
+inContact,(root),0.694,53,3,Dez Grant,20.8,4,
+inContact,Code/C#/Library/AgentHelper/BasicCalls,0.689,22,3,Michael Charles Joseph,13.6,4,
+inContact,Database/InDW_DACPAC/DWCode/Scripts/Post-Deployment,0.678,21,2,indra-choudhari,23.8,3,
+inContact,Code/C#/Library/Authentication,0.678,21,3,Dez Grant,23.8,3,
+inContact,Code/C#/Library/ScriptHelper,0.674,40,3,Dez Grant,20.0,4,
+inContact,Code/C#/Services/CoOpSvc/CoOpSetup,0.667,23,2,Dez Grant,17.4,4,
+inContact,Code/C#/Library/inContact.InterVCCommWrapper/SynchronizerMessages,0.664,16,3,Michael Charles Joseph,43.8,2,
+inContact,Code/C#/Library/ScriptHelper/Helpers,0.664,18,3,ChunJu Liang,27.8,3,
+inContact,Code/WebDevelopment/API/Installers/Api.Installer,0.663,36,3,Prashant Jadhav,25.0,4,
+acd-playwright-e2e,e2e/lib,0.66,308,4,nproestakis,36.7,2,
+inContact,Code/C#/Library/CommonDigital,0.659,20,5,Dez Grant,20.0,3,
+routing-ng-contact-retry,src/test/java/com/nice/routing/contactretry/postgres,0.659,20,4,Karthick Chandrasekaran,40.0,2,
+acd-playwright-e2e,(root),0.657,185,3,Kevin Pyles,35.7,2,
+acd-playwright-e2e,e2e/suite-sch,0.655,173,3,nproestakis,65.3,1,
+inContact,Code/C#/Interfaces/inContact.DSL,0.651,21,2,Onkar Gadekar,33.3,2,
+inContact,Code/C#/Library/APISchemas,0.651,21,3,Onkar Gadekar,33.3,2,
+inContact,Code/C#/Library/VCInterfaces,0.649,17,3,Dez Grant,23.5,3,
+inContact,Code/C#/Services/VCSvc/ProviderTests/AgentProviderUnitTests,0.642,18,3,Michael Charles Joseph,16.7,3,
+inContact,Code/C#/Library/AgentServices,0.637,28,4,Onkar Gadekar,25.0,3,
+acd-playwright-e2e,scripts,0.637,131,3,Kevin Pyles,57.3,1,
+inContact,Code/C#/Library/ScriptHelper/ActionHandler,0.633,15,3,FKajal,20.0,3,
+routing-ng-contact-retry,src/main/java/com/nice/routing/contactretry/postgres,0.632,20,5,Karthick Chandrasekaran,30.0,2,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderMessageSynchorizer,0.627,27,2,Dez Grant,33.3,2,
+inContact,Code/C#/Services/VCSvc/Providers/EventPubTests,0.622,19,4,Dez Grant,26.3,3,
+inContact,Code/WebDevelopment/inContact/inContactSetup/Components,0.619,17,4,Dez Grant,29.4,3,
+acd-playwright-e2e,e2e/lib/routing,0.619,60,3,Nichole Proestakis,30.0,2,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderDigitalEngagement,0.618,25,1,Dez Grant,36.0,3,
+inContact,Code/WebDevelopment/API/Installers/AuthorizationServer.Installer,0.616,18,5,Dez Grant,27.8,3,
+inContact,Code/C#/Library/inControl.NET WebSvc,0.616,18,2,Onkar Gadekar,38.9,2,
+inContact,Code/C#/Library/inContact.InterVCCommWrapper,0.611,16,3,Dez Grant,31.2,2,
+inContact,Code/C#/Library/ListProcessing,0.607,23,3,Onkar Gadekar,30.4,3,
+routing-ng-contact-retry,(root),0.596,40,3,jkmuthazhagan,30.0,3,
+inContact,Code/WebDevelopment/inControl.NET/inControl.NETWebsiteInstall,0.592,21,4,Pavitra kadam,19.0,4,
+inContact,Code/C#/Library/BulkUploadProcessor/Creators,0.591,16,3,Marcos Bustos Jimenez,31.2,2,Marcos Bustos Jimenez (41%)
+inContact,Code/WebDevelopment/inContact/inContactWebApp/js,0.589,14,3,Prashant Tiwari,35.7,2,
+inContact,Code/C#/Library/FileServerSQLAPI,0.586,36,4,onkargadekar,19.4,3,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderEntityStateManagement.Tests,0.576,34,2,Jesse Blanton,17.6,6,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderEventMessagingTests,0.575,20,3,Dez Grant,25.0,3,
+inContact,Code/C#/Library/ScriptHelper/Interfaces,0.575,20,4,Mahesh Radhakrishnan,15.0,4,
+inContact,Code/C#/Library/Common/CommonTests,0.573,33,1,Jesse Blanton,18.2,6,
+inContact,Code/C#/Library/ScriptHelperSerDeTests,0.573,33,4,Gene Huh,24.2,3,
+routing-ng-agent-capacity-service,docs,0.568,15,2,A.J. Bobo,53.3,1,Giribabu Vislawath (44%)
+inContact,Code/C#/Library/AgentAPI,0.567,16,2,Onkar Gadekar,43.8,2,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderDigitalEngagementTests,0.561,18,3,Dez Grant,27.8,2,
+inContact,Code/C#/Services/VCSvc/ProviderTests,0.553,26,2,Dez Grant,15.4,5,
+inContact,Code/C#/Library/ScriptSQLWS,0.54,17,3,Onkar Gadekar,41.2,2,
+inContact,Code/C#/DBConnector/IIS/DBCWS,0.54,17,4,Onkar Gadekar,41.2,2,
+inContact,Code/C#/Library/inControl.NET WebSvcV2,0.54,17,3,Onkar Gadekar,41.2,2,Onkar Gadekar (33%)
+orch-entity-state-streams-common,src/test/java/com/nice/cxone/suitedata/common,0.54,17,4,Kacie Mayberry,23.5,3,
+orch-entity-state-streams-common,src/main/java/com/nice/cxone/suitedata/common,0.54,17,4,Kacie Mayberry,23.5,3,
+inContact,Code/C#/Services/StorageMigrationService/StorageMigrationService,0.537,23,3,Pooja Bhosale,30.4,2,
+inContact,Code/C#/Library/BulkDataUpload/FileCreators,0.528,14,2,Luis Montano,21.4,3,
+inContact,Code/C#/Tools/IvrScriptUtil/IVRScriptsSetup,0.524,21,1,Stephen.Carroll,14.3,5,
+inContact,Code/C#/Library/inContact.Eventing,0.524,21,3,Onkar Gadekar,33.3,2,
+inContact,Code/C#/Library/ScriptHelper.Legacy,0.524,21,2,Onkar Gadekar,33.3,2,
+inContact,Code/C#/Library/inContact.InterVCCommWrapper/Interfaces,0.514,10,5,Michael Charles Joseph,50.0,1,
+inContact,Code/C#/Library/BulkProcessor.Tests/TestFiles,0.51,11,3,Luc Hardbarger,27.3,3,
+inContact,Code/IvrScripts/SystemScripts/System/AgentUI,0.51,13,3,Kajal Fegade,23.1,3,
+inContact,Code/C#/Library/SQLMessaging,0.51,13,3,Shilpa Hasabnis,23.1,3,
+routing-ng-agent-capacity-service,src/test/java/com/nice/routing/agentcapacityservice/config,0.51,13,2,A.J. Bobo,69.2,1,
+inContact,Code/C#/Library/EmailCommon.Tests,0.501,19,2,Onkar Gadekar,36.8,2,
+inContact,Code/C#/Library/BulkProcessor/Users,0.497,10,5,Alejandro Castillo,30.0,2,
+inContact,Code/C#/Library/CommonDigital.Tests,0.496,15,4,Mahesh Radhakrishnan,26.7,2,
+inContact,Code/WebDevelopment/Agent/AgentWebsiteSetup,0.496,15,5,Dez Grant,26.7,3,
+inContact,Code/C#/Library/FS3ClientAPI,0.496,18,4,Onkar Gadekar,33.3,2,Onkar Gadekar (30%)
+inContact,Code/C#/Services/VCSvc/Providers/Shell,0.496,18,2,Onkar Gadekar,38.9,2,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderSMS,0.481,14,2,Dez Grant,57.1,1,
+inContact,Code/C#/Library/EmailCommon,0.478,17,3,Onkar Gadekar,41.2,2,
+inContact,Code/WebDevelopment/Agent/Agent,0.478,17,4,Onkar Gadekar,41.2,2,Onkar Gadekar (33%)
+inContact,Code/C#/Library/inContact.InterVCCommWrapper/Messages,0.46,9,3,Michael Charles Joseph,66.7,1,
+acd-playwright-e2e,e2e/suite-acdwf/tests,0.456,16,1,Kevin Pyles,100.0,1,
+inContact,Code/C#/Services/VCSvc/ProviderAgentTests,0.456,16,3,Zak Geddes,25.0,3,
+routing-ng-agent-capacity-service,src/main/java/com/nice/routing/agentcapacityservice/observability,0.456,16,2,Giribabu Vislawath,56.2,1,Giribabu Vislawath (56%)
+inContact,Code/C#/Library/inContact.QueueInfo,0.455,10,6,Dez Grant,50.0,1,
+inContact,Code/C#/Library/inContact.CentralRepositories,0.442,12,3,Luis Montano,25.0,2,
+inContact,Code/WebDevelopment/API,0.438,15,4,Luc Hardbarger,26.7,3,
+inContact,Code/C#/Library/ScriptSQL,0.438,15,2,Onkar Gadekar,46.7,2,
+inContact,Code/C#/Library/BulkProcessor.Tests/Users,0.433,9,6,Alejandro Castillo,33.3,2,
+inContact,Code/WebDevelopment/inContact/inContactWebApp/API,0.433,9,8,Marcos Bustos Jimenez,22.2,4,
+inContact,Code/C#/DBConnector/UI/DBCCFG,0.425,14,3,Brian Ortuno,28.6,2,
+inContact,Code/C#/Services/VCSvc/Providers/Globals,0.425,14,3,Dez Grant,35.7,2,
+inContact,Code/C#/Library/inControlConnection,0.425,14,4,Nathan Wong,21.4,3,
+inContact,Code/IvrScripts/SystemScripts/System/Callers,0.414,10,8,saglawe,20.0,3,
+inContact,Code/C#/Library/APISchemas/V33,0.414,10,8,Stephen.Carroll,30.0,3,
+acd-playwright-e2e,e2e/suite-de,0.41,13,3,Kevin Pyles,53.8,1,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderHopperService,0.41,13,1,Dez Grant,69.2,1,
+inContact,Code/C#/Library/FSP2PProtocol,0.41,13,2,Onkar Gadekar,53.8,1,Onkar Gadekar (50%)
+inContact,Code/WebDevelopment/WebScripting/WebScriptingInstaller/Components,0.41,13,4,Dez Grant,23.1,3,
+inContact,Code/WebDevelopment/ReportService/ReportServiceWebsiteInstaller,0.41,13,4,Dez Grant,23.1,3,
+inContact,Code/WebDevelopment/API/Test/API.NET.Tests,0.406,133,2,Luc Hardbarger,11.3,6,
+inContact,Code/WebDevelopment/API/Endpoints/AuthorizationServer,0.402,9,6,Sakshi Kulkarni,22.2,3,
+routing-ng-contact-retry,src/main/java/com/nice/routing/contactretry/scheduler,0.402,9,5,Karthick Chandrasekaran,33.3,2,
+routing-ng-integration-tests,src/test/java/com/nice,0.402,106,3,jatin-patil-incontact,34.9,2,
+inContact,.github/workflows,0.401,105,2,Victor Vang,43.8,2,
+inContact,Code/WebDevelopment/inSideWS/inSideWS,0.391,12,2,Onkar Gadekar,58.3,1,Onkar Gadekar (30%)
+inContact,Code/C#/Tools/Diagnostics/Diagnostics,0.391,12,2,Onkar Gadekar,58.3,1,Onkar Gadekar (50%)
+inContact,Code/C#/Library/inContact.CXA.RemovedVoicemailsCleanUpProcess,0.391,12,1,Onkar Gadekar,58.3,1,Onkar Gadekar (44%)
+inContact,Code/C#/Library/inContact.InterVCCommWrapper/Clients,0.389,8,4,Michael Charles Joseph,62.5,1,
+inContact,Code/C#/Services/CoOpSvc/DigitalMigration,0.381,11,3,lovenish2022,45.5,2,Pavan Pardeshi (36%)
+inContact,Code/WebDevelopment/inSideWS/inSideWSWebSiteInstall/Components,0.381,11,3,Luc Hardbarger,18.2,3,
+inContact,Code/C#/Tools/QuickBU/inDataLib,0.381,11,2,Onkar Gadekar,63.6,1,Onkar Gadekar (54%)
+inContact,Code/C#/Tools/FSDiskVolumeUtility,0.381,11,2,Onkar Gadekar,63.6,1,Onkar Gadekar (50%)
+inContact,Code/C#/Tools/GdprProcessTool/GdprProcessTool,0.381,11,1,Onkar Gadekar,63.6,1,Onkar Gadekar (50%)
+inContact,Code/C#/Services/VCSvc/Providers/Data.Tests,0.366,9,5,Dez Grant,33.3,2,
+inContact,Code/C#/Library/BulkUploadProcessor/DataAccessor,0.366,9,6,Marcos Bustos Jimenez,44.4,2,Marcos Bustos Jimenez (43%)
+inContact,Code/C#/Library/BulkProcessor/Model,0.366,9,6,Luis Montano,33.3,2,
+inContact,Code/C#/Library/inContactDAL.Tests,0.366,10,6,Jesse Blanton,30.0,2,
+inContact,Code/WebDevelopment/WebScripting/WebScripting,0.366,10,5,Luc Hardbarger,40.0,2,
+inContact,Code/C#/Clients/inControl.NET/Dialogs,0.366,10,4,Onkar Gadekar,70.0,1,Onkar Gadekar (58%)
+inContact,Code/WebDevelopment/Services/InsideWS,0.366,10,4,Onkar Gadekar,70.0,1,Onkar Gadekar (58%)
+inContact,Code/C#/Library/Studio/ScriptSQLSim,0.366,10,4,Onkar Gadekar,70.0,1,Onkar Gadekar (58%)
+inContact,Code/WebDevelopment/Agent/AgentWCFObjectConverters,0.366,10,4,Onkar Gadekar,70.0,1,Onkar Gadekar (58%)
+inContact,Code/C#/Library/WebServiceHelper,0.366,10,4,Onkar Gadekar,70.0,1,Onkar Gadekar (58%)
+inContact,Code/C#/Library/Studio/PageComponentsEditor,0.366,10,4,Onkar Gadekar,70.0,1,Onkar Gadekar (37%)
+inContact,Code/C#/Library/IvrLib,0.366,10,4,Onkar Gadekar,70.0,1,Onkar Gadekar (58%)
+inContact,Code/C#/Library/FS-FTPEdgePlugIn/FS-FTPEdgePlugIn,0.366,10,4,Onkar Gadekar,70.0,1,Onkar Gadekar (58%)
+inContact,Code/C#/Library/inControlDialogs,0.366,10,4,Onkar Gadekar,70.0,1,Onkar Gadekar (58%)
+inContact,Code/C#/Services/WFOFileServerIntegration,0.366,10,4,Onkar Gadekar,70.0,1,Onkar Gadekar (54%)
+inContact,Code/C#/Test Projects/AgentApiTests,0.366,10,4,Onkar Gadekar,70.0,1,Onkar Gadekar (58%)
+inContact,Code/C#/Library/FileServerCOMAPI,0.366,10,4,Onkar Gadekar,70.0,1,Onkar Gadekar (58%)
+inContact,Code/C#/Library/inContact.DataRepositiories,0.366,10,7,Dez Grant,40.0,2,
+inContact,Code/C#/Services/FileServer/Code,0.357,28,3,onkargadekar,25.0,2,
+inContact,Code/C#/Library/Common,0.357,28,3,Dez Grant,25.0,4,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderESN,0.351,26,4,mohanvphadnis,26.9,3,
+routing-ng-contact-retry,src/main/java/com/nice/routing/contactretry,0.347,25,2,jkmuthazhagan,52.0,1,
+inContact,Code/C#/Library/Common/SQL,0.343,8,7,Luc Hardbarger,25.0,3,
+acd-playwright-e2e,e2e/suite-cti-workitem,0.343,24,3,Kevin Pyles,41.7,2,
+routing-ng-advanced-findmatch,(root),0.343,24,2,jkmuthazhagan,25.0,4,
+inContact,Database/InDW_DACPAC/DWCode,0.337,22,2,Peter Burnashov,18.2,4,
+inContact,Code/C#/Library/InContact.DataRepositories.AutoOutbound,0.337,22,4,Siddharth Ghogare,31.8,3,
+routing-ng-contact-retry,src/main/java/com/nice/routing/contactretry/kafka,0.332,21,1,jkmuthazhagan,85.7,1,
+inContact,Code/C#/Tools/FsTempSetWebLink/FsTempSetWebLink,0.323,9,3,Onkar Gadekar,77.8,1,Onkar Gadekar (64%)
+inContact,Code/C#/Test Projects/FileServerLoadTests/FileServerLoadTests,0.323,9,3,Onkar Gadekar,77.8,1,Onkar Gadekar (64%)
+inContact,Code/C#/Tools/FS3ClientTester,0.323,9,3,Onkar Gadekar,77.8,1,Onkar Gadekar (50%)
+inContact,Code/C#/Services/MailDirector/MailDirector,0.323,9,3,Onkar Gadekar,77.8,1,Onkar Gadekar (64%)
+inContact,Code/C#/Tools/FsWavFileVerify/FsWavFileVerify,0.323,9,3,Onkar Gadekar,77.8,1,Onkar Gadekar (64%)
+inContact,Code/C#/Tools/CloudToCloudMigration/CloudToCloudMigration,0.323,9,3,Onkar Gadekar,77.8,1,Onkar Gadekar (64%)
+inContact,Code/C#/Tools/FS3FileVerifyMoveTool/FS3FileVerifyMoveTool,0.323,9,3,Onkar Gadekar,77.8,1,Onkar Gadekar (54%)
+inContact,Code/C#/Tools/SMSIntegrationTest/SMSIntegrationTest,0.323,9,3,Onkar Gadekar,77.8,1,Onkar Gadekar (64%)
+inContact,Code/C#/Tools/TestingCRM/TestingCRM,0.323,9,3,Onkar Gadekar,77.8,1,Onkar Gadekar (64%)
+inContact,Code/C#/Tools/MetadataMigrationService/MetadataMigrationService,0.323,9,3,Onkar Gadekar,77.8,1,Onkar Gadekar (64%)
+inContact,Code/C#/Services/FileServer/FileServerSetup,0.323,9,6,Dez Grant,33.3,2,
+inContact,Code/C#/Library/inContact.inControl,0.323,9,3,Onkar Gadekar,77.8,1,Onkar Gadekar (64%)
+acd-playwright-e2e,e2e/suite-cti-chat,0.318,19,3,Kevin Pyles,42.1,2,
+inContact,Code/C#/Library/BulkProcessor/Data,0.316,7,5,Marcos Bustos Jimenez,28.6,2,
+inContact,.github/action/build/modules,0.315,18,1,Joe Hille,72.2,1,
+inContact,Code/C#/Services/FileServer,0.315,18,3,Onkar Gadekar,22.2,3,
+routing-ng-contact-retry,.github/workflows,0.315,18,5,Sonal.Patel,27.8,2,
+inContact,Code/C#/Library/inContact.FeatureToggle,0.312,8,6,Marcos Bustos Jimenez,37.5,2,Marcos Bustos Jimenez (31%)
+routing-ng-contact-retry,src/test/java/com/nice/routing/contactretry/scheduler,0.312,8,4,Karthick Chandrasekaran,50.0,1,
+inContact,Code/C#/Library/ObjectCache/CacheItems,0.303,17,4,sunidhi-vats-cxone,11.8,5,
+inContact,Code/WebDevelopment/API/Test/SampleAPIConsumer,0.303,17,2,Brian Ortuno,17.6,5,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderOpenProxy,0.303,17,4,Dez Grant,29.4,3,
+routing-ng-contact-retry,src/test/java/com/nice/routing/contactretry/kafka,0.303,17,1,jkmuthazhagan,82.4,1,
+inContact,Code/IvrScripts/SystemScripts/System/AutoOutbound,0.29,6,3,Blaine Callahan,66.7,1,
+acd-playwright-e2e,e2e/suite-cti-email,0.29,16,3,Kevin Pyles,43.8,2,
+inContact,Code/C#/Services/VCSvc/Providers/vNextSync,0.29,16,2,Dez Grant,43.8,2,
+inContact,Code/C#/Tools/CxaVersionMSI/UpdateCxaVersion,0.29,16,1,Ashish Nagose,81.2,1,Ashish Nagose (83%)
+inContact,Code/WebDevelopment/CacheSite/CacheWebAppSetup/Components,0.29,16,5,Dez Grant,25.0,3,
+acd-playwright-e2e,e2e/suite-cti-voicemail,0.278,15,2,Kevin Pyles,46.7,2,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderESN.Tests,0.278,15,3,mohanvphadnis,40.0,2,
+inContact,Code/C#/Services/VCSvc/Providers/Scheduler,0.276,8,4,Dez Grant,50.0,1,
+inContact,Code/C#/Library/ScriptHelper/Extensions,0.276,8,6,FKajal,25.0,2,
+inContact,Code/C#/Library/ScriptHelper/Variables,0.276,8,6,Ken Huffman,25.0,2,
+acd-playwright-e2e,e2e/suite-ivr,0.27,14,3,Nichole Proestakis,35.7,2,
+inContact,Code/C#/Clients/inControl.NET/StudioSetupInternal,0.27,14,4,Luc Hardbarger,21.4,3,
+inContact,Code/C#/Library/NaturalCalling,0.27,14,3,Blaine Callahan,21.4,3,
+inContact,Code/C#/Services/VCSvc/VCSvc/DependencyInjection,0.26,13,1,Dez Grant,53.8,1,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderReplicator,0.26,13,1,Dez Grant,61.5,1,
+inContact,Code/C#/Services/VCSvc/Providers/DB,0.26,13,2,Dez Grant,53.8,1,
+inContact,Code/C#/Services/VCSvc/Providers/NugetProviders,0.26,13,3,Dez Grant,23.1,3,
+inContact,Code/WebDevelopment/ReportService/ReportService,0.255,7,5,dinesh-dangi-nice,28.6,2,
+inContact,Code/C#/Library/ContactRehydration,0.255,7,3,Dez Grant,71.4,1,
+routing-ng-contact-retry,src/main/resources,0.255,7,3,Karthick Chandrasekaran,71.4,1,Karthick Chandradekaran (33%)
+inContact,Code/C#/Library/ContactRehydration/test,0.248,12,2,Dez Grant,33.3,2,
+routing-ng-contact-retry,src/test/java/com/nice/routing/contactretry/service,0.248,12,3,jkmuthazhagan,58.3,1,
+inContact,Code/C#/Tools/AngularCentralACD/CustomActions,0.243,5,2,Felix Zelaya,60.0,1,Felix Zelaya (44%)
+inContact,Database/InDB_DACPAC/inData,0.242,11,2,John Mancilla,18.2,4,
+inContact,.github/action/squirrel_package,0.242,11,1,Joe Hille,72.7,1,
+inContact,Code/C#/Services/VCSvc/ProviderTests/ProviderMessageSynchorizer,0.242,11,3,Michael Charles Joseph,27.3,3,
+inContact,Code/C#/Library/CommonDigital/Interfaces,0.233,6,4,Fernando Maldonado,50.0,1,
+inContact,Code/C#/Library/ScriptHelper/Metrics,0.233,6,5,Luc Hardbarger,33.3,2,
+inContact,Code/WebDevelopment/inContact/inContactWebApp/Controls,0.233,6,4,Dimitri Selytin,50.0,1,
+inContact,Code/C#/Library/ScriptHelper/Cache,0.233,6,5,Dez Grant,33.3,2,Muthukrishnan J (33%)
+inContact,Code/C#/Services/CoOpSvc/CoOpSvcTest,0.232,10,5,lovenish2022,40.0,2,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderAgentSession.Tests,0.232,10,4,Jesse Blanton,50.0,1,
+inContact,Code/C#/Library/AsmGeneratorV2,0.232,10,6,Dez Grant,30.0,2,
+inContact,Code/C#/Library/FS3ClientAPI/FS3ClientAPITests,0.232,10,7,Onkar Gadekar,30.0,2,Onkar Gadekar (31%)
+inContact,Code/C#/Library/inContact.InteliquentRepositories,0.232,10,7,Dez Grant,30.0,2,
+routing-ng-contact-retry,src/main/java/com/nice/routing/contactretry/data,0.232,10,4,jkmuthazhagan,60.0,1,
+inContact,Code/C#/Library/BulkUploadProcessor/Entities,0.221,5,5,nicksteiner-niceincontact,20.0,3,
+inContact,Code/C#/Library/ServiceAdmins,0.221,5,3,SauravRPNice,40.0,2,
+inContact,Code/C#/Library/BulkProcessor.Tests/Testers,0.218,4,4,Luis Montano,25.0,2,
+inContact,Database/InDW_DACPAC/DWData/dbo/Tables,0.218,4,3,Justin.Williams,50.0,1,
+inContact,Database/InDB_DACPAC/inCode/dbo/Synonyms,0.205,9,8,John Mancilla,22.2,4,
+inContact,Code/C#/Services/VCSvc/Providers/ShellProvider.Tests,0.205,9,3,Jesse Blanton,44.4,2,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderSMSTests,0.205,9,4,Dez Grant,44.4,2,
+inContact,Code/C#/Library/FSPlugInAPI,0.205,9,5,Dez Grant,33.3,2,Onkar Gadekar (42%)
+inContact,Code/C#/Library/Common/Utilities,0.205,9,7,Blaine Callahan,22.2,3,
+inContact,Code/C#/Library/AsmGenerator,0.205,9,7,Dez Grant,22.2,3,
+inContact,Code/C#/Library/ScriptHelper/IL,0.205,9,4,Mahesh Radhakrishnan,33.3,2,
+inContact,Code/C#/DBConnector/Installer/DBCWSSetup,0.205,9,6,Dez Grant,33.3,2,
+routing-ng-contact-retry,src/main/java/com/nice/routing/contactretry/service,0.205,9,3,jkmuthazhagan,66.7,1,
+inContact,Code/C#/Library/BulkUploadProcessor/inContactBO,0.199,4,4,Mukesh Chaudhary,25.0,2,
+inContact,Code/C#/Services/VCSvc/InContact.DataRepositoriesTests/VC,0.199,4,2,Justin.Williams,75.0,1,Justin.Williams (75%)
+inContact,Code/C#/Library/ScriptHelper/Constants,0.195,5,5,Mahesh Radhakrishnan,20.0,3,
+inContact,Database/InDB_DACPAC/inCode/ETL/Stored Procedures,0.189,3,2,Justin.Williams,66.7,1,Justin.Williams (38%)
+inContact,Database/InDW_DACPAC/DWCode/ETL/Stored Procedures,0.182,3,2,Justin.Williams,66.7,1,Justin.Williams (43%)
+inContact,Database/InDW_DACPAC/DWData/ETL/Tables,0.182,3,2,Justin.Williams,66.7,1,
+inContact,Code/C#/Library/Common/Voltron,0.176,4,2,Michael Charles Joseph,75.0,1,
+inContact,Code/GithubSync,0.176,4,2,Luc Hardbarger,75.0,1,
+orch-entity-state-streams-common,(root),0.176,4,4,Subramanian Madhanagopal,25.0,2,
+inContact,Database/InstallTools/DbReplicator/Replication Scripts/Setup,0.175,8,6,Kennedy Janakiraman,37.5,2,
+inContact,Code/WebDevelopment/Security/SecurityWebsiteInstaller,0.175,8,6,Dez Grant,37.5,2,
+inContact,Code/C#/Library/BulkUploadProcessor/BulkUploadProcessorTests,0.175,8,4,Mukesh Chaudhary,50.0,1,Marcos Bustos Jimenez (40%)
+inContact,Code/C#/Library/ContactManagementEngine,0.175,8,5,Luc Hardbarger,37.5,2,
+inContact,Code/C#/Library/inContact.AdHocReports,0.175,8,5,Dez Grant,37.5,2,
+inContact,Code/C#/Services/StorageMigrationService/StorageMigrationServiceInstaller,0.175,8,6,Dez Grant,37.5,2,
+inContact,Code/WebDevelopment/CacheSite/CacheSite,0.161,7,3,Prashant Jadhav,57.1,1,Guido Guillen Roman (40%)
+inContact,Code/C#/Services/VCSvc/Cache/NCacheV53,0.161,7,3,Dez Grant,71.4,1,
+inContact,Code/C#/Library/ScriptHelper/Settings,0.161,7,5,shubham-shinde21,28.6,2,
+inContact,Code/C#/Library/inContact.QueueInfo.Tests,0.161,7,4,Jesse Blanton,42.9,2,
+inContact,Code/C#/Services/VCSvc/Cache/NCacheV51,0.161,7,4,Dez Grant,57.1,1,
+inContact,Code/C#/Library/EventHubMessageSender,0.161,7,5,Dez Grant,28.6,2,
+inContact,Code/C#/Tools/FS_DiskUsed/FS_DiskUsedInstaller,0.161,7,4,Dez Grant,57.1,1,
+inContact,Code/C#/Library/FSDefinitions,0.161,7,6,Dez Grant,28.6,3,
+inContact,Code/WebDevelopment/WebScripting/WebScriptingInstaller,0.161,7,5,Dez Grant,28.6,2,
+inContact,Database/InDB_DACPAC/inData/dbo/Synonyms,0.148,6,6,lovenish2022,16.7,3,
+inContact,Code/C#/Services/StorageMigrationService/StorageMigrationServiceTests,0.148,6,4,Onkar Gadekar,50.0,1,Onkar Gadekar (40%)
+inContact,Code/C#/DBConnector/Installer/DBConnector,0.148,6,4,Dez Grant,33.3,2,
+inContact,.github/utils/files,0.148,6,5,Victor Vang,33.3,2,
+inContact,Code/C#/Library/InContact.ReportingRepositories,0.148,6,6,pavitrakadam,16.7,3,
+inContact,Code/C#/Services/CoOpSvc/DependencyInjection,0.148,6,4,John Mancilla,50.0,1,
+inContact,Code/WebDevelopment/inContact/inContactWebApp/DependencyInjection,0.148,6,3,John Mancilla,66.7,1,
+inContact,Code/WebDevelopment/BIPump/BIPumpInstaller,0.148,6,4,Joe Hille,33.3,2,
+inContact,Code/C#/Library/incontact.GADataSyncRepository,0.148,6,3,Dez Grant,50.0,1,
+inContact,Code/C#/Services/VCSvc/Cache/CacheLibrary,0.148,6,3,Dez Grant,66.7,1,
+inContact,Code/WebDevelopment/API/Business Logic/Generators,0.148,6,4,Dez Grant,33.3,2,Thayavaran M (33%)
+inContact,Code/C#/Library/inContact.Eventing.Tests,0.148,6,2,Dez Grant,50.0,1,
+inContact,Code/C#/Services/FileServer/Agents,0.148,6,4,onkargadekar,50.0,1,
+inContact,Code/WebDevelopment/BISecurityProxy/BISecurityProxyInstaller,0.148,6,4,Dez Grant,50.0,1,
+inContact,Code/C#/Tools/IvrScriptUtil/IVRRegressionScriptsSetup,0.148,6,5,Dez Grant,33.3,2,
+inContact,Code/WebDevelopment/CacheSite/CacheWebAppSetup,0.148,6,4,Dez Grant,33.3,2,
+inContact,Code/C#/Library/Authentication/TDS,0.148,6,5,Nathan Wong,33.3,2,Marcos Bustos Jimenez (44%)
+routing-ng-contact-retry,src/test/java/com/nice/routing/contactretry/util,0.148,6,3,jkmuthazhagan,66.7,1,
+inContact,Code/C#/Services/FileServer/FileServerTest,0.146,3,3,Sahil Sarangdhar,33.3,2,
+inContact,Code/C#/Tools/FS_DiskUsed,0.146,3,2,Dez Grant,66.7,1,
+inContact,Code/C#/Library/SurveysIvrApi,0.146,3,1,Dez Grant,100.0,1,Muthukrishnan J (33%)
+inContact,Code/C#/Clients/inControl.NET/Editors,0.146,3,2,Joe Hille,66.7,1,Carlos Balderrama (40%)
+inContact,Code/C#/Services/VCSvc/ProviderAgentTests/Fakes,0.146,3,1,Zak Geddes,100.0,1,Zak Geddes (100%)
+inContact,Database/InDW_DACPAC/DWCode/Staging/Stored Procedures,0.137,2,1,Justin.Williams,100.0,1,Justin.Williams (75%)
+inContact,Database/InDW_DACPAC/DWData/ETLStaging/Tables,0.137,2,1,Justin.Williams,100.0,1,Justin.Williams (75%)
+inContact,Database/InDW_DACPAC/DWData/Staging/Tables,0.137,2,1,Justin.Williams,100.0,1,Justin.Williams (43%)
+inContact,Code/SSIS/DWETL/RealTime,0.124,2,1,Justin.Williams,100.0,1,Justin.Williams (100%)
+inContact,Database/InDW_DACPAC/DWCode/dbo/Views,0.124,2,1,Justin.Williams,100.0,1,Justin.Williams (100%)
+inContact,Code/C#/Library/ScriptHelper/Properties,0.124,5,3,Luc Hardbarger,60.0,1,
+inContact,Code/WebDevelopment/WebScripting,0.124,5,3,Dez Grant,40.0,2,
+inContact,Code/WebDevelopment/Agent,0.124,5,4,Dez Grant,40.0,2,
+inContact,Code/C#/Library/Encryption,0.124,5,3,Dez Grant,60.0,1,
+inContact,Code/C#/Services/VCSvc/ProviderTests/ReplicatorTests,0.124,5,3,Dez Grant,60.0,1,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderContactRehydrationService,0.124,5,1,Dez Grant,100.0,1,
+inContact,Code/C#/Services/VCSvc/Cache/NCacheV41,0.124,5,2,Dez Grant,80.0,1,
+inContact,Code/C#/Services/VCSvc/Providers/ProviderContactRehydration.Tests,0.124,5,3,Dez Grant,60.0,1,
+inContact,.claude/commands,0.111,4,2,Luc Hardbarger,75.0,1,
+inContact,Code/C#/Library/AgentHelper/Properties,0.111,4,3,Zak Geddes,50.0,1,Kristin Barlow (43%)
+inContact,Code/C#/Services/VCSvc/Cache/NCacheV53Tests,0.111,4,2,Dez Grant,75.0,1,
+inContact,Code/C#/DBConnector,0.111,4,3,Dez Grant,50.0,1,
+inContact,Code/C#/Tools/IvrScriptUtil,0.111,4,3,Dez Grant,50.0,1,
+inContact,Code/C#/Services/VCSvc/Cache/NCacheV51Tests,0.111,4,2,Dez Grant,75.0,1,
+inContact,Code/SSIS/DWETL/ACD/AG,0.111,4,1,Blaine Callahan,100.0,1,Sagar Mandlik (33%)
+inContact,Code/C#/Library/Localization/de,0.111,4,3,Luis Montano,50.0,1,Felix Zelaya (64%)
+inContact,Code/C#/Library/AgentHelper/Sms,0.111,4,4,Karthick Chandrasekaran,25.0,2,
+inContact,Code/WebDevelopment/inSideWS/inSideWSWebSiteInstall,0.111,4,3,Dez Grant,50.0,1,
+inContact,Code/C#/Library/NaturalCalling/StateManagement,0.111,4,3,Luc Hardbarger,50.0,1,
+inContact,Code/C#/Services/AWSBillingService/AWSBillingService,0.11,2,2,onkargadekar,50.0,1,
+inContact,Code/C#/Library/Localization/es,0.11,2,2,dinesh-dangi-nice,50.0,1,Felix Zelaya (69%)
+inContact,Code/C#/Library/Localization/pt,0.11,2,2,dinesh-dangi-nice,50.0,1,Felix Zelaya (69%)
+inContact,Code/C#/Library/EmailCommon/Email,0.11,2,2,joe-carmo,50.0,1,
+inContact,Code/C#/Library/FS-EMailPlugIn,0.11,2,2,SanjogDhamke,50.0,1,
+inContact,Code/WebDevelopment/inContact/inContactWebApp/Support,0.11,2,2,Laura Pereyra,50.0,1,
+inContact,Code/C#/Library/Authentication/API,0.11,2,2,Thayavaran M,50.0,1,
+inContact,Code/WebDevelopment/Security/Security,0.093,3,2,Prashant Jadhav,66.7,1,
+inContact,Code/C#/Services/VCSvc/Cache/NoCache,0.093,3,2,Dez Grant,66.7,1,
+inContact,Code/C#/Services/inContact.inView,0.093,3,2,Dez Grant,66.7,1,Muthukrishnan J (43%)
+inContact,Code/C#/Library/inContact.DataRepositories.API.Tests,0.093,3,3,Prashant Tiwari,33.3,2,
+inContact,Code/C#/Services/VCSvc/Cache/CacheLibraryTests,0.093,3,2,Jesse Blanton,66.7,1,
+inContact,Code/SSIS/DWETL/ACD,0.093,3,1,Blaine Callahan,100.0,1,Sagar Mandlik (33%)
+inContact,Code/C#/Library/ScriptHelper/DependencyInjection,0.093,3,3,Jesse Prevey,33.3,2,Manoj Lokhande (33%)
+inContact,Code/C#/Library/Empirix/Tools,0.093,3,3,Gene Huh,33.3,2,Darshini Neelamegan (33%); Thayavaran M (33%)
+inContact,Code/C#/Library/CommonDigital/Repository,0.093,3,1,Fernando Maldonado,100.0,1,Fernando Maldonado (60%)
+inContact,Code/C#/Library/ScriptHelper/Events,0.093,3,1,Michael Charles Joseph,100.0,1,
+inContact,Code/SSIS/DWETL/Setup/Cluster,0.093,3,3,Dez Grant,33.3,2,
+inContact,Code/C#/Library/SnippetEditor,0.093,3,2,Joe Hille,66.7,1,
+inContact,Code/WebDevelopment/BIPump/BIPump,0.093,3,1,Luc Hardbarger,100.0,1,
+routing-ng-contact-retry,src/test/java/com/nice/routing/contactretry,0.093,3,3,James Penman,33.3,2,
+inContact,Code/C#/Library/EventHubProducerLibrary/Settings,0.07,2,2,James Penman,50.0,1,
+inContact,Code/C#/Services/VCSvc/VCSvc/Subscribers,0.07,2,2,Niraj Chaudhari,50.0,1,Senthilkumar R (50%)
+inContact,Code/C#/Tools/LogDecoder2/LogReaderSvc,0.07,2,1,Dez Grant,100.0,1,Muthukrishnan J (43%)
+inContact,Code/C#/Library/Localization/nl,0.07,2,2,dinesh-dangi-nice,50.0,1,Felix Zelaya (75%)
+inContact,Code/C#/Library/Localization/it,0.07,2,2,dinesh-dangi-nice,50.0,1,Felix Zelaya (75%)
+inContact,Code/C#/Library/Localization/zh-CN,0.07,2,2,dinesh-dangi-nice,50.0,1,Felix Zelaya (75%)
+inContact,Code/C#/Library/Localization/fr,0.07,2,2,dinesh-dangi-nice,50.0,1,Felix Zelaya (75%)
+inContact,Code/C#/Library/Localization/ru,0.07,2,2,dinesh-dangi-nice,50.0,1,Felix Zelaya (75%)
+inContact,Code/C#/Library/Localization/ko,0.07,2,2,dinesh-dangi-nice,50.0,1,Felix Zelaya (83%)
+inContact,Code/WebDevelopment/inContact/inContactWebApp/styles,0.07,2,2,raju bangalorevaradharaju,50.0,1,Felix Zelaya (40%)
+inContact,Code/WebDevelopment/Supervisor/Supervisor,0.07,2,1,Luc Hardbarger,100.0,1,
+inContact,Code/C#/Library/inContact.DataRepositiories/IC,0.07,2,2,Joe Hille,50.0,1,
+inContact,Code/C#/Library/inContact.Eventing/Actions,0.07,2,2,SanjogDhamke,50.0,1,
+inContact,Code/C#/Services/BIHealthCheck/BIHealthCheckSvc,0.07,2,1,Dez Grant,100.0,1,
+inContact,Code/C#/Tools/FSDiskVolumeUtility/FSDiskVolumeUtilitySetup,0.07,2,1,Dez Grant,100.0,1,Muthukrishnan J (33%)
+inContact,Code/C#/Tools/GdprProcessTool/GdprProcessToolSetup,0.07,2,1,Dez Grant,100.0,1,
+inContact,Code/WebDevelopment/inContact/inContactWebApp/Images,0.07,2,2,Laura Pereyra,50.0,1,
+inContact,Code/WebDevelopment/Agent/AgentWCFTest,0.07,2,1,Luc Hardbarger,100.0,1,
+inContact,Code/C#/Library/inContact.ProspectiveContacts/ProspectiveContacts,0.07,2,2,Darshini Neelamegan,50.0,1,
+inContact,Code/C#/Library/ScriptHelper/DigitalMetrics,0.07,2,2,Michael Charles Joseph,50.0,1,Fernando Maldonado (40%)
+inContact,Code/C#/Library/inContact.AdHocReports/Services,0.07,2,2,Sebastian Barrios,50.0,1,Thayavaran M (50%); Rahul Rupnoor (33%)
+inContact,Code/C#/Library/UCN.Unification.WebControls/UCN.Unification.WebControls,0.07,2,2,Laura Pereyra,50.0,1,
+inContact,Code/WebDevelopment/inContact/inContactWebApp/Surveys,0.07,2,2,Laura Pereyra,50.0,1,
+inContact,Code/C#/Library/EventHubMessageSender.Legacy,0.07,2,1,Senthilkumar R,100.0,1,Senthilkumar R (50%)
+inContact,Code/C#/Tools/commonNugetBuilder,0.07,2,2,Alex Marmor,50.0,1,
+inContact,Code/C#/Library/BulkProcessor.Tests,0.07,2,2,Luis Montano,50.0,1,Darshini Neelamegan (38%)
+inContact,Code/C#/Library/ServiceAdmins.Legacy,0.07,2,1,Durga Devi,100.0,1,Durga Devi (40%)
+inContact,Code/C#/Library/InControl.Net.Infrastructure/ToolImport,0.07,2,1,Joe Hille,100.0,1,
+inContact,Code/C#/Library/FileServerSQLAPI/FileServerSQLAPITest,0.044,1,1,Jesse Blanton,100.0,1,Muthukrishnan J (50%)
+inContact,Code/C#/Library/FS-SMTPEdgePlugIn/FS-SMTPEdgePlugIn,0.044,1,1,Dez Grant,100.0,1,Muthukrishnan J (60%)
+inContact,Code/C#/Library/InControl.Net.Infrastructure/Form,0.044,1,1,Carlos Balderrama,100.0,1,Carlos Balderrama (67%); Muthukrishnan J (33%)
+inContact,Code/C#/Library/APISchemas/V31,0.044,1,1,Jorge Avila,100.0,1,
+inContact,Code/C#/Tools/IcBulkAgentTool/IcBulkAgentTool,0.028,1,1,Prashant Tiwari,100.0,1,
+inContact,Database/InDB_DACPAC/inDBTest,0.028,1,1,JigyasaDewani,100.0,1,
+inContact,Code/C#/Library/BulkProcessor.Tests/Skills,0.028,1,1,Mukesh Chaudhary,100.0,1,Marcos Bustos Jimenez (33%)
+inContact,Code/C#/Library/EmailCommon.Tests/Email,0.028,1,1,joe-carmo,100.0,1,Muthukrishnan J (50%)
+inContact,Code/IvrScripts/SystemScripts/System/SMS,0.028,1,1,Karthick Chandrasekaran,100.0,1,
+inContact,Code/C#/Library/CommonDigital.Tests/Repository,0.028,1,1,Jesse Blanton,100.0,1,Oscar Callisaya (50%)
+inContact,Code/C#/Library/inContact.WFI/Actions,0.028,1,1,SanjogDhamke,100.0,1,Rodrigo Leon (40%)
+inContact,Code/C#/Library/inControl.NET WebSvc/inControl.NETWebSvcTest,0.028,1,1,Dez Grant,100.0,1,Muthukrishnan J (33%)
+inContact,Code/WebDevelopment/inContact/inContactWebApp/Agent,0.028,1,1,Laura Pereyra,100.0,1,
+inContact,Code/C#/Library/Common/Digital,0.028,1,1,lovenish2022,100.0,1,Oscar Callisaya (33%); Lovenish Manjul (33%)
+inContact,Code/C#/Library/inContact.BulkuploadProcessor,0.028,1,1,Dez Grant,100.0,1,Muthukrishnan J (33%)
+inContact,Code/C#/Library/APISchemas/V32,0.028,1,1,Jigyasa Dewani,100.0,1,
+inContact,Code/C#/Library/EventHubProducerLibrary/Data,0.028,1,1,A.J. Bobo,100.0,1,
+inContact,Code/WebDevelopment/inControl.NET/inControl.NET/DependencyInjection,0.028,1,1,Brian Ortuno Umana,100.0,1,Brian Ortuno Umana (50%); Muthukrishnan J (50%)
+inContact,Code/WebDevelopment/inContact/inContactWebApp/Popups,0.028,1,1,Pablo Daza,100.0,1,Muthukrishnan J (33%)
+inContact,Code/WebDevelopment/inContact/inContactWebApp/QA,0.028,1,1,Pablo Daza,100.0,1,
+inContact,Code/C#/Library/incontact.GADataSyncRepository/SQLOperations,0.028,1,1,Thayavaran M,100.0,1,Thayavaran M (100%)
+inContact,Code/C#/Library/Authentication/Views,0.028,1,1,Thayavaran M,100.0,1,Thayavaran M (50%); Felix Zelaya (50%)
+inContact,Code/C#/DBConnector/DBC/DBService,0.028,1,1,Rajalingam Periyathambi,100.0,1,Rajalingam Periyathambi (33%); Muthukrishnan J (33%); Brian Ortuno Umana (33%)
+inContact,Code/C#/Tools/VCAPISimulator,0.028,1,1,Prashant Jadhav,100.0,1,
+inContact,Code/C#/Library/ScriptHelper/Digital,0.028,1,1,Fernando Maldonado,100.0,1,Oscar Callisaya (50%)
+inContact,Code/C#/Library/ContactRehydration/Suspend,0.028,1,1,Fernando Maldonado,100.0,1,Oscar Callisaya (40%)
+inContact,Code/WebDevelopment/BISecurityProxy/BISecurityProxy,0.028,1,1,Luc Hardbarger,100.0,1,Rahul Rupnoor (50%)

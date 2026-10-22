@@ -1,0 +1,6 @@
+event_id,migration,date,pilot_before,pilot_after,pilot_rr,pilot_lo,pilot_hi,mention_before,mention_after,control_before,control_after,control_rr,pilot_vs_control
+E02,Voltron / cache,2026-01-15,23,24,1.04,0.59,1.85,1,2,226,169,0.75,1.4
+E03,.NET upgrade,2026-03-15,27,45,1.67,1.03,2.69,2,1,173,245,1.42,1.18
+E04,TFS telephony,2026-04-08,24,72,3.0,1.89,4.76,0,0,203,236,1.16,2.58
+E05,Voltron / cache,2026-04-28,34,85,2.5,1.68,3.72,1,4,230,247,1.07,2.33
+E06,State Streams KDA->EKS,2026-05-06,41,79,1.93,1.32,2.81,0,2,241,260,1.08,1.79

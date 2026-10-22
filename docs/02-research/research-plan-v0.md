@@ -96,3 +96,14 @@ Pilot is selected from R2 / R3 data, not in advance.
 | Measurement artifacts | R4 before root-cause work. |
 | Confirmation bias toward AI or tooling | Each hypothesis has explicit rejecting evidence. |
 | Paperwork without decisions | Each doc must enable a named decision. |
+
+### Status update 2026-10-22 (round 4)
+
+| ID | Status | Output |
+|---|---|---|
+| R3 | Done | [F14](findings-round-4.md), [R3+R14](r3-r14-hotspots-ownership.md) |
+| R14 | Done | [F15](findings-round-4.md) |
+| R11 | Done (Git dates only; Atlassian timed out) | [F16](findings-round-4.md), [R11](r11-migrations-vs-cfb.md) |
+| R13 | Done v0: G4 NOT PASSED | [gate-4-readiness-v0](../03-decisions/gate-4-readiness-v0.md) |
+| R12 | Waiting: lead to approve SMEs + send questionnaire | U-22 |
+| R11b | Re-run Jira / Confluence migration dates when Atlassian responds | U-23 |

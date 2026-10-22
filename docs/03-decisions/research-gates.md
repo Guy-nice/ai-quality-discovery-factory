@@ -12,7 +12,7 @@ Do not advance without recording gate status here. Solution design starts only a
 | G1 | Evidence Access | PARTIAL | Jira, Confluence, Git (`inContact`, incl. monolith) confirmed. Sonar, CI/CD, incidents open (U-09). | 2026-10-22 |
 | G2 | Problem Definition | PASSED (interim) | Problem statement v3. Not blocking: U-14, human rater, U-15. | 2026-10-22 |
 | G3 | Risk and Scope Selection | PASSED (interim) | Pilot D-010. R3 hotspots (Git) still needed for the deep dive. | 2026-10-22 |
-| G4 | Solution Readiness | OPEN | R3 hotspots, PH-1..PH-5 validation with SMEs (questionnaire ready), baseline metrics, constraints, success criteria | 2026-10-22 |
+| G4 | Solution Readiness | NOT PASSED ([readiness v0](gate-4-readiness-v0.md)) | SME validation (U-22), production migration dates (U-23), sponsor approval of success criteria. Done: hotspots, baselines, constraints draft. | 2026-10-22 |
 
 ## Gate criteria
 
@@ -59,3 +59,4 @@ Do not advance without recording gate status here. Solution design starts only a
 | 2026-10-22 | G3 | PASSED (interim): pilot D-010 | Research |
 | 2026-10-22 | G2 | PASSED (interim): R8 + R9, problem statement v3 | Research |
 | 2026-10-22 | G1 | Git org `inContact` read access confirmed; TFS and CI/CD still open | Research |
+| 2026-10-22 | G4 | Readiness package v0: NOT PASSED; 3 blocking items | Research |

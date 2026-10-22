@@ -162,3 +162,21 @@ Short version: [iteration-log.md](iteration-log.md).
 - Share: lead opens doc -> Share -> add people / organization. Doc is a snapshot; repo stays source of truth.
 
 **Files:** README (link), iteration-log, full-history. **Commit:** see iteration-log row 10.
+
+---
+
+## Iteration 11 - 2026-10-22
+
+**Prompt (verbatim):**
+> yes cononite please
+
+**Result:**
+- R3 hotspots (fork): 7,866 commits, 184,464 file changes, 493 authors, 24 months. Jira-key link rate: monolith 76%, AFM 51%, EM 6-17%. Top: VCSvc/Providers/ACD, AgentHelper, AFM service, InterVCCommWrapper (43-55% of commits fix or cause CFB). Concurrency-named tests 4 of 1,349. AFM lost VFM out-of-order tests.
+- R14 ownership: InterVCCommWrapper bus factor 1-2; agent-capacity owner gone since 2026-04-22; big providers too diffuse (bus factor 9-21). P-05 supported.
+- R11 migrations (fork): Git code-start dates only (Atlassian timeouts). Pilot step 2026-04; event-study RR 1.9-3.0 vs control ~1.1, but events overlap. Direct migration cause ~11/296 (3.7%). PH-2 Low-Medium.
+- Correction (own analysis): pilot in-flow valid CFB 80 -> 107 (+34%), invalid 35% -> 51%; valid P1/P2 82%. D-020: valid CFB = primary metric.
+- R13 Gate 4 readiness v0: ranked root causes, frozen baselines, constraints, proposed success criteria S1-S7, checklist. Status NOT PASSED; blockers: SME validation, production rollout dates (U-23), sponsor approval.
+- DB size: git_file_changes moved to git_history.sqlite(.gz) (D-019); quality.sqlite 4 MB.
+- Questionnaire: Q3 production dates, new Q6 (2026-04 step), Q7 (InterVCCommWrapper risk).
+
+**Files:** findings-round-4, problem-statement-v4, gate-4-readiness-v0, r3-r14 doc, r11 doc, data/aggregates r3/r11/r14, scripts/db r3/r11, git_history.sqlite.gz, session-06, agent-reports round 4; updates to register, plan, gates, decisions, questionnaire, READMEs. **Commit:** see iteration-log row 11.
