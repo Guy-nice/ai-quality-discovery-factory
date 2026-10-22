@@ -25,6 +25,7 @@ Solution design starts only after Gate 4 passes. See [research gates](docs/03-de
 | History | [Iteration log](docs/99-sessions/iteration-log.md), [Full history](docs/99-sessions/full-history.md) |
 | Pilot | Orchestration Core - contact routing and lifecycle flow (D-010, D-016) |
 | Database | [data/db](data/db/README.md) - `quality.sqlite` |
+| Shared summary (company) | [claude.ai doc: AI Quality Discovery - Research Summary](https://claude.ai/artifact/QDD8cDsvj7t1NzPsZgdLdf) |
 
 ## Repository structure
 

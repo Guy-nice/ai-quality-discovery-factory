@@ -147,3 +147,18 @@ Short version: [iteration-log.md](iteration-log.md).
 - SME validation questionnaire v0: Part A 5 hypotheses + 5 questions; Part B 20 blind RCAs (stratified, seed 20261022).
 
 **Files:** stakeholder-map.md, sme-validation-questionnaire.md, r12-stakeholders.csv, scripts/db/r12_stakeholders.py, DB (stakeholders, git_repos fix), corrections in findings-round-3 and r9 doc, register, inventory, gates, decisions, plan. **Commit:** see iteration-log row 9.
+
+---
+
+## Iteration 10 - 2026-10-22
+
+**Prompt (verbatim):**
+> I want to have a link such as claude.ai/rtifcat that can be shared with all comapny meembers and I need. can it be done? before conitnue next
+
+**Result:**
+- Claude Doc made: [AI Quality Discovery - Research Summary](https://claude.ai/artifact/QDD8cDsvj7t1NzPsZgdLdf).
+- Sections: purpose and status (gates), problem statement v3, key findings (+ CFB quarterly chart 2021-Q1..2026-Q3), pilot + PH-1..PH-5, AI-assisted development (+ AI story share chart, rate ratios), controls, next steps / how to help, sources and method.
+- Left out for company-wide audience: SME names, security finding, customer data. One comment in the doc asks lead: add SME names or not.
+- Share: lead opens doc -> Share -> add people / organization. Doc is a snapshot; repo stays source of truth.
+
+**Files:** README (link), iteration-log, full-history. **Commit:** see iteration-log row 10.
