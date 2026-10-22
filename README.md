@@ -13,7 +13,7 @@ Observed Signal -> Evidence -> Pattern -> Hypothesis -> Validation Plan
 
 Solution design starts only after Gate 4 passes. See [research gates](docs/03-decisions/research-gates.md).
 
-**Start here: [Summary and recommendations](docs/05-summary/summary-and-recommendations.md)** | [1-page brief](docs/00-brief.md)
+**Start here: [Summary and recommendations](docs/05-summary/summary-and-recommendations.md)** | [Management deck (pptx)](docs/05-summary/management-deck.pptx) / [pdf](docs/05-summary/management-deck.pdf) | [1-page brief](docs/00-brief.md)
 
 ## Current status
 
@@ -38,7 +38,8 @@ Solution design starts only after Gate 4 passes. See [research gates](docs/03-de
 | `docs/02-research/` | Research plan (versioned), per-source analysis plan |
 | `docs/03-decisions/` | Dated decision log, research gate status |
 | `docs/04-solutions/` | Solution options, wave 1 specs, drafts |
-| `docs/05-summary/` | Summary and recommendations (gates, governance, goals) |
+| `docs/05-summary/` | Summary and recommendations, management deck |
+| `scripts/deck/` | Deck build script |
 | `docs/99-sessions/` | One log per working session: inputs, outputs, decisions, open items |
 | `data/aggregates/` | Aggregated counts and label-only classifications, with exact JQL and method per dataset |
 | `scripts/analysis/` | Scratch analysis scripts used to make the aggregates |

@@ -244,3 +244,17 @@ Short version: [iteration-log.md](iteration-log.md).
 - Shared doc (rev 30): new "Summary and recommendations" section after status.
 
 **Files:** summary-and-recommendations.md, README, brief, decision-log, iteration-log, full-history, session-10. **Commit:** see iteration-log row 15.
+
+---
+
+## Iteration 16 - 2026-10-22
+
+**Prompt (verbatim):**
+> make a presentation from the summary for management
+
+**Result:**
+- `docs/05-summary/management-deck.pptx` (+ pdf): 12 slides, sections Situation / Causes / Actions / Decisions, native charts (CFB trend, VP concentration, AI share, PR size risk), speaker notes. Asks: sponsor + owners, approve pilot gates, Sonar/CI/incident access, rollout register.
+- QA: validate.py passed; rendered in PowerPoint; fixed title alignment, a wrapped target on slide 11, empty card space on slides 9-10.
+- Build script in `scripts/deck/`.
+
+**Files:** management-deck.pptx/.pdf, scripts/deck/*, README, iteration-log, full-history. **Commit:** see iteration-log row 16.
