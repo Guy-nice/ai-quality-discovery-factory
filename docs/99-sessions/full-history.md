@@ -118,3 +118,18 @@ Short version: [iteration-log.md](iteration-log.md).
 - Problem statement v3; findings round 3; G2 PASSED (interim); D-014..D-016.
 
 **Files:** scripts/db/*, data/db/*, data/aggregates/r8-*, r9-*, docs/02-research/r8-*, r9-*, findings-round-3, problem-statement-v3, session-04, agent-reports round 3; updates to register, inventory, plan, gates, decisions, README. **Commit:** see iteration-log row 7.
+
+---
+
+## Iteration 8 - 2026-10-22
+
+**Prompt (verbatim):**
+> For what you need this 1 and 2. what this help you to understand and do?
+
+**Result:**
+- TFS (U-21): monolith churn x CFB hotspots; test PH-3 (library swaps, parity tests); find PH-1 event boundary code; P-05 ownership. Without: P-03 stays Low, hotspot map half. Alternative: commit history export (paths, dates, authors) of routing/contact folders.
+- SMEs (U-22): independent validation of PH-1..PH-5 (Gate 4 needs it); hidden context (other tests, migration dates); human rater on 20 RCAs = classification error rate. Without: risk of solution on wrong cause. Alternative: research finds names in Jira, lead approves; async questionnaire (10 Q + 20 RCAs, ~45 min).
+- Neither blocks R3, R11, R14, R13 draft. Both block G4. SMEs more important.
+- Question to lead: prepare SME list + questionnaire now?
+
+**Files:** iteration-log, full-history. **Commit:** see iteration-log row 8.
