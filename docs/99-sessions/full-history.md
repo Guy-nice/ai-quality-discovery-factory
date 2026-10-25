@@ -304,3 +304,4 @@ Short version: [iteration-log.md](iteration-log.md).
 - Forks started: E7 delivery, E8 requirements, E9 AI causal, D7 recurrence (results in next commit).
 
 **Files:** why-numbers-changed.md, metrics.py, README, logs. **Commit:** see iteration-log row 19.
+- Round 2 results (same iteration): E7 delivery, E8 requirements, E9 AI causal, D7 recurrence -> `docs/06-reassessment/m2-findings-round-2.md`; quality definition D6, D7 filled, D8 expectation fit proposed. Shared doc: "Why the numbers changed" section with MI chart (rev 32).

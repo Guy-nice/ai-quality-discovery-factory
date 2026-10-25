@@ -36,8 +36,12 @@ Code quality, coverage and tool scores are **inputs** that may explain quality. 
 | D3 | PERF type in Jira only; no SLO data |
 | D4 | 96% of P1 opened via customer cases (F17) |
 | D5 | P1 resolve: 71% < 4 h; CFB fix median 8-12 days |
-| D6 | Emergency changes 6.8% -> 14.4% (F18); caused_by 0.6% |
-| D7 | Not yet measured |
+| D6 | Emergency changes x2.9 from 2026-06; 1 in 4 named causes is a bug fix; caused_by 0.6% (E7, D7) |
+| D7 | Recurrence after fix 1.2-1.6%, flat; reopen 5.2-5.6% (D7) |
+
+## Added by round 2
+
+- **D8 Expectation fit (proposed):** customer reports closed as works-as-designed / not a bug / limitation that are real requirement or documentation gaps (about 15% of reports, E8). Not visible in the valid-CFB count.
 
 ## Open
 
