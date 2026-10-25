@@ -413,3 +413,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > update the shared web page with the new README
 
 **Result:** Shared page rev 41 mirrors the README top: short answer, status, action plan (already there), then a superseded divider before the earlier-phase sections. **Commit:** see iteration-log row 30.
+
+---
+
+## Iteration 31 - 2026-10-25
+
+**Prompt (verbatim):**
+> update the deck with the new README summary
+
+**Result:** Deck v3 slide 2 now carries the README 5-point answer under the 3 stat cards. Files: management-deck-v3.pptx/.pdf, scripts/deck/build_v3.js. **Commit:** see iteration-log row 31.

@@ -97,13 +97,15 @@ stats.forEach(([big, label, sub, col], i) => {
   tb(s, sub, { x: x + 0.3, y: 3.6, w: 3.2, h: 0.45, fontSize: 13, color: C.text2 });
 });
 const bl = [
-  ["Severity, not volume:", " P1/P2 rose sharply; total volume rose a little and fell in Q3."],
-  ["Not AI per change:", " matched comparisons show no higher bug rate for AI-made changes."],
-  ["Proposal:", " a quality model with a common baseline, risk-based rules, team adaptation, and 5 experiments."],
+  ["Severity, not volume:", " P1/P2 +49%, all bugs +13%; Q3 volume fell."],
+  ["Customers find problems first:", " 96% of P1 incidents come via customer cases."],
+  ["Correctness failures:", " almost half of valid bugs (report data, routing, contact lifecycle)."],
+  ["AI not riskier per change:", " it adds volume and larger changes in hotspot code."],
+  ["Teams differ strongly:", " one workflow does not fit all. Plan: measure, test in a few teams, spread."],
 ];
 bl.forEach(([k, v], i) => {
-  numCircle(s, 0.6, 4.55 + i * 0.75, i + 1, i === 2 ? C.accent2 : C.text1, 0.45);
-  tb(s, [{ text: k, options: { bold: true } }, { text: v }], { x: 1.25, y: 4.55 + i * 0.75, w: 11.4, h: 0.5, fontSize: 16, valign: "middle" });
+  numCircle(s, 0.6, 4.4 + i * 0.47, i + 1, i === 4 ? C.accent2 : C.text1, 0.36);
+  tb(s, [{ text: k, options: { bold: true } }, { text: v }], { x: 1.1, y: 4.4 + i * 0.47, w: 11.6, h: 0.36, fontSize: 15, valign: "middle" });
 });
 s.addNotes("Window Jan-Sep (full quarters). Major-incident investigation tickets, logged as bugs since March 2026, are removed (they are not product defects).");
 
