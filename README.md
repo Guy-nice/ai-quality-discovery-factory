@@ -13,13 +13,15 @@ Observed Signal -> Evidence -> Pattern -> Hypothesis -> Validation Plan
 
 Solution design starts only after Gate 4 passes. See [research gates](docs/03-decisions/research-gates.md).
 
-**Start here: [Summary and recommendations](docs/05-summary/summary-and-recommendations.md)** | [Management deck (pptx)](docs/05-summary/management-deck.pptx) / [pdf](docs/05-summary/management-deck.pdf) | [1-page brief](docs/00-brief.md)
+**Mission v2 (2026-10-25): [reassessment](docs/06-reassessment/mission-v2-reassessment.md). Solution docs, gates and the deck are provisional (D-030).**
+
+**Previous summary: [Summary and recommendations](docs/05-summary/summary-and-recommendations.md)** | [Management deck (pptx)](docs/05-summary/management-deck.pptx) / [pdf](docs/05-summary/management-deck.pdf) | [1-page brief](docs/00-brief.md)
 
 ## Current status
 
 | Item | Value |
 |---|---|
-| Phase | Summary and recommendations delivered; no changes in company systems (D-029) |
+| Phase | Mission v2 reassessment; solutions provisional (D-030) |
 | Gates | G0 PASSED (i), G1 PARTIAL, G2 PASSED (i), G3 PASSED (i), G4 PASSED (interim, data-based) |
 | Problem statement | [v4](docs/00-charter/problem-statement-v4.md) |
 | Latest findings | [Round 1](docs/02-research/findings-round-1.md), [Round 2](docs/02-research/findings-round-2.md), [Round 3](docs/02-research/findings-round-3.md), [Round 4](docs/02-research/findings-round-4.md) |

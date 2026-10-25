@@ -1,3 +1,5 @@
+> **Status 2026-10-25: PROVISIONAL HYPOTHESIS (D-030).** Not a recommendation until mission v2 evidence gaps are closed. See [reassessment](../06-reassessment/mission-v2-reassessment.md).
+
 # Wave 1 Plan - Chosen from Data
 
 **Date:** 2026-10-22 | **Pilot:** Orchestration Core, contact routing and lifecycle | **Decision:** D-027 | **Status:** specs ready; applying them in company repos and Jira needs approval (D-028)

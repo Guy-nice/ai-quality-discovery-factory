@@ -12,7 +12,7 @@ Do not advance without recording gate status here. Solution design starts only a
 | G1 | Evidence Access | PARTIAL | Jira, Confluence, Git (`inContact`, incl. monolith) confirmed. Sonar, CI/CD, incidents open (U-09). | 2026-10-22 |
 | G2 | Problem Definition | PASSED (interim) | Problem statement v3. Not blocking: U-14, human rater, U-15. | 2026-10-22 |
 | G3 | Risk and Scope Selection | PASSED (interim) | Pilot D-010. R3 hotspots (Git) still needed for the deep dive. | 2026-10-22 |
-| G4 | Solution Readiness | PASSED (interim, data-based) - [readiness v1](gate-4-readiness-v0.md#update-v1---2026-10-22-iteration-12) | In scope: PH-1, PH-4, P-05, test gap. Out until human data: PH-2 (U-23), PH-5 (U-25). | 2026-10-22 |
+| G4 | Solution Readiness | REOPENED 2026-10-25 (D-030); was passed (interim, data-based) - [readiness v1](gate-4-readiness-v0.md#update-v1---2026-10-22-iteration-12) | In scope: PH-1, PH-4, P-05, test gap. Out until human data: PH-2 (U-23), PH-5 (U-25). | 2026-10-22 |
 
 ## Gate criteria
 
@@ -61,3 +61,4 @@ Do not advance without recording gate status here. Solution design starts only a
 | 2026-10-22 | G1 | Git org `inContact` read access confirmed; TFS and CI/CD still open | Research |
 | 2026-10-22 | G4 | Readiness package v0: NOT PASSED; 3 blocking items | Research |
 | 2026-10-22 | G4 | PASSED (interim, data-based): R17 refutation, D-022, D-023 | Research |
+| 2026-10-25 | G2, G4 | Reopened under mission v2: quality definition must be outcome-based; G4 needs impact data, team variation, human validation | Guy Guterman |

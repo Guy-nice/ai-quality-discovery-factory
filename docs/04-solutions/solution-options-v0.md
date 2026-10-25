@@ -1,3 +1,5 @@
+> **Status 2026-10-25: PROVISIONAL HYPOTHESIS (D-030).** Not a recommendation until mission v2 evidence gaps are closed. See [reassessment](../06-reassessment/mission-v2-reassessment.md).
+
 # Solution Options v0 (P5)
 
 **Date:** 2026-10-22 | **Gate:** G4 passed (interim, data-based) | **Scope:** pilot = Orchestration Core, contact routing and lifecycle

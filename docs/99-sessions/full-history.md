@@ -258,3 +258,15 @@ Short version: [iteration-log.md](iteration-log.md).
 - Build script in `scripts/deck/`.
 
 **Files:** management-deck.pptx/.pdf, scripts/deck/*, README, iteration-log, full-history. **Commit:** see iteration-log row 16.
+
+---
+
+## Iteration 17 - 2026-10-25
+
+**Prompt:** Mission clarification "Product Quality Investigation" (pasted by lead): reassess work against an outcome-based mission; define product quality from customer outcomes, business correctness, operational impact; investigate failures (what, where, who, why controls failed); AI without assuming cause; quality model = shared baseline + risk-based requirements + team/POD adaptations; metrics with decision, evidence, limits, no unjustified thresholds; compare options beyond testing; experiments before rollout. First return: restatement, assessment, gaps, next steps.
+
+**Result:**
+- `docs/06-reassessment/mission-v2-reassessment.md`: restatement; keep list; solution-led list (G4 pass without humans, uniform gates from one pilot, invented thresholds, deck as recommendations, CFB-only quality proxy); gaps E1-E9; 7 next steps; questions Q-A..Q-D.
+- D-030: solution docs, wave 1, gates, thresholds, deck reclassified provisional; G4 reopened. Banners added to solution and summary docs.
+
+**Files:** reassessment doc, decision-log, research-gates, README, 3 solution/summary docs (banner), iteration-log, full-history. **Commit:** see iteration-log row 17.

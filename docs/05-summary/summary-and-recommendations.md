@@ -1,3 +1,5 @@
+> **Status 2026-10-25: PROVISIONAL HYPOTHESIS (D-030).** Not a recommendation until mission v2 evidence gaps are closed. See [reassessment](../06-reassessment/mission-v2-reassessment.md).
+
 # Summary and Recommendations
 
 **As of:** 2026-10-22 | **Data:** Jira (11,662 CFBs; 3,292+ issues stored), Confluence, GitHub (7,866 commits, 1,663 PRs, 2,837 CI runs) | **DB:** `data/db/quality.sqlite`
