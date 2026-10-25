@@ -270,3 +270,23 @@ Short version: [iteration-log.md](iteration-log.md).
 - D-030: solution docs, wave 1, gates, thresholds, deck reclassified provisional; G4 reopened. Banners added to solution and summary docs.
 
 **Files:** reassessment doc, decision-log, research-gates, README, 3 solution/summary docs (banner), iteration-log, full-history. **Commit:** see iteration-log row 17.
+
+---
+
+## Iteration 18 - 2026-10-25
+
+**Prompt (verbatim):**
+> regading Q:B,C,D do the research and you will be much correct then I do
+
+(After lead authenticated ServiceNow CXone Prod via /mcp.)
+
+**Result:**
+- ServiceNow test: incidents since 2025 P1 887, P2 1.1M (auto), P3 295k, P4 10k.
+- 3 forks: M2-IMPACT (ServiceNow), M2-CORRECTNESS (failure taxonomy), M2-TEAMS (team map + profiles).
+- Own check: MI-investigation tickets 3 -> 128 (H1) inflate 2026. Corrected H1 trend: CFB +29%, P1/P2 +46%, valid +28%, valid P1/P2 +43% (D-032).
+- Q-B: DATA, ROUTING, LIFECYCLE, RECQM, AGENTSTATE (F19). Q-C: Jira Team Name best; no team->service->repo map (F20). Q-D: data-only, blocked by SN access (D-031).
+- Quality definition v1 draft (D1-D7) with evidence status.
+- Corrections banners on brief, summary, problem statement v4, findings round 1. Deck marked superseded numbers.
+- New: C-08, C-09, U-26 (SN read role), U-27 (team map).
+
+**Files:** docs/06-reassessment/* (m2-findings-round-1, m2-impact-servicenow, m2-failure-types, m2-teams, quality-definition-v1-draft), scripts/db/m2_*, data/aggregates/m2-*, DB tables; decisions, register, README, banners. **Commit:** see iteration-log row 18.
