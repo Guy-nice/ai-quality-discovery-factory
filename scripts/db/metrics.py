@@ -4,10 +4,12 @@ Run from repo root after each data refresh: python3 -I scripts/db/metrics.py
 """
 import json
 import os
+import re
 import sqlite3
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DB = os.path.join(ROOT, "data", "db", "quality.sqlite")
+MI_TICKET = re.compile(r"^\s*\[?\s*MI\b|investigatory ki|\bMI[- ]?\d{3,}|major incident", re.I)  # D-032: MI investigations are not defects
 INVALID = {"cannot reproduce", "not a bug", "won't do", "duplicate", "won't fix", "works as designed", "invalid"}
 PILOT_REPOS = ("inContact", "app-findmatch", "orch-entity-agent", "orch-entity-orchestration",
                "orch-entity-state-streams-common", "orchestration-resolver", "routing-ng-advanced-findmatch",
@@ -21,9 +23,14 @@ def month(ts):
 
 def main():
     db = sqlite3.connect(DB)
-    pilot = db.execute(
+    raw = os.path.join(os.path.dirname(DB), "raw_local.sqlite")
+    summaries = {}
+    if os.path.exists(raw):
+        summaries = dict(sqlite3.connect(raw).execute("SELECT key, summary FROM issue_text"))
+    pilot = [r for r in db.execute(
         "SELECT i.key, i.created, i.resolution, i.priority, i.incidents FROM issues i "
-        "JOIN flow_tags f ON f.key = i.key WHERE i.is_cfb = 1 AND f.in_flow_scope = 1").fetchall()
+        "JOIN flow_tags f ON f.key = i.key WHERE i.is_cfb = 1 AND f.in_flow_scope = 1")
+        if not MI_TICKET.search(summaries.get(r[0]) or "")]
     classes = {k: (e, p) for k, e, p in db.execute(
         "SELECT key, escape_cause, prevention_action_type FROM rca_class WHERE round = 'R9'")}
     rows = {}

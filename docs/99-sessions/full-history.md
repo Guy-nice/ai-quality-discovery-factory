@@ -290,3 +290,17 @@ Short version: [iteration-log.md](iteration-log.md).
 - New: C-08, C-09, U-26 (SN read role), U-27 (team map).
 
 **Files:** docs/06-reassessment/* (m2-findings-round-1, m2-impact-servicenow, m2-failure-types, m2-teams, quality-definition-v1-draft), scripts/db/m2_*, data/aggregates/m2-*, DB tables; decisions, register, README, banners. **Commit:** see iteration-log row 18.
+
+---
+
+## Iteration 19 - 2026-10-25
+
+**Prompt (verbatim):**
+> Update in a doc why before and after so dramaticlly differenet. continue with E7, E8, E9 and D7
+
+**Result:**
+- `docs/06-reassessment/why-numbers-changed.md`: MI-investigation intake from 2026-03 (6), 2026-04 (49), then 34-48/month; 270 tickets 2025-2026 in 48 projects; 128 in H1 2026 = 44% of added CFBs, 82 P1/P2 = 38% of added P1/P2; resolutions mostly not-a-bug / duplicate. Why missed: project-spike check only; population not audited. Pilot step holds without MI (valid 4.0 -> 10.2 per month). Table of all 6 corrections; error pattern; research checks.
+- `scripts/db/metrics.py`: MI exclusion added.
+- Forks started: E7 delivery, E8 requirements, E9 AI causal, D7 recurrence (results in next commit).
+
+**Files:** why-numbers-changed.md, metrics.py, README, logs. **Commit:** see iteration-log row 19.
