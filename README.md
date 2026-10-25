@@ -1,39 +1,54 @@
 # AI Quality Discovery Factory
 
-Evidence-based research initiative to find, prove, and locate the real software quality problem in a complex product (legacy monolith + newer services + growing AI-assisted development) **before** any solution is designed.
+Evidence-based investigation of product quality in CXone (legacy monolith, modern services, AI-assisted development, independent teams). It finds where and why quality fails, and recommends actions that teams can test before rollout.
 
-## Core principle
+## Start here
 
-No solution before evidence. Every conclusion follows this chain:
+| Need | Link |
+|---|---|
+| **What we do now** | [Action plan v1](docs/05-summary/action-plan-v1.md) |
+| 1-page summary | [Brief](docs/00-brief.md) |
+| Management slides | [Deck v3 (pptx)](docs/05-summary/management-deck-v3.pptx) / [pdf](docs/05-summary/management-deck-v3.pdf) |
+| Company page | [Shared summary](https://claude.ai/artifact/QDD8cDsvj7t1NzPsZgdLdf) |
+| Quality model and experiments | [Model v0](docs/07-quality-model/quality-model-v0.md), [experiment protocols](docs/07-quality-model/experiment-protocols-v0.md) |
+| Agent rules / new session | [AGENTS.md](AGENTS.md), [HANDOFF](docs/99-sessions/HANDOFF.md) |
 
-```
-Observed Signal -> Evidence -> Pattern -> Hypothesis -> Validation Plan
--> Confirmed Problem -> Solution Options -> Recommended Solution
-```
+## The answer in short
 
-Solution design starts only after Gate 4 passes. See [research gates](docs/03-decisions/research-gates.md).
+- **Quality fell in severity, not volume:** P1/P2 customer-found bugs +49%, all customer-found bugs +13% (Jan-Sep 2026 vs 2025, MI investigations removed).
+- **Customers find our problems first:** 96% of P1 incidents enter through customer cases.
+- **Almost half of valid bugs are business-correctness failures** (report data, routing, contact lifecycle).
+- **AI is not riskier per change**; it adds volume and larger changes in hotspot code.
+- **Teams differ strongly**, so one workflow does not fit all.
 
-**Action plan: [what to keep, change, stop, start, and when](docs/05-summary/action-plan-v1.md)** | Deck: [v3 pptx](docs/05-summary/management-deck-v3.pptx) / [pdf](docs/05-summary/management-deck-v3.pdf)
+## Action plan
 
-**New session? Start at [HANDOFF](docs/99-sessions/HANDOFF.md).** | **Quality model v0 (draft): [docs/07-quality-model](docs/07-quality-model/quality-model-v0.md)** | Shared page: [claude.ai doc](https://claude.ai/artifact/QDD8cDsvj7t1NzPsZgdLdf)
+| | What |
+|---|---|
+| **Keep** | RCA for P1/P2 bugs; feature toggles; AI under the same rules as all changes; Xray |
+| **Change** | Bug intake (defect vs MI vs expectation gap); Go/No-Go based on data; trusted E2E signal before it blocks; review depth by change size in hotspot code; QSU per team |
+| **Stop** | Raw bug count as the quality number; one gate set for all teams; unused Jira quality fields; "mandatory" items with no control |
+| **Start** | 8-dimension quality model; team-service-code map; detection monitors for routing, lifecycle, report data; expectation-gap triage; owner backups; experiments X1-X5 |
 
-**Mission v2 (2026-10-25): [reassessment](docs/06-reassessment/mission-v2-reassessment.md) | findings [round 1](docs/06-reassessment/m2-findings-round-1.md), [round 2](docs/06-reassessment/m2-findings-round-2.md) | [quality definition v1](docs/06-reassessment/quality-definition-v1-draft.md). Headline corrected (D-032): CFB +29%, P1/P2 +46% - [why the numbers changed](docs/06-reassessment/why-numbers-changed.md). Solution docs, gates and the deck are provisional (D-030).**
+| When | What |
+|---|---|
+| Now (Nov 2026) | Management decisions; start X1 (intake) and X2 (detection, shadow); QSU per team; triage failing routing E2E |
+| Q1 2027 | X3/X4 step 1, X5; monthly team review; AI re-test (90 days) |
+| April 2027 | Results vs controls; quality model v1 with justified targets; decide which checks block |
+| H2 2027 | Spread proven practices; decide RIA agents, mutation testing, agent harness from evidence |
 
-**Previous summary: [Summary and recommendations](docs/05-summary/summary-and-recommendations.md)** | [Management deck v3 (pptx)](docs/05-summary/management-deck-v3.pptx) / [pdf](docs/05-summary/management-deck-v3.pdf) | [1-page brief](docs/00-brief.md)
+Gates and quality automation are **means**: a few blocking checks where risk is proven now; the rest after experiment results.
 
-## Current status
+## Status
 
 | Item | Value |
 |---|---|
-| Phase | Quality model v0 draft (D-034); experiments X1-X5 proposed |
-| Gates | G0 PASSED (i), G1 PARTIAL, G2 PASSED (i), G3 PASSED (i), G4 PASSED (interim, data-based) |
-| Problem statement | [v4](docs/00-charter/problem-statement-v4.md) |
-| Latest findings | [Round 1](docs/02-research/findings-round-1.md), [Round 2](docs/02-research/findings-round-2.md), [Round 3](docs/02-research/findings-round-3.md), [Round 4](docs/02-research/findings-round-4.md) |
-| Last session | [Session 10 - 2026-10-22](docs/99-sessions/2026-10-22-session-10.md) |
-| History | [Iteration log](docs/99-sessions/iteration-log.md), [Full history](docs/99-sessions/full-history.md) |
-| Pilot | Orchestration Core - contact routing and lifecycle flow (D-010, D-016) |
-| Database | [data/db](data/db/README.md) - `quality.sqlite` |
-| Shared summary (company) | [claude.ai doc: AI Quality Discovery - Research Summary](https://claude.ai/artifact/QDD8cDsvj7t1NzPsZgdLdf) |
+| Phase | Action plan v1 (D-039); awaiting management decisions (deck v3, last slide) |
+| Gates | G0-G3 passed (interim); G4 reopened under mission v2 (D-030); experiments decide readiness |
+| Open | ServiceNow record read (U-26); team-service map (U-27); ServiceNow P1 fall (C-08); human validation |
+| Data | All data in repo (D-033): [data/db](data/db/README.md), `data/archive/` |
+| History | [Iteration log](docs/99-sessions/iteration-log.md), [full history](docs/99-sessions/full-history.md), [decision log](docs/03-decisions/decision-log.md), [why numbers changed](docs/06-reassessment/why-numbers-changed.md) |
+| Earlier phase (superseded) | [Summary v1](docs/05-summary/summary-and-recommendations.md), [solution options](docs/04-solutions/solution-options-v0.md), [deck v1](docs/05-summary/management-deck-v1-superseded.pptx) |
 
 ## Repository structure
 

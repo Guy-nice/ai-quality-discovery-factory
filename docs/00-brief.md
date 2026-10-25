@@ -14,9 +14,16 @@
 
 Quality model v0: 8 outcome dimensions; a common baseline (intake rule, required bug fields, RCA, team map); a risk-based layer (correctness types, hotspot code, bug fixes, emergency changes); team adaptation by archetype; 5 experiments with control teams before any rollout.
 
-## Action plan
+## Action plan ([detail](05-summary/action-plan-v1.md))
 
-Keep RCA, toggles, AI under common rules, Xray. Change intake, Go/No-Go, E2E trust, review in hotspots, QSU. Stop raw bug counts as the quality number and one gate set for all teams. Start the quality model, team map, detection monitors, expectation-gap triage, experiments. Timeline: Now (decisions, X1, X2) -> Q1 2027 (X3-X5) -> April 2027 review -> H2 2027 spread. Detail: [action-plan-v1](05-summary/action-plan-v1.md).
+| | What |
+|---|---|
+| Keep | RCA for P1/P2; feature toggles; AI under common rules; Xray |
+| Change | Bug intake; data-based Go/No-Go; trusted E2E; review by size in hotspot code; QSU per team |
+| Stop | Raw bug count as quality number; one gate set for all teams; unused Jira fields |
+| Start | Quality model; team map; detection monitors; expectation-gap triage; owner backups; X1-X5 |
+
+**When:** Now (decisions, X1, X2) -> Q1 2027 (X3-X5, team reviews) -> April 2027 (results, model v1) -> H2 2027 (spread). Gates and automation are means: few blocking checks where risk is proven now; the rest after evidence.
 
 ## Open
 

@@ -395,3 +395,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > Ok now when we have all this huge research and data: Do we have a summery of what we need to do, conintue change immprove. We have used gates methodologis and all Qauilty automation SDLC and etc. By this research what is your suggestions. When is changes that need to be done. I need it in slides and web and summery to all
 
 **Result:** `docs/05-summary/action-plan-v1.md`; deck v3 (`management-deck-v3.pptx`/.pdf, slides 11-13: keep/change/stop/start, gates and automation, timeline; validated and rendered); shared page rev 40 "Action plan: what we do now" at top; brief, README, HANDOFF; D-039. **Commit:** see iteration-log row 28.
+
+---
+
+## Iteration 29 - 2026-10-25
+
+**Prompt (verbatim):**
+> update the brief and README with the action plan
+
+**Result:** README top rewritten around the action plan (start-here links, short answer, keep/change/stop/start, timeline, status; old banners replaced by a superseded row). Brief: action-plan table and timeline. **Commit:** see iteration-log row 29.
