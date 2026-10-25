@@ -1,5 +1,19 @@
 # Research Database
 
+## All data is in the repo (D-033)
+
+| What | Where (committed) | Restore |
+|---|---|---|
+| Structured data | `data/db/quality.sqlite` | ready |
+| Text (summaries, RCA, RIA) | `data/archive/raw_local-<date>.sqlite.gz` | `scripts/db/restore.sh` |
+| Git file history | `data/db/git_history.sqlite.gz` | `scripts/db/restore.sh` |
+| Raw source dumps + blobless git clones | `data/archive/raw-<source>-<date>.tar.gz` | `scripts/db/restore.sh` |
+
+**Rule: never re-download.** Query the local DB first. To refresh, run `python3 -I scripts/db/sync_state.py`: it shows each source's watermark and the query for the **gap only**. Pull the gap, load it, add a new dated archive (`raw-<source>-<date>.tar.gz`; old archives stay as they are), then re-run `sync_state.py`.
+
+Secret scan before each archive: `python3 -I scripts/db/secret_scan.py "$PWD"`. The 2026-10-25 scan found 10 matches, all code identifiers (false positives).
+
+
 All data pulled for this research is stored here (user order, iteration 7).
 
 | File | Content | In Git |

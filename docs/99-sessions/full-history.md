@@ -305,3 +305,16 @@ Short version: [iteration-log.md](iteration-log.md).
 
 **Files:** why-numbers-changed.md, metrics.py, README, logs. **Commit:** see iteration-log row 19.
 - Round 2 results (same iteration): E7 delivery, E8 requirements, E9 AI causal, D7 recurrence -> `docs/06-reassessment/m2-findings-round-2.md`; quality definition D6, D7 filled, D8 expectation fit proposed. Shared doc: "Why the numbers changed" section with MI chart (rev 32).
+
+---
+
+## Iteration 21 - 2026-10-25
+
+**Prompt (verbatim):**
+> ALL the data need to be store in repo and ailable that no need to donload all from scratch, only appand the gap if adn when neeeded. Use it and save the cahe usage in AI and be correct with tokens. Then, yes start the quality model and update the web page
+
+**Result (part 1, data):**
+- Secret scan of all raw data and text DB: 10 matches, all code identifiers (false positives). The Jira credentials issue is not in stored data.
+- `data/archive/`: raw-<source>-2026-10-25.tar.gz for e7, e9, git (blobless clones, 38 MB), m2e8, r16, r8, r9, servicenow, so45; raw_local-2026-10-25.sqlite.gz.
+- `scripts/db/restore.sh`, `scripts/db/sync_state.py` (table sync_state: watermark + gap query per source), `scripts/db/secret_scan.py`.
+- D-033; data/db/README updated; memory rule saved.
