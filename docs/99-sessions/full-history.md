@@ -422,3 +422,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > update the deck with the new README summary
 
 **Result:** Deck v3 slide 2 now carries the README 5-point answer under the 3 stat cards. Files: management-deck-v3.pptx/.pdf, scripts/deck/build_v3.js. **Commit:** see iteration-log row 31.
+
+---
+
+## Iteration 32 - 2026-10-25
+
+**Prompt (verbatim):**
+> update the shared web page with the new deck
+
+**Result:** Shared page rev 43: deck v3 section with the full 14-slide list. **Commit:** see iteration-log row 32.
