@@ -467,3 +467,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > update the deck and web page with the gates status
 
 **Result:** Deck v3 slide 12 "Gates today: most checks are policy, few block" + mutation recommendation; slide 13 mutation row. Shared page rev 47: Gates today section, updated mutation row, deck list 15 slides. **Commit:** see iteration-log row 36.
+
+---
+
+## Iteration 37 - 2026-10-25
+
+**Prompt (verbatim):**
+> About the missing data from servicenow I have now link to request it https://niceincontact.service-now.com/sp?id=sc_cat_item&sys_id=03ec4c733bed265091f09efe23e45a5c&select_a_request_type=request_access_to_servicenow do the request of what needed
+
+**Result:** Form fields not readable (permission); connector cannot submit. Prepared request content (tables, read-only role, justification, duration) in `docs/01-discovery/servicenow-access-request.md` for manual submit. **Commit:** see iteration-log row 37.
