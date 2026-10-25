@@ -377,3 +377,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > update the deck with the experiment protocols
 
 **Result:** Deck v2 slide 10 now shows the revised protocols (pooled arms, high-volume measures, durations) and the power check (D-038). Files: management-deck-v2.pptx/.pdf, scripts/deck/build_v2.js. **Commit:** see iteration-log row 26.
+
+---
+
+## Iteration 27 - 2026-10-25
+
+**Prompt (verbatim):**
+> update the shared web page with the new deck
+
+**Result:** Shared page rev 36: section "Management deck v2" with the 11-slide outline and the repo path. The pptx/pdf cannot be attached from this session (upload needs the Artifact tool). **Commit:** see iteration-log row 27.
