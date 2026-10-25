@@ -386,3 +386,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > update the shared web page with the new deck
 
 **Result:** Shared page rev 36: section "Management deck v2" with the 11-slide outline and the repo path. The pptx/pdf cannot be attached from this session (upload needs the Artifact tool). **Commit:** see iteration-log row 27.
+
+---
+
+## Iteration 28 - 2026-10-25
+
+**Prompt (verbatim):**
+> Ok now when we have all this huge research and data: Do we have a summery of what we need to do, conintue change immprove. We have used gates methodologis and all Qauilty automation SDLC and etc. By this research what is your suggestions. When is changes that need to be done. I need it in slides and web and summery to all
+
+**Result:** `docs/05-summary/action-plan-v1.md`; deck v3 (`management-deck-v3.pptx`/.pdf, slides 11-13: keep/change/stop/start, gates and automation, timeline; validated and rendered); shared page rev 40 "Action plan: what we do now" at top; brief, README, HANDOFF; D-039. **Commit:** see iteration-log row 28.

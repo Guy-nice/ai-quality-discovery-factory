@@ -13,11 +13,13 @@ Observed Signal -> Evidence -> Pattern -> Hypothesis -> Validation Plan
 
 Solution design starts only after Gate 4 passes. See [research gates](docs/03-decisions/research-gates.md).
 
+**Action plan: [what to keep, change, stop, start, and when](docs/05-summary/action-plan-v1.md)** | Deck: [v3 pptx](docs/05-summary/management-deck-v3.pptx) / [pdf](docs/05-summary/management-deck-v3.pdf)
+
 **New session? Start at [HANDOFF](docs/99-sessions/HANDOFF.md).** | **Quality model v0 (draft): [docs/07-quality-model](docs/07-quality-model/quality-model-v0.md)** | Shared page: [claude.ai doc](https://claude.ai/artifact/QDD8cDsvj7t1NzPsZgdLdf)
 
 **Mission v2 (2026-10-25): [reassessment](docs/06-reassessment/mission-v2-reassessment.md) | findings [round 1](docs/06-reassessment/m2-findings-round-1.md), [round 2](docs/06-reassessment/m2-findings-round-2.md) | [quality definition v1](docs/06-reassessment/quality-definition-v1-draft.md). Headline corrected (D-032): CFB +29%, P1/P2 +46% - [why the numbers changed](docs/06-reassessment/why-numbers-changed.md). Solution docs, gates and the deck are provisional (D-030).**
 
-**Previous summary: [Summary and recommendations](docs/05-summary/summary-and-recommendations.md)** | [Management deck v2 (pptx)](docs/05-summary/management-deck-v2.pptx) / [pdf](docs/05-summary/management-deck-v2.pdf) | [1-page brief](docs/00-brief.md)
+**Previous summary: [Summary and recommendations](docs/05-summary/summary-and-recommendations.md)** | [Management deck v3 (pptx)](docs/05-summary/management-deck-v3.pptx) / [pdf](docs/05-summary/management-deck-v3.pdf) | [1-page brief](docs/00-brief.md)
 
 ## Current status
 

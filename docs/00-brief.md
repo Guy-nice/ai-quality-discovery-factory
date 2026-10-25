@@ -1,6 +1,6 @@
 # Brief - Product Quality (1 page)
 
-**As of:** 2026-10-25 | **Window:** Jan-Sep 2025 vs Jan-Sep 2026, MI investigations removed (D-032) | **Model:** [quality model v0](07-quality-model/quality-model-v0.md) | **Deck:** [v2](05-summary/management-deck-v2.pptx)
+**As of:** 2026-10-25 | **Window:** Jan-Sep 2025 vs Jan-Sep 2026, MI investigations removed (D-032) | **Model:** [quality model v0](07-quality-model/quality-model-v0.md) | **Deck:** [v3](05-summary/management-deck-v3.pptx)
 
 ## Answer
 
@@ -13,6 +13,10 @@
 ## Proposal
 
 Quality model v0: 8 outcome dimensions; a common baseline (intake rule, required bug fields, RCA, team map); a risk-based layer (correctness types, hotspot code, bug fixes, emergency changes); team adaptation by archetype; 5 experiments with control teams before any rollout.
+
+## Action plan
+
+Keep RCA, toggles, AI under common rules, Xray. Change intake, Go/No-Go, E2E trust, review in hotspots, QSU. Stop raw bug counts as the quality number and one gate set for all teams. Start the quality model, team map, detection monitors, expectation-gap triage, experiments. Timeline: Now (decisions, X1, X2) -> Q1 2027 (X3-X5) -> April 2027 review -> H2 2027 spread. Detail: [action-plan-v1](05-summary/action-plan-v1.md).
 
 ## Open
 

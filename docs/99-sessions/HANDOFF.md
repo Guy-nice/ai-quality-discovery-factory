@@ -7,6 +7,6 @@ All working rules (scope, cost, data, iteration end) live in `AGENTS.md` at the 
 
 ## State (2026-10-25)
 - Quality model v0 draft (D-034); experiment protocols v0 ready (D-038, power-checked); awaiting management approval (deck v2 slide 11).
-- Deck: docs/05-summary/management-deck-v2.pptx (+pdf).
+- Deck: docs/05-summary/management-deck-v3.pptx (+pdf). Action plan: docs/05-summary/action-plan-v1.md (D-039).
 - Open: U-26 ServiceNow record read, U-27 team map, C-08 ServiceNow P1 fall, human validation.
 - Shared page: https://claude.ai/artifact/QDD8cDsvj7t1NzPsZgdLdf
