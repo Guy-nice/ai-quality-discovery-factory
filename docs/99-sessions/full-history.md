@@ -404,3 +404,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > update the brief and README with the action plan
 
 **Result:** README top rewritten around the action plan (start-here links, short answer, keep/change/stop/start, timeline, status; old banners replaced by a superseded row). Brief: action-plan table and timeline. **Commit:** see iteration-log row 29.
+
+---
+
+## Iteration 30 - 2026-10-25
+
+**Prompt (verbatim):**
+> update the shared web page with the new README
+
+**Result:** Shared page rev 41 mirrors the README top: short answer, status, action plan (already there), then a superseded divider before the earlier-phase sections. **Commit:** see iteration-log row 30.
