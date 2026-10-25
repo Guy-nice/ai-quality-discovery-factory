@@ -338,3 +338,18 @@ Short version: [iteration-log.md](iteration-log.md).
 - `docs/00-brief.md` rewritten around the model; why-numbers-changed row 7; shared page note updated (rev 34).
 
 **Files:** deck v2, build_v2.js, brief, HANDOFF, why-numbers-changed, decision-log, README, logs. **Commit:** see iteration-log row 23.
+
+---
+
+## Iteration 24 - 2026-10-25
+
+**Prompt (verbatim):**
+> I want that you sugegstion will be automatlly and expecte you to use it and How to cut cost and update at the reposiory that allways and all AI will use it.
+
+**Result:**
+- `AGENTS.md`: scope, cost table (Sonnet for data/mechanical, Opus for synthesis), local-DB-first and gap-only pulls, rule-based classification, max 2 subagents, data correctness (MI / invalid exclusion, composition audit, secret scan), iteration end.
+- `CLAUDE.md`: `@AGENTS.md` + Claude routing (/model, data-worker, /effort, /cost).
+- `.claude/settings.json`: default model sonnet. `.claude/agents/data-worker.md`: model sonnet.
+- HANDOFF rules replaced by pointer to AGENTS.md (single source). D-037.
+
+**Files:** AGENTS.md, CLAUDE.md, .claude/*, HANDOFF.md, decision-log, logs. **Commit:** see iteration-log row 24.
