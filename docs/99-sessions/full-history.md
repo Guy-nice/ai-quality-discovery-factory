@@ -449,3 +449,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > To understand haev you checked the gate today and what working today in Quality and gates. Arevhitects QA and all
 
 **Result:** Current-state table from existing evidence; list of what was not checked; proposal for a read-only current-gates check (CI workflows, last 3 Go/No-Go, QA process pages, 5 SME questions). **Commit:** log only.
+
+---
+
+## Iteration 35 - 2026-10-25
+
+**Prompt (verbatim):**
+> Ok we nee to check today see at conludance and we have list of agents and adding the mutation agent as well adn soon hope to add it to sonar as gate
+
+**Result:** Sonnet agent read-only check (Confluence + GitHub rulesets/workflows). `docs/06-reassessment/current-gates-2026-10-25.md`: agents table, blocking checks per repo, Go/No-Go 26.4, mutation gate assessment. D-040. Action plan mutation row updated. **Commit:** see iteration-log row 35.
