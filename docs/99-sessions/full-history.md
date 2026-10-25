@@ -496,3 +496,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > Ok what we have till now, what need to be next steps?
 
 **Result:** Status summary and 8 next steps; HANDOFF next-steps section added. **Commit:** see iteration-log row 39.
+
+---
+
+## Iteration 40 - 2026-10-25
+
+**Prompt (verbatim):**
+> So if I need to presant what our chages in Qualtiy that needed such as gate to improve and gard quality as I started herehttps://nice-ce-cxone-prod.atlassian.net/wiki/spaces/CX/pages/4048715783/WIP+Quality+Definition+of+Done+To+review what is the correct after you research presentation
+
+**Result:** DoD v2: per-item verdicts for every WIP DoD item (Epic + Release), new evidence-based items, gate map with blocking marks, tiers by evidence, timeline. Files: docs/05-summary/dod-v2-evidence-based.md, dod-v2-deck.pptx/.pdf, scripts/deck/build_dod.js. D-041. **Commit:** see iteration-log row 40.

@@ -8,6 +8,7 @@ Evidence-based investigation of product quality in CXone (legacy monolith, moder
 |---|---|
 | **What we do now** | [Action plan v1](docs/05-summary/action-plan-v1.md) |
 | 1-page summary | [Brief](docs/00-brief.md) |
+| Gates / Definition of Done v2 | [DoD v2 doc](docs/05-summary/dod-v2-evidence-based.md), [DoD v2 deck (pptx)](docs/05-summary/dod-v2-deck.pptx) / [pdf](docs/05-summary/dod-v2-deck.pdf) |
 | Management slides | [Deck v3 (pptx)](docs/05-summary/management-deck-v3.pptx) / [pdf](docs/05-summary/management-deck-v3.pdf) |
 | Company page | [Shared summary](https://claude.ai/artifact/QDD8cDsvj7t1NzPsZgdLdf) |
 | Quality model and experiments | [Model v0](docs/07-quality-model/quality-model-v0.md), [experiment protocols](docs/07-quality-model/experiment-protocols-v0.md) |
