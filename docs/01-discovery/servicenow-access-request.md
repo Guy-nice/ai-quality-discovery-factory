@@ -22,3 +22,7 @@ I am the QA Architect for the CXone product-quality investigation. I need read-o
 ## After approval
 
 Read-only test -> gap-only pull (D-033) -> closes U-26, C-08, X2 detection baseline.
+
+## Status
+
+- 2026-10-25: submitted via service portal as **REQ0120210** (Request Access to ServiceNow; Standard Production; purpose "To view Change Requests/Ticket data only"; assignment group left empty with a request to advise). Stage: Waiting for Approval (manager).

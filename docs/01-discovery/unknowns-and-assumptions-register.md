@@ -68,3 +68,5 @@ C-01 update 2026-10-22: weaker after import correction (F6). Q2 per-story +38%, 
 
 | U-26 | ServiceNow read role (incident, problem, change_request records; service/CI grouping) | Lead / ServiceNow admin | ServiceNow | Access request | E1-E3, E6 - Yes | Open |
 | U-27 | Maintained team -> service -> repo map | Engineering leadership | - | None exists (F20) | Team-specific model - Yes | Open |
+
+U-26 update 2026-10-25: access request REQ0120210 submitted; waiting for manager approval.

@@ -476,3 +476,14 @@ Short version: [iteration-log.md](iteration-log.md).
 > About the missing data from servicenow I have now link to request it https://niceincontact.service-now.com/sp?id=sc_cat_item&sys_id=03ec4c733bed265091f09efe23e45a5c&select_a_request_type=request_access_to_servicenow do the request of what needed
 
 **Result:** Form fields not readable (permission); connector cannot submit. Prepared request content (tables, read-only role, justification, duration) in `docs/01-discovery/servicenow-access-request.md` for manual submit. **Commit:** see iteration-log row 37.
+
+---
+
+## Iteration 38 - 2026-10-25
+
+**Prompts (verbatim):**
+> use Playwright and fill the form for me
+
+> I se this is empty: What Assignment Group will you be a member of? if this is ok press submmit
+
+**Result:** Form filled via Playwright (existing SSO session); request type has no read-only option, purpose "To view Change Requests/Ticket data only" chosen; assignment group empty with a note. Submitted on user approval: REQ0120210, stage Waiting for Approval. **Commit:** see iteration-log row 38.
