@@ -252,23 +252,22 @@ s.addNotes("Common items make outcomes comparable; the 2026 headline error came 
 
 // ---------- 10. Experiments
 s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Quality model" });
-s.addText("Five small experiments before any rollout", { placeholder: "title" });
+s.addText("Five experiments, redesigned so the data can show a result", { placeholder: "title" });
+const hdr = (t) => ({ text: t, options: { bold: true, color: H.lt1, fill: { color: H.dk1 } } });
 const xs = [
-  ["X1", "Intake rule and required fields", "3 teams, one per archetype", "Bugs with type, detected-by, cause"],
-  ["X2", "Monitoring for one correctness type", "1 high-impact team", "Share found before customers"],
-  ["X3", "Review depth scaled to size in hotspot code", "2 teams vs 2 matched", "90-day follow-up fixes per PR"],
-  ["X4", "Extra review for bug fixes", "2 teams vs 2 matched", "Fix-caused share of new bugs"],
-  ["X5", "Expectation-gap triage", "1 high-noise team", "Repeat 'works as designed' reports"],
+  ["X1 Intake fields", "3 teams (one per type) vs 3 controls", "Bugs with cause and detected-by (15% today)", "1 quarter"],
+  ["X2 Detection", "1 high-impact team, shadow mode", "Alerts before a customer case; lead time", "6 weeks + 1 quarter"],
+  ["X3 Review by size", "All teams with hotspot PRs, 2-step start", "Follow-up fixes per hotspot PR (about 70%)", "2 quarters"],
+  ["X4 Fix safety", "Same pool, bug-fix PRs only", "Follow-up fixes per bug-fix PR", "2 quarters"],
+  ["X5 Expectation gaps", "5 high-noise teams + VMS/QM, WFM", "Share of 'works as designed' closures with an action", "1 quarter"],
 ];
-xs.forEach(([id, t, w, m], i) => {
-  const y = 1.5 + i * 0.98;
-  numCircle(s, 0.6, y + 0.1, id.slice(1), C.accent2, 0.6);
-  tb(s, t, { x: 1.45, y, w: 4.9, h: 0.8, fontSize: 17, bold: true, valign: "middle" });
-  tb(s, w, { x: 6.5, y, w: 2.9, h: 0.8, fontSize: 14, color: C.text2, valign: "middle" });
-  tb(s, m, { x: 9.5, y, w: 3.2, h: 0.8, fontSize: 14, color: C.text1, valign: "middle" });
-});
-tb(s, "1 quarter each, with control teams and a stop rule. A practice spreads only when it beats its control.", { x: 0.6, y: 6.45, w: 12.1, h: 0.4, fontSize: 14, color: C.text2 });
-s.addNotes("Success = a difference vs control whose confidence interval excludes no effect, or a clear pre/post change with the control flat.");
+s.addTable([
+  [hdr("Experiment"), hdr("Arms"), hdr("Primary measure"), hdr("Duration")],
+  ...xs.map((r, i) => r.map((c, j) => ({ text: c, options: { bold: j === 0, fill: { color: i % 2 ? H.lt1 : H.lt2 } } }))),
+], { x: 0.6, y: 1.5, w: 12.1, colW: [2.6, 3.6, 4.2, 1.7], fontSize: 14, color: H.dk1, rowH: 0.6, border: { type: "solid", pt: 0.5, color: "DDE3EA" }, fontFace: THEME.bodyFontFace, valign: "middle", objectName: "exp-table" });
+card(s, 0.6, 5.35, 12.1, 1.35, C.background2, "power-note");
+tb(s, [{ text: "Power check: ", options: { bold: true, color: H.accent1 } }, { text: "bugs are rare per team, so 1 team for 1 quarter cannot show a 30% change for X2-X5 (4 to 33 quarters needed). The new design pools teams and measures events with more volume. Bug counts stay as the slower confirming signal. Each experiment is pre-registered with success and stop rules." }], { x: 0.85, y: 5.45, w: 11.6, h: 1.15, fontSize: 14, valign: "middle" });
+s.addNotes("Protocols: docs/07-quality-model/experiment-protocols-v0.md (D-038). Candidates and matched controls come from data (agg_exp_readiness). A practice spreads only when it beats its control.");
 
 // ---------- 11. Asks
 pres.addSection({ title: "Decisions" });

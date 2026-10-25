@@ -368,3 +368,12 @@ Short version: [iteration-log.md](iteration-log.md).
 - `docs/07-quality-model/experiment-protocols-v0.md`: revised designs (pooled stepped X3/X4 on PR-level follow-up fixes, X2 shadow mode precision/lead time, X5 pooled process measure), pre-registration rules, limits. Model section 6 note. D-038. HANDOFF state updated.
 
 **Files:** experiment-protocols-v0.md, quality-model-v0.md, exp_readiness.py, exp-readiness.csv, DB, decision-log, HANDOFF, logs. **Commit:** see iteration-log row 25.
+
+---
+
+## Iteration 26 - 2026-10-25
+
+**Prompt (verbatim):**
+> update the deck with the experiment protocols
+
+**Result:** Deck v2 slide 10 now shows the revised protocols (pooled arms, high-volume measures, durations) and the power check (D-038). Files: management-deck-v2.pptx/.pdf, scripts/deck/build_v2.js. **Commit:** see iteration-log row 26.
