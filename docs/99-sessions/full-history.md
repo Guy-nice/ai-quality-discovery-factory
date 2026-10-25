@@ -431,3 +431,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > update the shared web page with the new deck
 
 **Result:** Shared page rev 43: deck v3 section with the full 14-slide list. **Commit:** see iteration-log row 32.
+
+---
+
+## Iteration 33 - 2026-10-25
+
+**Prompt (verbatim):**
+> I want a locall managment deck and full summey and explanation locall (not push to github) in Hebrew
+
+**Result:** Local files only, outside the repo: `~/Documents/AI-Quality-Hebrew/` - management-deck-he.pptx + .pdf (RTL, Arial, 14 slides, validated, rendered), build_he.js, summary-he.md + summary-he.html (10 sections). Content not committed. **Commit:** log only, see iteration-log row 33.
