@@ -13,6 +13,8 @@ Observed Signal -> Evidence -> Pattern -> Hypothesis -> Validation Plan
 
 Solution design starts only after Gate 4 passes. See [research gates](docs/03-decisions/research-gates.md).
 
+**Quality model v0 (draft): [docs/07-quality-model](docs/07-quality-model/quality-model-v0.md)** | Shared page: [claude.ai doc](https://claude.ai/artifact/QDD8cDsvj7t1NzPsZgdLdf)
+
 **Mission v2 (2026-10-25): [reassessment](docs/06-reassessment/mission-v2-reassessment.md) | findings [round 1](docs/06-reassessment/m2-findings-round-1.md), [round 2](docs/06-reassessment/m2-findings-round-2.md) | [quality definition v1](docs/06-reassessment/quality-definition-v1-draft.md). Headline corrected (D-032): CFB +29%, P1/P2 +46% - [why the numbers changed](docs/06-reassessment/why-numbers-changed.md). Solution docs, gates and the deck are provisional (D-030).**
 
 **Previous summary: [Summary and recommendations](docs/05-summary/summary-and-recommendations.md)** | [Management deck (pptx, superseded numbers)](docs/05-summary/management-deck.pptx) | [1-page brief](docs/00-brief.md)
@@ -21,7 +23,7 @@ Solution design starts only after Gate 4 passes. See [research gates](docs/03-de
 
 | Item | Value |
 |---|---|
-| Phase | Mission v2 reassessment; solutions provisional (D-030) |
+| Phase | Quality model v0 draft (D-034); experiments X1-X5 proposed |
 | Gates | G0 PASSED (i), G1 PARTIAL, G2 PASSED (i), G3 PASSED (i), G4 PASSED (interim, data-based) |
 | Problem statement | [v4](docs/00-charter/problem-statement-v4.md) |
 | Latest findings | [Round 1](docs/02-research/findings-round-1.md), [Round 2](docs/02-research/findings-round-2.md), [Round 3](docs/02-research/findings-round-3.md), [Round 4](docs/02-research/findings-round-4.md) |
@@ -40,6 +42,9 @@ Solution design starts only after Gate 4 passes. See [research gates](docs/03-de
 | `docs/02-research/` | Research plan (versioned), per-source analysis plan |
 | `docs/03-decisions/` | Dated decision log, research gate status |
 | `docs/04-solutions/` | Solution options, wave 1 specs, drafts |
+| `docs/06-reassessment/` | Mission v2: reassessment, findings, quality definition, corrections |
+| `docs/07-quality-model/` | Quality model (draft) |
+| `data/archive/` | All raw data, compressed and dated (D-033) |
 | `docs/05-summary/` | Summary and recommendations, management deck |
 | `scripts/deck/` | Deck build script |
 | `docs/99-sessions/` | One log per working session: inputs, outputs, decisions, open items |

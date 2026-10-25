@@ -318,3 +318,8 @@ Short version: [iteration-log.md](iteration-log.md).
 - `data/archive/`: raw-<source>-2026-10-25.tar.gz for e7, e9, git (blobless clones, 38 MB), m2e8, r16, r8, r9, servicenow, so45; raw_local-2026-10-25.sqlite.gz.
 - `scripts/db/restore.sh`, `scripts/db/sync_state.py` (table sync_state: watermark + gap query per source), `scripts/db/secret_scan.py`.
 - D-033; data/db/README updated; memory rule saved.
+
+**Result (part 2, quality model):**
+- Baselines from local DB only (no new downloads): valid correctness CFB 295 -> 325, P1/P2 share 52% -> 70%; fix median 10 days.
+- `docs/07-quality-model/quality-model-v0.md`: principles; D1-D8 table (metric, decision, evidence, baseline, limits, owner); common baseline / risk-based layer / team archetypes with reasons; decision rules R1-R4 (relative to own baseline, no fixed targets); levers compared (requirements, architecture, knowledge, review, delivery, operations, testing, intake); experiments X1-X5 with control and stop rule.
+- Shared page (rev 33): "Quality model (draft v0)" section; earlier proposals marked superseded. D-034.
