@@ -87,6 +87,8 @@ Teams choose **how** to meet a requirement (tools, tests, review practice). The 
 
 ## 6. Experiments before rollout
 
+> **Revised 2026-10-25 after a power check:** single-team, one-quarter arms cannot detect realistic effects for X2-X5. See [experiment protocols v0](experiment-protocols-v0.md) (pooled teams, high-volume primary measures, stepped start).
+
 Each experiment runs for 1 quarter with a control (similar archetype teams that do not change) or a pre-period, and has a stop rule. Success = a difference vs control whose confidence interval excludes no-effect, or a clear pre/post change with the control flat.
 
 | # | Hypothesis | Where | Metric | Control | Stop rule |

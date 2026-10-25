@@ -353,3 +353,18 @@ Short version: [iteration-log.md](iteration-log.md).
 - HANDOFF rules replaced by pointer to AGENTS.md (single source). D-037.
 
 **Files:** AGENTS.md, CLAUDE.md, .claude/*, HANDOFF.md, decision-log, logs. **Commit:** see iteration-log row 24.
+
+---
+
+## Iteration 25 - 2026-10-25
+
+**Prompt (verbatim):**
+> where is the ppt and slide ew version? Read HANDOFF.md and continue with the experiments
+
+**Result:**
+- Deck v2: `docs/05-summary/management-deck-v2.pptx` (+pdf).
+- Sonnet subagent (cost rule; repo data-worker agent not yet loaded in this session): `scripts/db/exp_readiness.py`, tables `exp_team_archetype`, `agg_exp_readiness`, CSV. Candidates/controls per X1-X5, baselines, minimum detectable effect.
+- Power check: X1 viable (causing key 15% -> 80%); X3 needs 4 quarters; X2 ~33, X4/X5 > 12 quarters on CFB outcomes.
+- `docs/07-quality-model/experiment-protocols-v0.md`: revised designs (pooled stepped X3/X4 on PR-level follow-up fixes, X2 shadow mode precision/lead time, X5 pooled process measure), pre-registration rules, limits. Model section 6 note. D-038. HANDOFF state updated.
+
+**Files:** experiment-protocols-v0.md, quality-model-v0.md, exp_readiness.py, exp-readiness.csv, DB, decision-log, HANDOFF, logs. **Commit:** see iteration-log row 25.
