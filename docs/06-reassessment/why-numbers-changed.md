@@ -55,7 +55,8 @@ In March 2026, a new intake practice started. After a **major incident (MI)**, a
 | 3 | Monolith not in GitHub (TFS needed) | Monolith in `inContact/inContact` since 2021 | Did not search Confluence for the migration | D-017 |
 | 4 | Almost no concurrency tests (4 of 1,349) | Concurrency tests exist in EM and AFM | Counted file names, not file content | R17 |
 | 5 | Race / ordering share 29% | About 23% | A blind re-read moved some cases to load-only | R17 |
-| 6 | CFB +51%, P1/P2 +72% | +29%, +46% | MI-investigation tickets counted as defects | D-032 |
+| 6 | CFB +51%, P1/P2 +72% | +29%, +46% (H1) | MI-investigation tickets counted as defects | D-032 |
+| 7 | +29%, +46% (H1 only) | **+13%, +49% (Jan-Sep)**; Q3 2026 volume below Q3 2025 | H1 window hid the Q3 fall in volume; full quarters used now | D-035 |
 
 ## 3. Pattern behind the errors
 

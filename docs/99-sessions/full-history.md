@@ -323,3 +323,18 @@ Short version: [iteration-log.md](iteration-log.md).
 - Baselines from local DB only (no new downloads): valid correctness CFB 295 -> 325, P1/P2 share 52% -> 70%; fix median 10 days.
 - `docs/07-quality-model/quality-model-v0.md`: principles; D1-D8 table (metric, decision, evidence, baseline, limits, owner); common baseline / risk-based layer / team archetypes with reasons; decision rules R1-R4 (relative to own baseline, no fixed targets); levers compared (requirements, architecture, knowledge, review, delivery, operations, testing, intake); experiments X1-X5 with control and stop rule.
 - Shared page (rev 33): "Quality model (draft v0)" section; earlier proposals marked superseded. D-034.
+
+---
+
+## Iteration 23 - 2026-10-25
+
+**Prompt (verbatim):**
+> We use Opus model that cost a LOT! how to improve our work? update the management presentation (and all where needed) with the quality model
+
+**Result:**
+- Cost levers given; D-036; memory rule; `docs/99-sessions/HANDOFF.md` for cheap new sessions.
+- Corrected quarterly trend from local DB (no downloads): 2025 Q1-Q3 954 / P1P2 460; 2026 Q1-Q3 1,082 / 685 -> +13% / +49%; Q3 2026 346 vs 383, P1/P2 258 vs 167 (D-035).
+- `docs/05-summary/management-deck-v2.pptx` (+pdf), 11 slides; validated and rendered in PowerPoint; fixed zero labels and card spacing. v1 renamed `-v1-superseded`. Build script `scripts/deck/build_v2.js`.
+- `docs/00-brief.md` rewritten around the model; why-numbers-changed row 7; shared page note updated (rev 34).
+
+**Files:** deck v2, build_v2.js, brief, HANDOFF, why-numbers-changed, decision-log, README, logs. **Commit:** see iteration-log row 23.
