@@ -290,6 +290,34 @@ kcss.forEach(([t, col, items], i) => {
 });
 s.addNotes("Evidence per line: docs/05-summary/action-plan-v1.md section 2.");
 
+// ---------- 12a. Gates today
+s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Action plan" });
+s.addText("Gates today: most checks are policy, few block", { placeholder: "title" });
+const gt = [
+  ["QA agents (8 listed)", "All run locally, by choice", "No"],
+  ["Aikido, PR and Jira-ID checks", "Required in all checked repos", "Yes"],
+  ["Sonar", "Runs in CI; required in 1 of 5 pilot repos", "Partly"],
+  ["Go/No-Go 26.4", "Master TBD; Orchestration Core conditional; most domains TBD", "Human"],
+  ["Mutation testing", "Pilot done; company-wide by end of Nov", "From Dec 15 (plan)"],
+  ["RIA, RCA, Jira quality fields", "Fields filled by policy; not enforced", "No"],
+];
+const th = (t) => ({ text: t, options: { bold: true, color: H.lt1, fill: { color: H.dk1 } } });
+s.addTable([
+  [th("Check"), th("State on 25 Oct 2026"), th("Blocks?")],
+  ...gt.map((r, i) => r.map((c, j) => ({ text: c, options: { bold: j === 0, color: j === 2 && c === "No" ? H.accent1 : H.dk1, fill: { color: i % 2 ? H.lt1 : H.lt2 } } }))),
+], { x: 0.6, y: 1.5, w: 7.6, colW: [2.5, 3.6, 1.5], fontSize: 14, color: H.dk1, rowH: 0.62, border: { type: "solid", pt: 0.5, color: "DDE3EA" }, fontFace: THEME.bodyFontFace, valign: "middle", objectName: "gates-today" });
+card(s, 8.6, 1.5, 4.1, 3.95, C.background2, "mut-card");
+tb(s, "Mutation gate on Dec 15", { x: 8.85, y: 1.7, w: 3.6, h: 0.45, fontSize: 17, bold: true });
+tb(s, [
+  { text: "3%", options: { bold: true, fontSize: 30, color: H.accent1, breakLine: true } },
+  { text: "of escapes come from weak tests", options: { breakLine: true } },
+  { text: "2 of 4", options: { bold: true, fontSize: 30, color: H.accent1, breakLine: true } },
+  { text: "pilot fails were false (timeouts, compile errors)", options: { breakLine: true } },
+  { text: "Recommendation", options: { bold: true, color: H.accent2, breakLine: true } },
+  { text: "Show the score in Sonar now. Block per scope only after fixes, data, and a risk-based scope." },
+], { x: 8.85, y: 2.2, w: 3.6, h: 3.15, fontSize: 15, paraSpaceAfter: 4 });
+s.addNotes("Source: read-only check of Confluence (agent catalog 3949003282, mutation hub 4201808311, Go/No-Go master 4213801417) and GitHub rulesets. Not checked: Sonar gate conditions, CXQA-925164.");
+
 // ---------- 12. Gates and automation
 s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Action plan" });
 s.addText("Our gates and quality automation: means, not goals", { placeholder: "title" });
@@ -299,7 +327,7 @@ const gm = [
   ["E2E automation", "Repair trust first; then block on suites that hold their pass level", "Now -> Q1"],
   ["Sonar, dependency scan", "Keep as build checks", "Keep"],
   ["RIA agents", "Later, aimed at fixes and hotspots (RIA misses = 7%)", "H2 2027"],
-  ["Mutation testing", "Later, only if X3/X4 show weak tests (weak tests = 3%)", "H2 2027"],
+  ["Mutation testing", "Dec 15 gate: show in Sonar, block only after fixes and evidence", "Dec 15 -> 2027"],
   ["Agent harness", "Build only for checks that experiments prove", "H2 2027"],
 ];
 const gh = (t) => ({ text: t, options: { bold: true, color: H.lt1, fill: { color: H.dk1 } } });

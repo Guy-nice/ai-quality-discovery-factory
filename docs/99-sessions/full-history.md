@@ -458,3 +458,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > Ok we nee to check today see at conludance and we have list of agents and adding the mutation agent as well adn soon hope to add it to sonar as gate
 
 **Result:** Sonnet agent read-only check (Confluence + GitHub rulesets/workflows). `docs/06-reassessment/current-gates-2026-10-25.md`: agents table, blocking checks per repo, Go/No-Go 26.4, mutation gate assessment. D-040. Action plan mutation row updated. **Commit:** see iteration-log row 35.
+
+---
+
+## Iteration 36 - 2026-10-25
+
+**Prompt (verbatim):**
+> update the deck and web page with the gates status
+
+**Result:** Deck v3 slide 12 "Gates today: most checks are policy, few block" + mutation recommendation; slide 13 mutation row. Shared page rev 47: Gates today section, updated mutation row, deck list 15 slides. **Commit:** see iteration-log row 36.
