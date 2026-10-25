@@ -10,3 +10,12 @@ All working rules (scope, cost, data, iteration end) live in `AGENTS.md` at the 
 - Deck: docs/05-summary/management-deck-v3.pptx (+pdf). Action plan: docs/05-summary/action-plan-v1.md (D-039).
 - Open: U-26 ServiceNow record read, U-27 team map, C-08 ServiceNow P1 fall, human validation.
 - Shared page: https://claude.ai/artifact/QDD8cDsvj7t1NzPsZgdLdf
+
+## Next steps (2026-10-25)
+1. Lead presents deck v3; 4 management decisions.
+2. Dec 15 mutation gate decision (D-040: visible first).
+3. ServiceNow access REQ0120210 - after approval: read test, gap pull, close U-26 / C-08.
+4. Start X1, X2 after decisions.
+5. Human check of failure types and team types (3-4 SMEs).
+6. Research now: test mutation score vs 90-day follow-up fixes on existing PR data.
+7. Monthly refresh + team review (S1-S7) from December.

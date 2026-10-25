@@ -487,3 +487,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > I se this is empty: What Assignment Group will you be a member of? if this is ok press submmit
 
 **Result:** Form filled via Playwright (existing SSO session); request type has no read-only option, purpose "To view Change Requests/Ticket data only" chosen; assignment group empty with a note. Submitted on user approval: REQ0120210, stage Waiting for Approval. **Commit:** see iteration-log row 38.
+
+---
+
+## Iteration 39 - 2026-10-25
+
+**Prompt (verbatim):**
+> Ok what we have till now, what need to be next steps?
+
+**Result:** Status summary and 8 next steps; HANDOFF next-steps section added. **Commit:** see iteration-log row 39.
