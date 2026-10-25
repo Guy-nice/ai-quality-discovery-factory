@@ -27,6 +27,18 @@ Code quality, coverage and tool scores are **inputs** that may explain quality. 
 - **Valid only:** invalid closures (duplicate, not a bug, ...) are a separate data-quality signal.
 - **No thresholds yet:** targets are set only after baselines exist per dimension and per team type (mission v2, item 6).
 
+## Evidence status (round 1)
+
+| Dim | Status |
+|---|---|
+| D1 | Measured: 13 failure types; correctness = 46% of valid CFBs (F19) |
+| D2 | Counts only; P1 customer-channel fell in 2026 (C-08) |
+| D3 | PERF type in Jira only; no SLO data |
+| D4 | 96% of P1 opened via customer cases (F17) |
+| D5 | P1 resolve: 71% < 4 h; CFB fix median 8-12 days |
+| D6 | Emergency changes 6.8% -> 14.4% (F18); caused_by 0.6% |
+| D7 | Not yet measured |
+
 ## Open
 
 The evidence columns depend on: M2-IMPACT (D2, D4, D5, D6), M2-CORRECTNESS (D1), M2-TEAMS (variation by team).

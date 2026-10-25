@@ -13,9 +13,9 @@ Observed Signal -> Evidence -> Pattern -> Hypothesis -> Validation Plan
 
 Solution design starts only after Gate 4 passes. See [research gates](docs/03-decisions/research-gates.md).
 
-**Mission v2 (2026-10-25): [reassessment](docs/06-reassessment/mission-v2-reassessment.md). Solution docs, gates and the deck are provisional (D-030).**
+**Mission v2 (2026-10-25): [reassessment](docs/06-reassessment/mission-v2-reassessment.md) | [findings round 1](docs/06-reassessment/m2-findings-round-1.md) | [quality definition v1](docs/06-reassessment/quality-definition-v1-draft.md). Headline corrected (D-032): CFB +29%, P1/P2 +46%. Solution docs, gates and the deck are provisional (D-030).**
 
-**Previous summary: [Summary and recommendations](docs/05-summary/summary-and-recommendations.md)** | [Management deck (pptx)](docs/05-summary/management-deck.pptx) / [pdf](docs/05-summary/management-deck.pdf) | [1-page brief](docs/00-brief.md)
+**Previous summary: [Summary and recommendations](docs/05-summary/summary-and-recommendations.md)** | [Management deck (pptx, superseded numbers)](docs/05-summary/management-deck.pptx) | [1-page brief](docs/00-brief.md)
 
 ## Current status
 

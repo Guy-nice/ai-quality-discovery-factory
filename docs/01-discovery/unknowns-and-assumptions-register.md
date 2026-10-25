@@ -62,3 +62,9 @@ Status updates 2026-10-22: U-01, U-02 (scope part), U-05, U-06 handled by interi
 U-14 update 2026-10-22: pilot invalid share 35% -> 51%; valid in-flow CFB +34% (not +77%). D-020.
 
 C-01 update 2026-10-22: weaker after import correction (F6). Q2 per-story +38%, Q3 -15%.
+
+| C-08 | ServiceNow customer-channel P1 incidents fell ~50% in 2026 while Jira P1/P2 CFBs rose. | ServiceNow, Jira | Open: priority-rule change? |
+| C-09 | 2026 CFB rise inflated by MI-investigation tickets (3 -> 128 in H1). | Jira | Resolved by D-032 |
+
+| U-26 | ServiceNow read role (incident, problem, change_request records; service/CI grouping) | Lead / ServiceNow admin | ServiceNow | Access request | E1-E3, E6 - Yes | Open |
+| U-27 | Maintained team -> service -> repo map | Engineering leadership | - | None exists (F20) | Team-specific model - Yes | Open |
