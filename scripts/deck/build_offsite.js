@@ -110,7 +110,7 @@ tb(s, [
 ], { x: 0.9, y: 5.1, w: 11.5, h: 1.3, fontSize: 20, color: C.background1, paraSpaceAfter: 8 });
 
 // 3 Risk is concentrated
-s = content("Risk sits in large changes in hotspot code, not in AI", "Hotspot = top code directories by customer-bug-fix density. Follow-up fix = a later fix PR on the same files within 90 days. AI matched risk ratio 0.78-0.84, not significant. AI PRs in hotspots: 5% to 47%.");
+s = content("Risk follows change size in hotspot code, not AI use", "Hotspot = top code directories by customer-bug-fix density. Follow-up fix = a later fix PR on the same files within 90 days. AI matched risk ratio 0.78-0.84, not significant. AI PRs in hotspots: 5% to 47%.");
 s.addChart(pres.charts.BAR, [{ name: "Follow-up fix rate", labels: ["Small PR", "Large PR"], values: [21, 54] }], {
   x: 0.6, y: 1.5, w: 6.3, h: 5.1, barDir: "col", chartColors: [H.accent4, H.accent1], showTitle: true, title: "Follow-up fix within 90 days, hotspot code (%)",
   showValue: true, dataLabelPosition: "outEnd", showLegend: false, valAxisMaxVal: 70, valAxisHidden: true, barGapWidthPct: 60, ...chartText, ...chartFrame,
@@ -136,7 +136,7 @@ s.addTable([
     ["One gate set for every team", "Teams differ 10x in incidents per bug"],
   ].map((r, i) => r.map((c, j) => ({ text: c, options: { bold: j === 0, fill: { color: i % 2 ? H.lt1 : H.lt2 } } }))),
 ], { x: 0.6, y: 1.5, w: 12.1, colW: [4.6, 7.5], fontSize: 15, color: H.dk1, rowH: 0.78, border: { type: "solid", pt: 0.5, color: "DDE3EA" }, fontFace: THEME.bodyFontFace, valign: "middle", objectName: "today-table" });
-tb(s, "Policy on paper does not change outcomes.", { x: 0.6, y: 6.2, w: 12.1, h: 0.5, fontSize: 18, bold: true, color: C.accent1 });
+tb(s, "Policy on paper does not change outcomes.", { x: 0.6, y: 6.4, w: 12.1, h: 0.5, fontSize: 18, bold: true, color: C.accent1 });
 
 // 5 The model
 s = content("The model: fixed outcomes, risk-based floor, free means", "Core idea: leadership fixes WHAT must be true and HOW it is measured. Pods choose HOW to get there. Gates check evidence, not tools.");
