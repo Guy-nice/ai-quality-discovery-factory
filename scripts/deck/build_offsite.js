@@ -209,27 +209,25 @@ s.addTable([
 ], { x: 0.6, y: 1.5, w: 12.1, colW: [2.6, 1.0, 4.6, 3.9], fontSize: 15, color: H.dk1, rowH: 0.85, border: { type: "solid", pt: 0.5, color: "DDE3EA" }, fontFace: THEME.bodyFontFace, valign: "middle", objectName: "pods-table" });
 tb(s, "Each pod is compared with its own 2025 baseline and with similar pods, never with one shared target.", { x: 0.6, y: 5.95, w: 12.1, h: 0.6, fontSize: 17, bold: true, color: C.accent2 });
 
-// 10 Metrics
-s = content("Eight metrics every pod sees monthly", "Baseline: 2025 vs 2026, MI tickets excluded. Bold green line = value today (2025 to 2026). D2, D4, D5 per team need ServiceNow read access (request REQ0120210 pending).");
-const dims = [
-  ["D1", "Business correctness", "Product does the wrong thing: data, routing, lifecycle", "P1/P2 share 52% to 70%"],
-  ["D2", "Availability", "P1 incidents per quarter and customers hit", "About 150 to 76 (cause open)"],
-  ["D3", "Performance", "Slow-system bugs and SLO breaches", "No SLO data yet"],
-  ["D4", "Detection", "Share of impact we find before customers", "96% of P1 via customers"],
-  ["D5", "Recovery", "Time to restore and time to fix a bug", "Fix median 10 days"],
-  ["D6", "Change safety", "Bugs caused by fixes, emergency or recent changes", "Fix-caused 24% to 27%"],
-  ["D7", "Non-recurrence", "Do fixes hold: repeats and reopens", "Recurrence 3.9% to 1.5%"],
-  ["D8", "Expectation fit", "Reports closed as designed that are real gaps", "42% of those are real gaps"],
+// 10 Metrics (2 slides, table form)
+const metricRows = [
+  ["D1 Business correctness", "Valid bugs where the product does the wrong thing. Data, routing, contact lifecycle. Weighted by severity.", "Bugs: 295 to 325 (+10%). P1/P2 share: 52% to 70%.", "Customer reports only. Billing is rarely reported.", "Where to invest first"],
+  ["D2 Availability", "P1 incidents per quarter. Customers affected.", "P1 by customer channel: about 150 to 76 per quarter.", "ServiceNow access pending. Reason for the fall is unknown.", "Reliability work and release risk"],
+  ["D3 Performance", "Slow-system bugs. SLO breaches.", "50 performance bugs in total.", "No SLO data yet.", "Capacity work"],
+  ["D4 Detection", "Share of impact that we find before customers.", "96% of P1 incidents come through customer cases.", "Intake channel is only a proxy for first detection.", "Monitoring investment and Go/No-Go"],
+  ["D5 Recovery", "Time to restore service. Time to fix a bug.", "71% of P1 under 4 hours. Bug fix median 10 days, both years.", "Resolve time is not restore time.", "Response capacity"],
+  ["D6 Change safety", "Bugs caused by fixes. Emergency changes. Recent changes.", "Fix-caused: 23.5% to 27.1%. Emergency changes x2.9 since June 2026.", "Cause is known for 25% of bugs only.", "Review depth for fixes"],
+  ["D7 Non-recurrence", "Do fixes hold? Repeat bugs and reopens.", "Repeat: 3.9% to 1.2-1.6%. Reopen: 5.2% to 5.6%.", "Similarity model. One rater.", "Whether fixes work"],
+  ["D8 Expectation fit", "Reports closed as works as designed that are real gaps.", "25% of reports closed this way. 42.5% of those are real gaps.", "Sample of 40 only.", "Requirement and documentation work"],
 ];
-dims.forEach(([k, t, d, today], i) => {
-  const col = i % 4, row = Math.floor(i / 4);
-  const x = 0.6 + col * 3.07, y = 1.5 + row * 2.45;
-  card(s, x, y, 2.85, 2.3, C.background2, `dim-${i}`);
-  tb(s, [{ text: k + "  ", options: { color: C.accent1, fontFace: THEME.headFontFace } }, { text: t, options: {} }], { x: x + 0.2, y: y + 0.15, w: 2.5, h: 0.45, fontSize: 17, bold: true });
-  tb(s, d, { x: x + 0.2, y: y + 0.7, w: 2.5, h: 0.85, fontSize: 14 });
-  tb(s, today, { x: x + 0.2, y: y + 1.6, w: 2.5, h: 0.55, fontSize: 13, bold: true, color: C.accent2 });
+[[0, "Eight metrics every pod sees (1 of 2)"], [4, "Eight metrics every pod sees (2 of 2)"]].forEach(([from, title]) => {
+  s = content(title, "Baseline: 2025 vs 2026, MI investigation tickets removed. Each pod compares with its own baseline. D2, D4, D5 per pod need ServiceNow read access (request REQ0120210 pending).");
+  s.addTable([
+    [th("Metric"), th("What it measures"), th("Today (2025 to 2026)"), th("Data limit"), th("Decision it supports")],
+    ...metricRows.slice(from, from + 4).map((r, i) => r.map((c, j) => ({ text: c, options: { bold: j === 0, fill: { color: i % 2 ? H.lt1 : H.lt2 } } }))),
+  ], { x: 0.6, y: 1.5, w: 12.1, colW: [1.9, 3.1, 2.7, 2.3, 2.1], fontSize: 14, color: H.dk1, rowH: [0.5, 1.05, 1.05, 1.05, 1.05], border: { type: "solid", pt: 0.5, color: "DDE3EA" }, fontFace: THEME.bodyFontFace, valign: "middle", objectName: "metrics-table" });
+  if (from === 4) tb(s, "Rule: a pod outside its own range for 2 months gets an investigation, not a punishment.", { x: 0.6, y: 6.5, w: 12.1, h: 0.4, fontSize: 14, color: C.text2 });
 });
-tb(s, "Rule: a pod outside its own range for 2 months gets an investigation, not a punishment.", { x: 0.6, y: 6.5, w: 12.1, h: 0.4, fontSize: 14, color: C.text2 });
 
 // 11 Prove before block
 s = pres.addSlide({ masterName: "CLOSE_DARK", sectionTitle: "Offsite" });
