@@ -210,16 +210,26 @@ s.addTable([
 tb(s, "Each pod is compared with its own 2025 baseline and with similar pods, never with one shared target.", { x: 0.6, y: 5.95, w: 12.1, h: 0.6, fontSize: 17, bold: true, color: C.accent2 });
 
 // 10 Metrics
-s = content("Eight metrics every pod sees monthly", "Baseline: 2025 vs 2026, MI tickets excluded. D2, D4, D5 per team need ServiceNow read access (request REQ0120210 pending).");
-const dims = [["D1", "Business correctness"], ["D2", "Availability"], ["D3", "Performance"], ["D4", "Detection: found by us first"], ["D5", "Recovery time"], ["D6", "Change safety"], ["D7", "Non-recurrence"], ["D8", "Expectation fit"]];
-dims.forEach(([k, t], i) => {
+s = content("Eight metrics every pod sees monthly", "Baseline: 2025 vs 2026, MI tickets excluded. Bold green line = value today (2025 to 2026). D2, D4, D5 per team need ServiceNow read access (request REQ0120210 pending).");
+const dims = [
+  ["D1", "Business correctness", "Product does the wrong thing: data, routing, lifecycle", "P1/P2 share 52% to 70%"],
+  ["D2", "Availability", "P1 incidents per quarter and customers hit", "About 150 to 76 (cause open)"],
+  ["D3", "Performance", "Slow-system bugs and SLO breaches", "No SLO data yet"],
+  ["D4", "Detection", "Share of impact we find before customers", "96% of P1 via customers"],
+  ["D5", "Recovery", "Time to restore and time to fix a bug", "Fix median 10 days"],
+  ["D6", "Change safety", "Bugs caused by fixes, emergency or recent changes", "Fix-caused 24% to 27%"],
+  ["D7", "Non-recurrence", "Do fixes hold: repeats and reopens", "Recurrence 3.9% to 1.5%"],
+  ["D8", "Expectation fit", "Reports closed as designed that are real gaps", "42% of those are real gaps"],
+];
+dims.forEach(([k, t, d, today], i) => {
   const col = i % 4, row = Math.floor(i / 4);
-  const x = 0.6 + col * 3.07, y = 1.6 + row * 2.2;
-  card(s, x, y, 2.85, 1.9, C.background2, `dim-${i}`);
-  tb(s, k, { x: x + 0.25, y: y + 0.2, w: 2.3, h: 0.6, fontSize: 28, bold: true, color: C.accent1, fontFace: THEME.headFontFace });
-  tb(s, t, { x: x + 0.25, y: y + 0.95, w: 2.4, h: 0.8, fontSize: 16, bold: true });
+  const x = 0.6 + col * 3.07, y = 1.5 + row * 2.45;
+  card(s, x, y, 2.85, 2.3, C.background2, `dim-${i}`);
+  tb(s, [{ text: k + "  ", options: { color: C.accent1, fontFace: THEME.headFontFace } }, { text: t, options: {} }], { x: x + 0.2, y: y + 0.15, w: 2.5, h: 0.45, fontSize: 17, bold: true });
+  tb(s, d, { x: x + 0.2, y: y + 0.7, w: 2.5, h: 0.85, fontSize: 14 });
+  tb(s, today, { x: x + 0.2, y: y + 1.6, w: 2.5, h: 0.55, fontSize: 13, bold: true, color: C.accent2 });
 });
-tb(s, "Rule: a pod outside its own range for 2 months gets an investigation, not a punishment.", { x: 0.6, y: 6.1, w: 12.1, h: 0.5, fontSize: 16, color: C.text2 });
+tb(s, "Rule: a pod outside its own range for 2 months gets an investigation, not a punishment.", { x: 0.6, y: 6.5, w: 12.1, h: 0.4, fontSize: 14, color: C.text2 });
 
 // 11 Prove before block
 s = pres.addSlide({ masterName: "CLOSE_DARK", sectionTitle: "Offsite" });
