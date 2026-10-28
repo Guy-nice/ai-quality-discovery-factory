@@ -1,3 +1,5 @@
+> **Superseded** by [action plan v1](../05-summary/action-plan-v1.md) and [gate catalog](../08-pod-quality/gate-catalog.md).
+
 > **Status 2026-10-25: PROVISIONAL HYPOTHESIS (D-030).** Not a recommendation until mission v2 evidence gaps are closed. See [reassessment](../06-reassessment/mission-v2-reassessment.md).
 
 # Solution Options v0 (P5)

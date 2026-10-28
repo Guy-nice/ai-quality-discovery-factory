@@ -1,6 +1,6 @@
 # Brief - Product Quality (1 page)
 
-**As of:** 2026-10-25 | **Window:** Jan-Sep 2025 vs Jan-Sep 2026, MI investigations removed (D-032) | **Model:** [quality model v0](07-quality-model/quality-model-v0.md) | **Deck:** [v3](05-summary/management-deck-v3.pptx) | **Report:** [management report](05-summary/management-report.md)
+**As of:** 2026-10-25 | **Window:** Jan-Sep 2025 vs Jan-Sep 2026, MI investigations removed (D-032) | **Model:** [quality model v0](07-quality-model/quality-model-v0.md) | **Deck:** [v3](05-summary/management-deck-v3.pptx) | **Report:** [management report](05-summary/management-report.md) | **Pod guide:** [playbook](08-pod-quality/pod-quality-playbook.md)
 
 ## Answer
 
