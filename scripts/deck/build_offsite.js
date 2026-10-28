@@ -22,7 +22,7 @@ pres.author = "QA Architecture";
 pres.theme = { headFontFace: THEME.headFontFace, bodyFontFace: THEME.bodyFontFace };
 const C = pres.SchemeColor;
 
-const FOOT = "Quality gates for pods and AI  |  Evidence as of 2026-10-25";
+const FOOT = "Quality gates for pods and AI  |  Evidence as of 2026-10-28";
 
 pres.defineSlideMaster({
   title: "TITLE_DARK",
@@ -124,6 +124,20 @@ s.addChart(pres.charts.BAR, [{ name: "Follow-up fix rate", labels: ["Small PR", 
   tb(s, d, { x: 7.55, y: y + 0.75, w: 4.9, h: 0.6, fontSize: 14, color: C.text2 });
 });
 
+// 3b Outside research
+s = content("Outside research 2024-2026 points the same way", "Trust: DORA = large survey (medium). METR = small RCT (high). Faros = vendor telemetry (low). Some numbers are from secondary write-ups; verify before quoting. Detail: docs/08-pod-quality/external-research-2024-2026.md");
+s.addTable([
+  [th("Finding"), th("Source"), th("So we")],
+  ...[
+    ["AI is an amplifier. Small batches and platform quality decide the payoff.", "DORA 2025", "Fix the contract; build a good paved road"],
+    ["More AI adoption links to lower delivery stability.", "DORA 2024", "Gate on change size and risk, not author"],
+    ["Experienced developers were 19% slower with AI, but felt faster.", "METR 2025", "Judge AI by outcomes, not opinion"],
+    ["About 40-45% of AI code samples had security flaws.", "Pearce; Veracode", "Keep the security scan blocking"],
+    ["Agent-made tests work when tools filter them first.", "Meta TestGen-LLM", "Agent output is untrusted until checked"],
+    ["No study shows blocking gates beat advisory gates in autonomous teams.", "Gap", "Prove before we block"],
+  ].map((r, i) => r.map((c, j) => ({ text: c, options: { bold: j === 0, fill: { color: i % 2 ? H.lt1 : H.lt2 } } }))),
+], { x: 0.6, y: 1.5, w: 12.1, colW: [6.0, 2.2, 3.9], fontSize: 14, color: H.dk1, rowH: 0.72, border: { type: "solid", pt: 0.5, color: "DDE3EA" }, fontFace: THEME.bodyFontFace, valign: "middle", objectName: "outside-table" });
+
 // 4 Why gates fail today
 s = content("Why today's gates do not protect us", "Source: current-gates check 2026-10-25 (Confluence + GitHub, read-only). Nothing in the agent set blocks a change; agents run locally by choice.");
 s.addTable([
@@ -166,29 +180,74 @@ s = content("Layer 1: the contract every pod keeps", "These are common because t
   tb(s, d, { x: x + 0.25, y: y + 0.9, w: 3.4, h: 1.2, fontSize: 15 });
 });
 
-// 7 Gates along SDLC
-s = content("Layer 2: the few checks that block, along the SDLC", "Blocking is justified only where a risk is proven. Everything else waits for experiment results (X1-X5). Mutation: visible in Sonar first (D-040).");
-const stages = [
-  ["Intake", "Bug type and fields required to close", "Jira required fields", false],
-  ["Design", "Spec link, state and toggle section for risky Epics", "Audit sample", false],
-  ["Pull request", "Hotspot: size limit, code-owner review, tests. Sonar required", "Blocks", true],
-  ["Test health", "A suite blocks only while it holds its pass level 14 days", "Blocks when healthy", true],
-  ["Release", "Toggle registered; data-based Go/No-Go", "Blocks", true],
-  ["Post-release", "Monitors for routing, lifecycle and report-data invariants", "Alerts before customers", false],
-];
-const gw = 1.9, gg = 0.14;
-stages.forEach(([name, chk, en, blocks], i) => {
-  const x = 0.6 + i * (gw + gg);
-  s.addShape(pres.shapes.CHEVRON, { x, y: 1.6, w: gw, h: 0.8, fill: { color: blocks ? H.accent1 : H.dk1 }, line: { color: blocks ? H.accent1 : H.dk1 }, objectName: `st-${i}` });
-  tb(s, name, { x: x + 0.3, y: 1.6, w: gw - 0.5, h: 0.8, align: "center", valign: "middle", fontSize: 13, bold: true, color: C.background1 });
-  card(s, x, 2.6, gw, 2.9, C.background2, `stc-${i}`);
-  tb(s, chk, { x: x + 0.12, y: 2.75, w: gw - 0.24, h: 1.95, fontSize: 14 });
-  tb(s, en, { x: x + 0.12, y: 4.8, w: gw - 0.24, h: 0.6, fontSize: 13, bold: true, color: blocks ? C.accent1 : C.text2 });
+// 6b What a pod must have
+s = content("What every pod must have (roles, not job titles)", "One person can hold more than one role. Detail: pod quality playbook section 3.");
+[["Quality owner", "Owns the contract, metric review, exception log"],
+ ["Release owner", "Brings data to Go/No-Go"],
+ ["Code owners", "Service map entry; 2+ owners per hotspot path"],
+ ["Test strategy", "1 page: levels, tools, escaped bug to test"],
+ ["AI agreement", "Which agents, who reviews, how AI use is labeled"],
+ ["Production link", "Alerts reach the pod; detected-by recorded"],
+ ["Test-signal care", "Each failing suite has an owner and a triage date"],
+ ["Self-assessment", "25 questions each quarter, sent to QA&RM"]].forEach(([t, d], i) => {
+  const col = i % 4, row = Math.floor(i / 4);
+  const x = 0.6 + col * 3.07, y = 1.55 + row * 2.55;
+  card(s, x, y, 2.85, 2.3, C.background2, `cap-${i}`);
+  numCircle(s, x + 0.2, y + 0.2, i + 1, i < 7 ? C.accent2 : C.text2, 0.45);
+  tb(s, t, { x: x + 0.8, y: y + 0.2, w: 1.95, h: 0.45, fontSize: 17, bold: true, valign: "middle" });
+  tb(s, d, { x: x + 0.2, y: y + 0.9, w: 2.45, h: 1.2, fontSize: 14 });
 });
-tb(s, "Red = blocks. Every check asks for evidence. How a pod produces it is the pod's choice.", { x: 0.6, y: 5.85, w: 12.1, h: 0.6, fontSize: 16, color: C.text2 });
+
+// 6c QA&RM role
+s = content("QA&RM role: enable, provide the road, govern", "Based on Team Topologies (enabling and platform teams) and DORA 2025 (platform quality decides AI payoff). The paved road is a product: if pods avoid it, QA&RM fixes it.");
+[["Enabling", C.accent2, ["Coach test strategy, risk and hotspot work", "Short help, then step back"], "Not: own a pod's tests"],
+ ["Paved road", C.accent3, ["Agents, pipeline templates, dashboards", "Gate checks ready to use"], "Not: force pods to use them"],
+ ["Governance", C.accent1, ["Contract, gate catalog, metrics", "Experiments and Go/No-Go data"], "Not: approve every release by hand"]].forEach(([t, col, does, not], i) => {
+  const x = 0.6 + i * 4.1;
+  card(s, x, 1.55, 3.9, 0.8, col, `role-h-${i}`);
+  tb(s, t, { x: x + 0.3, y: 1.55, w: 3.4, h: 0.8, fontSize: 22, bold: true, color: C.background1, valign: "middle" });
+  card(s, x, 2.5, 3.9, 3.4, C.background2, `role-b-${i}`);
+  tb(s, bullets(does), { x: x + 0.3, y: 2.7, w: 3.4, h: 2.2, fontSize: 16, paraSpaceAfter: 8 });
+  tb(s, not, { x: x + 0.3, y: 5.0, w: 3.4, h: 0.7, fontSize: 14, bold: true, color: C.text2 });
+});
+tb(s, "A pod that leaves the paved road keeps the same gates and must still leave the evidence.", { x: 0.6, y: 6.2, w: 12.1, h: 0.5, fontSize: 16, bold: true, color: C.accent2 });
+
+// 7 Gates along SDLC (S0-S8)
+s = content("Layer 2: gates along the SDLC (target mode)", "Target mode shown. Most gates start Visible and block only after evidence. Full list with 29 gates, mode today and evidence: docs/08-pod-quality/gate-catalog.md.");
+s.addTable([
+  [th("Stage"), th("What must be true"), th("Blocks: all pods"), th("Blocks: T1 or hotspot")],
+  ...[
+    ["S0 Intake", "Report type; bug fields", "Report type", "-"],
+    ["S1 Plan", "Spec link; state and toggle design", "-", "- (audit)"],
+    ["S2 Build", "Tests with the change; AI use labeled", "-", "-"],
+    ["S3 Review", "Jira key; hotspot size, owner, test", "Jira key", "Size, owner, test"],
+    ["S4 CI", "Build, Sonar, security scan; healthy E2E", "Build, Sonar, scan, E2E when healthy", "-"],
+    ["S5 Release", "Go/No-Go with data; toggle", "Go/No-Go with data; toggle", "Perf and chaos"],
+    ["S6 Deploy", "Progressive rollout; sanity", "Post-deploy sanity", "Toggle-off verified"],
+    ["S7 Operate", "Correctness monitors; SLOs", "-", "Monitors (after X2)"],
+    ["S8 Learn", "RCA; escaped bug gets a test", "Test link or reason", "-"],
+  ].map((r, i) => r.map((c, j) => ({ text: c, options: { bold: j === 0, color: (j > 1 && c !== "-" && !c.startsWith("-")) ? H.accent1 : H.dk1, fill: { color: i % 2 ? H.lt1 : H.lt2 } } }))),
+], { x: 0.6, y: 1.45, w: 12.1, colW: [1.8, 4.3, 3.3, 2.7], fontSize: 14, color: H.dk1, rowH: 0.52, border: { type: "solid", pt: 0.5, color: "DDE3EA" }, fontFace: THEME.bodyFontFace, valign: "middle", objectName: "sdlc-table" });
+
+// 7b Gate lifecycle
+s = content("Every gate earns its place: prove before we block", "Proposed starting levels: 1 quarter Visible, false blocks under 5%, retire after 2 quarters with no value. Experiments and the Visible stage set final values.");
+const life = [["Proposed", "Owner, metric, exception path defined", H.dk2], ["Visible", "Measured 1 quarter; does not stop work", H.dk1], ["Block per scope", "Beats control; false blocks < 5%", H.accent1], ["Review", "Each quarter: value, false blocks, exceptions", H.dk1], ["Retire", "No catch or no outcome change for 2 quarters", H.accent4]];
+const lw = 2.3, lg = 0.15;
+life.forEach(([n, d, col], i) => {
+  const x = 0.6 + i * (lw + lg);
+  s.addShape(pres.shapes.CHEVRON, { x, y: 1.7, w: lw, h: 0.9, fill: { color: col }, line: { color: col }, objectName: `life-${i}` });
+  tb(s, n, { x: x + 0.35, y: 1.7, w: lw - 0.6, h: 0.9, align: "center", valign: "middle", fontSize: 15, bold: true, color: C.background1 });
+  card(s, x, 2.85, lw, 1.9, C.background2, `lifec-${i}`);
+  tb(s, d, { x: x + 0.15, y: 3.0, w: lw - 0.3, h: 1.6, fontSize: 15 });
+});
+card(s, 0.6, 5.1, 12.1, 1.5, C.text1, "modes");
+tb(s, [
+  { text: "Modes:  ", options: { bold: true, color: C.accent3 } },
+  { text: "Advice (a means, not checked)  |  Visible (on the dashboard)  |  Audit (sample check)  |  Block (required check, exceptions logged)", options: { color: C.background1 } },
+], { x: 0.9, y: 5.25, w: 11.5, h: 1.2, fontSize: 16, valign: "middle" });
 
 // 8 AI
-s = content("AI and pods: one rule set, because AI is not the risk", "Agents we provide (test cases, automation, RIA, mutation) are suggested means. A pod that proves the same outcome another way passes the same gate.");
+s = content("AI and pods: one rule set for every author", "Agents we provide (test cases, automation, RIA, mutation) are suggested means. A pod that proves the same outcome another way passes the same gate.");
 card(s, 0.6, 1.55, 5.9, 5.05, C.text1, "ai-left");
 tb(s, "We do", { x: 0.9, y: 1.75, w: 5.3, h: 0.5, fontSize: 20, bold: true, color: C.accent3 });
 tb(s, bullets(["Keep AI-assisted development", "Apply the same gates to every author", "Scale review by change size and code area", "Offer agents as a paved road, not a duty"]), { x: 0.9, y: 2.35, w: 5.3, h: 4.0, fontSize: 18, color: C.background1, paraSpaceAfter: 10 });
@@ -246,7 +305,7 @@ tb(s, "Open limits: owner map missing, no SME validation yet, ServiceNow data pe
 s = pres.addSlide({ masterName: "CLOSE_DARK", sectionTitle: "Offsite" });
 s.addText("What we ask from you today", { placeholder: "title" });
 [["Agree the model", "One contract, a small blocking floor, free means"],
- ["Name an owner per pod", "For the pod-to-service-to-code map and bug fields"],
+ ["Name a quality owner per pod", "Owner map, bug fields, quarterly self-assessment"],
  ["Volunteer pods", "For the experiments X1-X5, with control pods"],
  ["Decide the Dec 15 mutation gate", "Visible in Sonar first; block per scope after evidence"]].forEach(([t, d], i) => {
   const y = 1.6 + i * 1.3;

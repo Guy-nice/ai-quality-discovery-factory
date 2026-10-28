@@ -559,3 +559,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > Review repo as expert; AI-era research on quality and gates; SDLC stages; pod guide, policies, gates; new branch with PR.
 
 **Result:** docs/08-pod-quality/ (playbook, gate catalog, self-assessment, outside research); repo audit fixes; D-042. PR opened. **Commit:** see iteration-log row 46.
+
+---
+
+## Iteration 47 - 2026-10-28
+
+**Prompt (short):**
+> Yes please add it (pod guide into offsite deck).
+
+**Result:** Offsite deck 17 slides with pod guide content. **Commit:** see iteration-log row 47.
