@@ -5,3 +5,4 @@ data/db/raw_local.sqlite
 *.sqlite-shm
 __pycache__/
 data/db/git_history.sqlite
+.DS_Store
