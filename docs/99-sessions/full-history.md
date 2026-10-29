@@ -568,3 +568,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > Yes please add it (pod guide into offsite deck).
 
 **Result:** Offsite deck 17 slides with pod guide content. **Commit:** see iteration-log row 47.
+
+---
+
+## Iteration 48 - 2026-10-29
+
+**Prompt (short):**
+> Check harness.io; what to ask them; add as md file.
+
+**Result:** vendor-harness-questions.md on the PR branch. **Commit:** see iteration-log row 48.
