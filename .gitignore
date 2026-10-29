@@ -6,3 +6,4 @@ data/db/raw_local.sqlite
 __pycache__/
 data/db/git_history.sqlite
 .DS_Store
+~$*

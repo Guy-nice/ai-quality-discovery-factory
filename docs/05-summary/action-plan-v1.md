@@ -5,7 +5,7 @@
 ## 1. The answer in 4 lines
 
 1. **Quality fell in severity, not volume.** P1/P2 customer-found bugs +49%, all customer-found bugs +13% (Jan-Sep 2026 vs 2025). Customers detect 96% of P1 incidents.
-2. **The main gaps are not tools.** Intake and measurement are mixed, the test signal is not trusted, correctness failures in routing and data are not detected by us, and teams differ too much for one workflow.
+2. **The main gaps are not tools.** Intake and measurement are mixed. The test signal is not trusted. We do not detect correctness failures in routing and data. Teams differ too much for one workflow.
 3. **Our gates and quality automation are mostly policy, not control.** They are applied the same way to every team, whatever its risk.
 4. **Fix measurement first, then test practices in a few teams, then spread what works.** AI use continues under the same rules as all changes.
 

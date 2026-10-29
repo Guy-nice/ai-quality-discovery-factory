@@ -7,6 +7,7 @@ Evidence-based investigation of product quality in CXone (legacy monolith, moder
 | Need | Link |
 |---|---|
 | **What we do now** | [Action plan v1](docs/05-summary/action-plan-v1.md) |
+| **Pod guide: policies, SDLC gates, AI rules** | [Pod quality (08)](docs/08-pod-quality/README.md): [playbook](docs/08-pod-quality/pod-quality-playbook.md), [gate catalog](docs/08-pod-quality/gate-catalog.md), [self-assessment](docs/08-pod-quality/pod-self-assessment.md), [outside research](docs/08-pod-quality/external-research-2024-2026.md) |
 | **Management report (every claim linked to evidence)** | [Management report](docs/05-summary/management-report.md) |
 | 1-page summary | [Brief](docs/00-brief.md) |
 | Gates / Definition of Done v2 | [DoD v2 doc](docs/05-summary/dod-v2-evidence-based.md), [DoD v2 deck (pptx)](docs/05-summary/dod-v2-deck.pptx) / [pdf](docs/05-summary/dod-v2-deck.pdf) |

@@ -28,7 +28,19 @@ Customers find our worst bugs before we do. Fix the measuring first, then the ga
 
 **Rule:** gate checks evidence, not tools. **AI rule:** same gates for human and AI.
 
+**How pods use it:** [pod quality playbook](../08-pod-quality/pod-quality-playbook.md) (policies, pod capabilities, SDLC stages S0-S8), [gate catalog](../08-pod-quality/gate-catalog.md) (every gate, mode now and target), [pod self-assessment](../08-pod-quality/pod-self-assessment.md).
+
 Detail: [quality model v0](../07-quality-model/quality-model-v0.md), [DoD v2](dod-v2-evidence-based.md), [hotspot PR rules](../04-solutions/drafts/hotspot-pr-rules.md), [escape-to-test](../04-solutions/so2-escape-to-test.md), [owners and PR rules](../04-solutions/so4-so5-owners-pr-rules.md)
+
+## 4b. What outside research says (2024-2026)
+- AI is an amplifier. Small batches and platform quality decide the payoff (DORA 2025).
+- More AI adoption links to lower delivery stability (DORA 2024).
+- Experienced developers were 19% slower with AI but felt faster (METR 2025). Measure outcomes, not opinion.
+- About 40-45% of AI code samples had security flaws. Keep the security scan blocking.
+- Agent-made tests work when tools filter them before a human accepts (Meta).
+- No outside data shows that blocking gates beat advisory gates in autonomous teams. So: prove before block.
+
+Detail and trust levels: [outside research](../08-pod-quality/external-research-2024-2026.md).
 
 ## 5. Eight metrics (each pod vs its own baseline)
 D1 Correctness, D2 Availability, D3 Performance, D4 Detection, D5 Recovery, D6 Change safety, D7 Non-recurrence, D8 Expectation fit.
