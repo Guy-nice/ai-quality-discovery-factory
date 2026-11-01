@@ -595,3 +595,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > Update docs/05-summary in a very professional, high standard. Super important.
 
 **Result:** management report v2.0, action plan v2, 05-summary index, archive/, deck asks and wording fixes; independent review applied. **Commit:** see iteration-log row 50.
+
+---
+
+## Iteration 51 - 2026-11-01
+
+**Prompt (short):**
+> Fix the correction (team context inferred, not stated in the article).
+
+**Result:** compare-claude-code-review.md corrected; facts vs not-stated made explicit. **Commit:** see iteration-log row 51.

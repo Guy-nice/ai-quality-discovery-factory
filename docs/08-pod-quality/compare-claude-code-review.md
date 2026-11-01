@@ -12,12 +12,15 @@ The context decides what we can copy.
 
 | Factor | Claude Code team | Us (CXone) |
 |---|---|---|
-| Team | One product team, owns its repos | Hundreds of pods, many repos, legacy monolith |
+| Team | Team size not stated. Repo owners and a per-repo trusted list are stated. | Hundreds of pods, many repos, legacy monolith |
+| Repos | Several repos: CLI, desktop and web apps, mobile apps. Not in the company monorepo. | Monolith plus many service repos |
 | Who writes code | Claude writes ~90% | AI share growing; AI PRs in hotspots 5% to 47% |
 | Undo a bad change | Flags off without deploy; revert in minutes; `latest` then `stable` channel | Monolith cannot roll back; toggles only |
 | Who finds problems first | Their own staff (heavy internal use) | Customers (96% of P1 via customer cases) |
 | Failure cost | Developer tool | Real-time contact center for regulated customers |
 | Measurement | Reverts, incidents, human time per PR | Customer bugs; cause known for ~25% only |
+
+**Not stated in the article:** number of people, number of teams or pods, org chart, total number of repos.
 
 **Key point:** their model works because mistakes are **cheap to undo** and **found fast by themselves**. We have neither today. So we cannot copy their end state ("at most one human per PR"). We can copy their **method**.
 
@@ -45,7 +48,7 @@ The context decides what we can copy.
 | Medium | Normal product changes; caching, auto-updater, system prompts | 1 |
 | High | Highest-risk code and listed paths | 2 |
 
-**Approval rules:** tier set by the change, not the author. Only trusted authors get light paths. Agent approval never counts as human. The person who ran the agent is a required reviewer. Approval covers one commit; new untrusted commits need re-approval.
+**Approval rules:** tier set by the change, not the author. Only authors on the repo's trusted list get light paths ("generally the team that owns the repo"). The article does not say how people get on the list. Agent approval never counts as human. The person who ran the agent is a required reviewer. Approval covers one commit; new untrusted commits need re-approval.
 
 **How they improve the reviewer:**
 - **Incidents as evals:** incident and revert PRs, confirmed by experts, form a test set. The reviewer runs against it daily. A prompt, tool or model change stays only if the score rises.
@@ -123,7 +126,7 @@ Each candidate names the gate it would extend. None of them changes a current fi
 
 - **"At most one human per PR" as a goal.** It needs fast undo and fast internal detection. We have neither yet. First fix reversibility (toggles, staged rings) and detection (G7.1).
 - **Zero human approvals for low-risk changes.** Only after C-01 and C-02 show no rise in escapes on our code.
-- **Their numbers as targets.** Their results are self-reported, on one team, on a developer tool.
+- **Their numbers as targets.** Their results are self-reported, for the Claude Code repos only, on a developer tool. Team size is not stated.
 
 ## 8. Order (proposed)
 
