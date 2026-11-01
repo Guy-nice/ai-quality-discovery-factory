@@ -604,3 +604,12 @@ Short version: [iteration-log.md](iteration-log.md).
 > Fix the correction (team context inferred, not stated in the article).
 
 **Result:** compare-claude-code-review.md corrected; facts vs not-stated made explicit. **Commit:** see iteration-log row 51.
+
+---
+
+## Iteration 52 - 2026-11-01
+
+**Prompt (short):**
+> Merge the PR to main.
+
+**Result:** PR #1 merged (merge commit e159cd2). **Commit:** see iteration-log row 52.

@@ -6,7 +6,7 @@ Read only these, in order: `README.md` (status) -> `docs/00-brief.md` -> `docs/0
 All working rules (scope, cost, data, iteration end) live in `AGENTS.md` at the repo root. Claude Code loads them via `CLAUDE.md`.
 
 ## State (2026-10-28)
-- Pod quality guide (D-042, PR branch `feat/pod-quality-sdlc-guide`): docs/08-pod-quality/ (playbook, gate catalog S0-S8, self-assessment, outside research 2024-2026).
+- Pod quality guide (D-042, merged to main 2026-11-01 via PR #1): docs/08-pod-quality/ (playbook, gate catalog S0-S8, self-assessment, outside research 2024-2026).
 - Offsite deck (17 slides, incl. pod guide): docs/05-summary/offsite-deck.pptx. Management report with evidence links: docs/05-summary/management-report.md.
 - Quality model v0 draft (D-034); experiment protocols v0 ready (D-038, power-checked); awaiting management approval (deck v2 slide 11).
 - Deck: docs/05-summary/management-deck-v3.pptx (+pdf). Action plan: docs/05-summary/action-plan-v2.md (v1 in archive/). Management report v2: docs/05-summary/management-report.md.
@@ -14,7 +14,7 @@ All working rules (scope, cost, data, iteration end) live in `AGENTS.md` at the 
 - Shared page: https://claude.ai/artifact/QDD8cDsvj7t1NzPsZgdLdf
 
 ## Next steps (2026-10-28)
-0. Lead reviews and merges the pod-guide PR; presents offsite deck; verify outside sources marked "(2nd)" before a decision paper.
+0. Pod-guide PR #1 merged. Lead presents offsite deck; verify outside sources marked "(2nd)" before a decision paper.
 1. Lead presents deck v3; 4 management decisions.
 2. Dec 15 mutation gate decision (D-040: visible first).
 3. ServiceNow access REQ0120210 - after approval: read test, gap pull, close U-26 / C-08.
