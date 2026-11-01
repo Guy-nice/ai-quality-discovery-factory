@@ -1,3 +1,5 @@
+> **Superseded 2026-11-01** by [action plan v2](../action-plan-v2.md).
+
 # Action Plan v1 - What to Keep, Change, Stop, Start, and When
 
 **Date:** 2026-10-25 | **Basis:** quality model v0 (D-034), experiment protocols (D-038), findings mission v2 | **Status:** recommendation for management decision
@@ -43,7 +45,7 @@
 | E2E automation | Repair trust first; then block on suites that stay >= their agreed pass level | A broken signal blocks nothing useful |
 | Sonar / dependency scan | Keep as build checks | Low cost; not a main escape cause |
 | RIA agents | Later, aimed at fixes and hotspots | RIA misses = 7% of pilot escapes |
-| Mutation testing | Planned blocking gate 2026-12-15 (80% on changed code). Recommend: visible, non-blocking in Sonar first; block per scope only after false-negative fixes and evidence ([current gates](../06-reassessment/current-gates-2026-10-25.md)) | Weak tests = 3% of escapes; 2 of 4 pilot fails were false |
+| Mutation testing | Planned blocking gate 2026-12-15 (80% on changed code). Recommend: visible, non-blocking in Sonar first; block per scope only after false-negative fixes and evidence ([current gates](../../06-reassessment/current-gates-2026-10-25.md)) | Weak tests = 3% of escapes; 2 of 4 pilot fails were false |
 | Agent harness | Build only to run the checks that experiments prove | Harness without proven checks adds cost |
 
 ## 4. When

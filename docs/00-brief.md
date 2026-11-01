@@ -14,7 +14,7 @@
 
 Quality model v0: 8 outcome dimensions; a common baseline (intake rule, required bug fields, RCA, team map); a risk-based layer (correctness types, hotspot code, bug fixes, emergency changes); team adaptation by archetype; 5 experiments with control teams before any rollout.
 
-## Action plan ([detail](05-summary/action-plan-v1.md))
+## Action plan ([detail](05-summary/action-plan-v2.md))
 
 | | What |
 |---|---|

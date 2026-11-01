@@ -141,7 +141,7 @@ Pod type is reviewed each quarter (rule R4). Source: [teams](../06-reassessment/
 
 | Wave | When | What | Exit rule |
 |---|---|---|---|
-| 0 Contract | Nov 2026 | Report type and bug fields (X1); Sonar required; mutation Visible; Go/No-Go with data; pod quality owner named; self-assessment done | 80% of pods have C1-C3 |
+| 0 Contract | Nov-Dec 2026 | Report type and bug fields (X1); Sonar required; mutation Visible (2026-12-15); Go/No-Go with data; pod quality owner named; self-assessment done | 80% of pods have C1-C3 |
 | 1 Prove | Q1 2027 | X2-X5 with control pods; hotspot rules in X3 pods; monthly pod review | Results with confidence intervals |
 | 2 Block | April 2027 | Gates that beat control move to Block per scope; gates with no value retire | Decision per gate, logged |
 | 3 Spread | H2 2027 | Proven gates to all pods; paved road updated | Quarterly gate review in place |

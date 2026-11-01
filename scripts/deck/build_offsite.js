@@ -106,7 +106,7 @@ card(s, 0.6, 4.4, 12.1, 2.2, C.text1, "so-what");
 tb(s, "So what", { x: 0.9, y: 4.6, w: 11.5, h: 0.45, fontSize: 18, bold: true, color: C.accent3 });
 tb(s, [
   { text: "Quality fell in severity, not in volume.", options: { bold: true, breakLine: true } },
-  { text: "Customers find our worst problems before we do." },
+  { text: "Customer cases open 96% of P1 incidents. We do not see them first." },
 ], { x: 0.9, y: 5.1, w: 11.5, h: 1.3, fontSize: 20, color: C.background1, paraSpaceAfter: 8 });
 
 // 3 Risk is concentrated
@@ -115,7 +115,7 @@ s.addChart(pres.charts.BAR, [{ name: "Follow-up fix rate", labels: ["Small PR", 
   x: 0.6, y: 1.5, w: 6.3, h: 5.1, barDir: "col", chartColors: [H.accent4, H.accent1], showTitle: true, title: "Follow-up fix within 90 days, hotspot code (%)",
   showValue: true, dataLabelPosition: "outEnd", showLegend: false, valAxisMaxVal: 70, valAxisHidden: true, barGapWidthPct: 60, ...chartText, ...chartFrame,
 });
-[["AI is not riskier per change", "Matched risk ratio 0.78-0.84 vs non-AI changes"],
+[["No evidence AI is riskier per change", "Matched risk ratio 0.78-0.84; interval includes 1"],
  ["AI adds volume and size", "AI PRs in hotspot code: 5% to 47%"],
  ["Teams differ strongly", "Incidents per bug: 1.1 to 10.4 between teams"]].forEach(([t, d], i) => {
   const y = 1.55 + i * 1.7;
@@ -144,7 +144,7 @@ s.addTable([
   [th("What we see today"), th("Evidence")],
   ...[
     ["Almost no gate blocks a change", "Only Aikido and PR / Jira-ID checks block; Sonar required in 1 of 5 pilot repos"],
-    ["Go/No-Go is a form, not data", "All 26.4 domain pages show TBD"],
+    ["Go/No-Go is a form, not data", "Most 26.4 Go/No-Go pages show TBD"],
     ["The E2E signal is not trusted", "Routing pipeline passed 1.2% of runs; failures ignored"],
     ["Quality fields are unused", "9 of ~15 Jira quality fields filled < 2%"],
     ["One gate set for every team", "Teams differ 10x in incidents per bug"],
@@ -307,13 +307,14 @@ s.addText("What we ask from you today", { placeholder: "title" });
 [["Agree the model", "One contract, a small blocking floor, free means"],
  ["Name a quality owner per pod", "Owner map, bug fields, quarterly self-assessment"],
  ["Volunteer pods", "For the experiments X1-X5, with control pods"],
- ["Decide the Dec 15 mutation gate", "Visible in Sonar first; block per scope after evidence"]].forEach(([t, d], i) => {
-  const y = 1.6 + i * 1.3;
-  numCircle(s, 0.6, y + 0.1, i + 1, C.accent3, 0.6);
-  tb(s, t, { x: 1.5, y, w: 5.2, h: 0.9, fontSize: 22, bold: true, color: C.background1, valign: "middle" });
-  tb(s, d, { x: 6.9, y, w: 5.8, h: 0.9, fontSize: 17, color: C.accent6, valign: "middle" });
+ ["Decide the Dec 15 mutation gate", "Visible in Sonar first; block per scope after evidence"],
+ ["Start 3 quick wins", "PR template, 'which gate' in RCA, escape test set"]].forEach(([t, d], i) => {
+  const y = 1.5 + i * 1.05;
+  numCircle(s, 0.6, y + 0.12, i + 1, C.accent3, 0.55);
+  tb(s, t, { x: 1.5, y, w: 5.2, h: 0.8, fontSize: 21, bold: true, color: C.background1, valign: "middle" });
+  tb(s, d, { x: 6.9, y, w: 5.8, h: 0.8, fontSize: 16, color: C.accent6, valign: "middle" });
 });
-s.addNotes("Ask for explicit yes/no on each of the four. Discussion prompt: what is the one gate your pod would never accept, and why?");
+s.addNotes("Ask for explicit yes/no on each of the five. Discussion prompt: what is the one gate your pod would never accept, and why?");
 
 (async () => {
   await pres.writeFile({ fileName: OUT });
