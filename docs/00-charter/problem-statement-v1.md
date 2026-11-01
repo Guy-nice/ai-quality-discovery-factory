@@ -1,3 +1,5 @@
+> **Superseded** by [v4](problem-statement-v4.md) and [quality model v0](../07-quality-model/quality-model-v0.md).
+
 # Problem Statement v1
 
 **Version:** v1 | **Date:** 2026-10-22 | **Supersedes:** [v0](problem-statement-v0.md) | **Gate 2:** PARTIAL

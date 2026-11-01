@@ -1,3 +1,5 @@
+> **Superseded** by [v4](problem-statement-v4.md) and [quality model v0](../07-quality-model/quality-model-v0.md).
+
 # Problem Statement v0
 
 **Version:** v0 | **Date:** 2026-10-22 | **Status:** Perception only - not evidence-backed | **Gate 2:** OPEN

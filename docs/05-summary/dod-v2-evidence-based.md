@@ -1,3 +1,5 @@
+> **Update 2026-11-01:** this page maps each WIP DoD item to a verdict. Gate IDs, current mode, target mode and the gate lifecycle now live in the [gate catalog](../08-pod-quality/gate-catalog.md) (D-042). Where the two differ, the gate catalog is current.
+
 # Quality Definition of Done v2 - Evidence-Based
 
 **Date:** 2026-10-25 | **Revises:** [WIP Quality Definition of Done](https://nice-ce-cxone-prod.atlassian.net/wiki/spaces/CX/pages/4048715783) (Confluence 4048715783) | **Basis:** quality model v0, action plan v1, current gates check | **Status:** proposal; ready to paste into Confluence

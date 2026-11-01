@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/raw/git/acd-playwright-e2e" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/raw/git/app-findmatch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/raw/git/inContact" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/raw/git/orch-entity-agent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/raw/git/orch-entity-orchestration" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/raw/git/orch-entity-state-streams-common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/raw/git/orchestration-resolver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/raw/git/routing-ng-advanced-findmatch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/raw/git/routing-ng-agent-capacity-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/raw/git/routing-ng-blender" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/raw/git/routing-ng-contact-retry" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/raw/git/routing-ng-integration-tests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/raw/git/routing-ng-match-distributor" vcs="Git" />
+  </component>
+</project>

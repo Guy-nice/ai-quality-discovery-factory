@@ -1,3 +1,5 @@
+> **Superseded 2026-11-01** by [action plan v2](../action-plan-v2.md).
+
 # Action Plan v1 - What to Keep, Change, Stop, Start, and When
 
 **Date:** 2026-10-25 | **Basis:** quality model v0 (D-034), experiment protocols (D-038), findings mission v2 | **Status:** recommendation for management decision
@@ -5,7 +7,7 @@
 ## 1. The answer in 4 lines
 
 1. **Quality fell in severity, not volume.** P1/P2 customer-found bugs +49%, all customer-found bugs +13% (Jan-Sep 2026 vs 2025). Customers detect 96% of P1 incidents.
-2. **The main gaps are not tools.** Intake and measurement are mixed, the test signal is not trusted, correctness failures in routing and data are not detected by us, and teams differ too much for one workflow.
+2. **The main gaps are not tools.** Intake and measurement are mixed. The test signal is not trusted. We do not detect correctness failures in routing and data. Teams differ too much for one workflow.
 3. **Our gates and quality automation are mostly policy, not control.** They are applied the same way to every team, whatever its risk.
 4. **Fix measurement first, then test practices in a few teams, then spread what works.** AI use continues under the same rules as all changes.
 
@@ -43,7 +45,7 @@
 | E2E automation | Repair trust first; then block on suites that stay >= their agreed pass level | A broken signal blocks nothing useful |
 | Sonar / dependency scan | Keep as build checks | Low cost; not a main escape cause |
 | RIA agents | Later, aimed at fixes and hotspots | RIA misses = 7% of pilot escapes |
-| Mutation testing | Planned blocking gate 2026-12-15 (80% on changed code). Recommend: visible, non-blocking in Sonar first; block per scope only after false-negative fixes and evidence ([current gates](../06-reassessment/current-gates-2026-10-25.md)) | Weak tests = 3% of escapes; 2 of 4 pilot fails were false |
+| Mutation testing | Planned blocking gate 2026-12-15 (80% on changed code). Recommend: visible, non-blocking in Sonar first; block per scope only after false-negative fixes and evidence ([current gates](../../06-reassessment/current-gates-2026-10-25.md)) | Weak tests = 3% of escapes; 2 of 4 pilot fails were false |
 | Agent harness | Build only to run the checks that experiments prove | Harness without proven checks adds cost |
 
 ## 4. When

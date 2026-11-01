@@ -1,3 +1,5 @@
+> **Superseded** by [mission v2 reassessment](../06-reassessment/mission-v2-reassessment.md) (D-030).
+
 # Gate 4 Readiness Package v0 (R13)
 
 **Date:** 2026-10-22 | **Scope:** pilot = Orchestration Core, contact routing and lifecycle flow (D-010, D-016) | **Gate 4 status:** **NOT PASSED**

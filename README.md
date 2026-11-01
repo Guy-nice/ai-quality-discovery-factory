@@ -6,11 +6,12 @@ Evidence-based investigation of product quality in CXone (legacy monolith, moder
 
 | Need | Link |
 |---|---|
-| **What we do now** | [Action plan v1](docs/05-summary/action-plan-v1.md) |
-| **Management report (every claim linked to evidence)** | [Management report](docs/05-summary/management-report.md) |
+| **Start: management report v2 (every claim linked)** | [Management report](docs/05-summary/management-report.md) - all summary files: [05-summary index](docs/05-summary/README.md) |
+| **What we do now** | [Action plan v2](docs/05-summary/action-plan-v2.md) |
+| **Pod guide: policies, SDLC gates, AI rules** | [Pod quality (08)](docs/08-pod-quality/README.md): [playbook](docs/08-pod-quality/pod-quality-playbook.md), [gate catalog](docs/08-pod-quality/gate-catalog.md), [self-assessment](docs/08-pod-quality/pod-self-assessment.md), [outside research](docs/08-pod-quality/external-research-2024-2026.md) |
 | 1-page summary | [Brief](docs/00-brief.md) |
 | Gates / Definition of Done v2 | [DoD v2 doc](docs/05-summary/dod-v2-evidence-based.md), [DoD v2 deck (pptx)](docs/05-summary/dod-v2-deck.pptx) / [pdf](docs/05-summary/dod-v2-deck.pdf) |
-| Offsite kickoff deck (pods and AI) | [Offsite deck (pptx)](docs/05-summary/offsite-deck.pptx) |
+| Offsite kickoff deck (pods and AI, 17 slides) | [Offsite deck (pptx)](docs/05-summary/offsite-deck.pptx) |
 | Management slides | [Deck v3 (pptx)](docs/05-summary/management-deck-v3.pptx) / [pdf](docs/05-summary/management-deck-v3.pdf) |
 | Company page | [Shared summary](https://claude.ai/artifact/QDD8cDsvj7t1NzPsZgdLdf) |
 | Quality model and experiments | [Model v0](docs/07-quality-model/quality-model-v0.md), [experiment protocols](docs/07-quality-model/experiment-protocols-v0.md) |
@@ -46,12 +47,12 @@ Gates and quality automation are **means**: a few blocking checks where risk is 
 
 | Item | Value |
 |---|---|
-| Phase | Action plan v1 (D-039); awaiting management decisions (deck v3, last slide) |
+| Phase | Action plan v2 and pod quality model (D-042); awaiting 5 management decisions ([management report](docs/05-summary/management-report.md), section 7) |
 | Gates | G0-G3 passed (interim); G4 reopened under mission v2 (D-030); experiments decide readiness |
 | Open | ServiceNow record read (U-26); team-service map (U-27); ServiceNow P1 fall (C-08); human validation |
 | Data | All data in repo (D-033): [data/db](data/db/README.md), `data/archive/` |
 | History | [Iteration log](docs/99-sessions/iteration-log.md), [full history](docs/99-sessions/full-history.md), [decision log](docs/03-decisions/decision-log.md), [why numbers changed](docs/06-reassessment/why-numbers-changed.md) |
-| Earlier phase (superseded) | [Summary v1](docs/05-summary/summary-and-recommendations.md), [solution options](docs/04-solutions/solution-options-v0.md), [deck v1](docs/05-summary/management-deck-v1-superseded.pptx) |
+| Earlier phase (superseded) | [Summary v1](docs/05-summary/archive/summary-and-recommendations.md), [solution options](docs/04-solutions/solution-options-v0.md), [deck v1](docs/05-summary/archive/management-deck-v1-superseded.pptx) |
 
 ## Repository structure
 

@@ -1,6 +1,6 @@
 # Brief - Product Quality (1 page)
 
-**As of:** 2026-10-25 | **Window:** Jan-Sep 2025 vs Jan-Sep 2026, MI investigations removed (D-032) | **Model:** [quality model v0](07-quality-model/quality-model-v0.md) | **Deck:** [v3](05-summary/management-deck-v3.pptx) | **Report:** [management report](05-summary/management-report.md)
+**As of:** 2026-10-25 | **Window:** Jan-Sep 2025 vs Jan-Sep 2026, MI investigations removed (D-032) | **Model:** [quality model v0](07-quality-model/quality-model-v0.md) | **Deck:** [v3](05-summary/management-deck-v3.pptx) | **Report:** [management report](05-summary/management-report.md) | **Pod guide:** [playbook](08-pod-quality/pod-quality-playbook.md)
 
 ## Answer
 
@@ -14,7 +14,7 @@
 
 Quality model v0: 8 outcome dimensions; a common baseline (intake rule, required bug fields, RCA, team map); a risk-based layer (correctness types, hotspot code, bug fixes, emergency changes); team adaptation by archetype; 5 experiments with control teams before any rollout.
 
-## Action plan ([detail](05-summary/action-plan-v1.md))
+## Action plan ([detail](05-summary/action-plan-v2.md))
 
 | | What |
 |---|---|

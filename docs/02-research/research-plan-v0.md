@@ -1,3 +1,5 @@
+> **Historical.** Research is done. Current state: [HANDOFF](../99-sessions/HANDOFF.md).
+
 # Research Plan v0
 
 **Version:** v0 | **Date:** 2026-10-22 | **Status:** Draft, pending Gate 0
