@@ -11,5 +11,6 @@ How pods that work in different ways keep one quality bar in the AI era.
 | [Pod self-assessment](pod-self-assessment.md) | 25 questions a pod answers each quarter | A pod quality owner |
 | [Outside research 2024-2026](external-research-2024-2026.md) | DORA, METR, Google, Meta and others, with trust levels | Anyone who asks "what does the industry say?" |
 | [Vendor check: Harness.io](vendor-harness-questions.md) | Harness modules vs our gaps, 22 questions, POC tests, risks | Anyone in vendor talks |
+| [Side-by-side: Claude Code team review](compare-claude-code-review.md) | Anthropic's 7-layer review model vs ours: agree, differ, 12 candidates (not applied) | Leaders deciding next gates |
 
 Evidence base: [management report](../05-summary/management-report.md) (every claim linked), [quality model v0](../07-quality-model/quality-model-v0.md), [DoD v2](../05-summary/dod-v2-evidence-based.md).
