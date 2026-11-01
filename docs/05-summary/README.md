@@ -11,6 +11,7 @@ Start with the management report. Every other file supports it.
 | [Management report](management-report.md) | Findings, causes, proposal, outside evidence, 8 metrics, 5 decisions, plan, risks. Every claim linked to evidence. | Directors, VPs, architects | 2.0, 2026-11-01 |
 | [Action plan v2](action-plan-v2.md) | Keep, change, stop, start (with gate IDs); gates and automation; quick wins; waves; success by April 2027 | Decision makers, QA&RM | 2.0, 2026-11-01 |
 | [Offsite deck](offsite-deck.pptx) | 17 slides: findings, why gates fail, outside research, 3-layer model, pod roles, QA&RM role, SDLC gates, gate lifecycle, AI rule, pod types, metrics, timeline, 5 asks | Offsite kickoff (live talk) | 2026-11-01 |
+| [Answers to 4 key questions](answers-key-questions-2026-11-01.md) | Production issues over time, AI code over time, issues from AI code, how to close test gaps | Leaders, QA&RM | 2026-11-01 |
 | [DoD v2](dod-v2-evidence-based.md) | Each WIP DoD item (Confluence 4048715783) with a verdict by evidence | DoD page owners | 2026-10-25 (+ note 2026-11-01) |
 | [DoD v2 deck](dod-v2-deck.pptx) / [pdf](dod-v2-deck.pdf) | 8 slides on DoD v2 | DoD review meeting | 2026-10-25 |
 | [Management deck v3](management-deck-v3.pptx) / [pdf](management-deck-v3.pdf) | 15 slides: research result and 4 decisions | Management decision meeting | 2026-10-25 |
